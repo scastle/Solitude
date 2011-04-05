@@ -127,7 +127,7 @@ namespace RecordRobot.MovingObjects
 
         public override void Update()
         {
-            TimeSpan elapsedTime = DateTime.Now - Game1.Time;
+
             //Random rand = new Random();     // I am not putting in an ai that knows where the robot is yet, so this is used in helping choose the direction
             int r;
             if (Maze.grid == null)

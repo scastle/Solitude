@@ -1,0 +1,2 @@
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\Xbox 360\Release\ResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\Xbox 360\Release\Microsoft.Xna.Framework.RuntimeProfile.txt

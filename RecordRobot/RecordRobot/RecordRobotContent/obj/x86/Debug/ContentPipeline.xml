@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-red.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-red.xnb</Output>
+      <Time>2011-03-02T23:47:49.5779251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-left.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-left.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-left.xnb</Output>
+      <Time>2011-03-02T23:47:49.5889251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-normal.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-normal.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-normal.xnb</Output>
+      <Time>2011-03-02T23:47:49.5909251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-right.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-right.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-right.xnb</Output>
+      <Time>2011-03-02T23:47:49.5949251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-path.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-path.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-path.xnb</Output>
+      <Time>2011-03-02T23:47:49.5449251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall.xnb</Output>
+      <Time>2011-03-02T23:47:49.5669251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\record-grey.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-grey.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-grey.xnb</Output>
+      <Time>2011-03-02T23:47:49.5729251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\record-blue.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-blue.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-blue.xnb</Output>
+      <Time>2011-03-02T23:47:49.5689251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\record-green.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-green.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-green.xnb</Output>
+      <Time>2011-03-02T23:47:49.5709251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\record-violet.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-violet.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-violet.xnb</Output>
+      <Time>2011-03-02T23:47:49.5799251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\record-yellow.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-yellow.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-yellow.xnb</Output>
+      <Time>2011-03-02T23:47:49.5819251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-dead.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-dead.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-dead.xnb</Output>
+      <Time>2011-03-02T23:47:49.5839251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-win.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-win.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-win.xnb</Output>
+      <Time>2011-03-02T23:47:49.5969251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\record-orange.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-orange.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\record-orange.xnb</Output>
+      <Time>2011-03-02T23:47:49.5749251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-invincible.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-invincible.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-invincible.xnb</Output>
+      <Time>2011-03-02T23:47:49.5859251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-right-dead.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-right-dead.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-right-dead.xnb</Output>
+      <Time>2011-03-02T23:47:49.5929251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\robot-left-dead.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-left-dead.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\robot-left-dead.xnb</Output>
+      <Time>2011-03-02T23:47:49.5869251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\how-to-play.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\how-to-play.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\how-to-play.xnb</Output>
+      <Time>2011-03-02T23:47:49.5419251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-blue.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-blue.xnb</Output>
-      <Time>2011-03-02T22:51:23.16079-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-blue.xnb</Output>
+      <Time>2011-03-02T23:47:49.5469251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-brown.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-brown.xnb</Output>
-      <Time>2011-03-02T22:51:23.1617901-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-brown.xnb</Output>
+      <Time>2011-03-02T23:47:49.5489251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-green.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-green.xnb</Output>
-      <Time>2011-03-02T22:51:23.1627901-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-green.xnb</Output>
+      <Time>2011-03-02T23:47:49.5509251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-lightblue.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-lightblue.xnb</Output>
-      <Time>2011-03-02T22:51:23.1637902-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-lightblue.xnb</Output>
+      <Time>2011-03-02T23:47:49.5529251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-orange.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-orange.xnb</Output>
-      <Time>2011-03-02T22:51:23.1647902-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-orange.xnb</Output>
+      <Time>2011-03-02T23:47:49.5549251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-pink.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-pink.xnb</Output>
-      <Time>2011-03-02T22:51:23.1667904-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-pink.xnb</Output>
+      <Time>2011-03-02T23:47:49.5569251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-red.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-red.xnb</Output>
-      <Time>2011-03-02T22:51:23.1667904-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-red.xnb</Output>
+      <Time>2011-03-02T23:47:49.5589251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-violet.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-violet.xnb</Output>
-      <Time>2011-03-02T22:51:23.1677904-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-violet.xnb</Output>
+      <Time>2011-03-02T23:47:49.5609251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-white.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-white.xnb</Output>
-      <Time>2011-03-02T22:51:23.1697905-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-white.xnb</Output>
+      <Time>2011-03-02T23:47:49.5629251-05:00</Time>
     </Item>
     <Item>
       <Source>Images\maze-wall-yellow.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-yellow.xnb</Output>
-      <Time>2011-03-02T22:51:23.1707906-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Images\maze-wall-yellow.xnb</Output>
+      <Time>2011-03-02T23:47:49.5649251-05:00</Time>
     </Item>
     <Item>
       <Source>Font1.spritefont</Source>
@@ -259,8 +259,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Font1.xnb</Output>
-      <Time>2011-03-02T18:53:28-05:00</Time>
+      <Output>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\Font1.xnb</Output>
+      <Time>2011-03-02T23:47:49.5389251-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -268,39 +268,39 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobotContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobotContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Steffen\EECS290_Project1\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobotContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobotContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Michael\Desktop\git projects\RecordRobot\RecordRobot\RecordRobot\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-02-01T13:50:55.9827584-05:00</Value>
+        <Value>2011-02-01T17:59:25.4545068-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

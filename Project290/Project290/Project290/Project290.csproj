@@ -111,6 +111,24 @@
     <Compile Include="Clock\GameClock.cs" />
     <Compile Include="FancyFont\FancyCharacter.cs" />
     <Compile Include="FancyFont\FancyString.cs" />
+    <Compile Include="Games\Solitude\Settings.cs" />
+    <Compile Include="Games\Solitude\SolitudeEntities\Room.cs" />
+    <Compile Include="Games\Solitude\SolitudeEntities\Ship.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Clinger.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Fighter.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Meddler.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Sentinel.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Enemies\TyTaylor.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Items\Block.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Items\Bomb.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Items\MasslessItem.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Player.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Traps\LaserTurret.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Traps\MissileTurret.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Wall.cs" />
+    <Compile Include="Games\Solitude\SolitudeScreen.cs" />
+    <Compile Include="Games\Solitude\SolitudeTools\Explosion.cs" />
+    <Compile Include="Games\Solitude\SolitudeTools\TextScreen.cs" />
     <Compile Include="Games\StupidGame\StupidGameScreen.cs" />
     <Compile Include="Inputs\RumblePack.cs" />
     <Compile Include="Mathematics\RectangleLineClipper.cs" />
@@ -307,9 +325,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Games\YourGameNameHere\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
   <!--

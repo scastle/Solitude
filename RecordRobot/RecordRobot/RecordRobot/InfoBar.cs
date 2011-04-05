@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework;
 using System.Globalization;
 using Microsoft.Xna.Framework.Graphics;
 using RecordRobot.RRClasses;
+using RecordRobot.Clock;
 
 namespace RecordRobot
 {
@@ -21,12 +22,12 @@ namespace RecordRobot
 
         public static void Draw()
         {
-            TimeSpan elapsedTime = DateTime.Now - Game1.Time;
+            //TimeSpan elapsedTime = DateTime.Now - GameClock.;
             Game1.spriteBatch.Begin();
             Game1.spriteBatch.Draw(Textures.InfobarBackground, new Vector2(0, 450), Color.Black);
             Game1.spriteBatch.DrawString(Game1.Font, "Lives: " + MovingObjects.MovingObjectManager.RobotPlayer.Lives, LivesPosition, Color.White);
             Game1.spriteBatch.DrawString(Game1.Font, "Score: " + ScoreManager.CurrentScore, ScorePosition, Color.White);
-            Game1.spriteBatch.DrawString(Game1.Font, "Time: " + elapsedTime.Minutes + ":" + (elapsedTime.Seconds % 60).ToString("d2"), TimePosition, Color.White);
+            Game1.spriteBatch.DrawString(Game1.Font, "Time: " + GameClock.Now / (long)60000 + ":" + ((GameClock.Now /1000 )% 60).ToString("d2"), TimePosition, Color.White);
 
             MovingObjects.Mover[] m = MovingObjects.MovingObjectManager.Objects.ToArray();
             for (int i = 1; i < m.Length; i++)

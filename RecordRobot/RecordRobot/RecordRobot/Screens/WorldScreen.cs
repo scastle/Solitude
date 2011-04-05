@@ -5,6 +5,7 @@ using System.Text;
 using RecordRobot.MovingObjects;
 using RecordRobot.RRClasses;
 using RecordRobot.GameElements;
+using RecordRobot.Clock;
 
 namespace RecordRobot.Screens
 {
@@ -23,7 +24,8 @@ namespace RecordRobot.Screens
             Beginning = true;
             Game1.screens.IsPaused = false;
             Game1.screens.IsTitle = false;
-
+            GameClock.Reset();
+           
         }
 
         public override void Draw()

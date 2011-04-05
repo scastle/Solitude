@@ -34,7 +34,6 @@ namespace RecordRobot
         public static SpriteBatch spriteBatch;
         public static TextReader tr;
         public static Random rand;
-        public static DateTime Time;
         public static bool ExitStatus;
         public static WorldScreen MainGame;
         public static Level CurrentLevel;
@@ -75,7 +74,6 @@ namespace RecordRobot
         /// </summary>
         protected override void LoadContent()
         {
-            Time = DateTime.Now;
 
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
