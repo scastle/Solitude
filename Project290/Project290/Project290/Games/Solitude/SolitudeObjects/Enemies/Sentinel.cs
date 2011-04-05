@@ -9,7 +9,15 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
     /// This enemy moves back and forth in set path or semi-random directions. 
     /// If the player draws near, it attacks
     /// </summary>
-    class Sentinel
+    class Sentinel : SolitudeObject
     {
+
+
+        public void Update()
+        {
+        }
+        public void Draw()
+        {
+        }
     }
 }

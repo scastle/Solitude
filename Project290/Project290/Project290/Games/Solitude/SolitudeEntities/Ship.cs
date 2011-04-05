@@ -26,5 +26,18 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// the column index of the active room
         /// </summary>
         int c;
+
+
+        public void Update()
+        {
+
+            rooms[r][c].Update();
+        }
+        public void Draw()
+        {
+
+            rooms[r][c].Draw();
+        }
+
     }
 }

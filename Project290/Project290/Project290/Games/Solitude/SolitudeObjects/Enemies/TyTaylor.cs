@@ -5,7 +5,15 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
-    class TyTaylor
+    class TyTaylor : SolitudeObject
     {
+
+
+        public void Update()
+        {
+        }
+        public void Draw()
+        {
+        }
     }
 }

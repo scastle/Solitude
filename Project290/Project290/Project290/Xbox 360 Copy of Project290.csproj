@@ -84,6 +84,7 @@
     <Compile Include="Games\Solitude\SolitudeObjects\Items\Bomb.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Items\MasslessItem.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Player.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\SolitudeObject.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Traps\LaserTurret.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Traps\MissileTurret.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Wall.cs" />

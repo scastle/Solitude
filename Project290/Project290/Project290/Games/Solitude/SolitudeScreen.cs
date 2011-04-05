@@ -14,9 +14,39 @@ namespace Project290.Games.Solitude
     /// </summary>
     class SolitudeScreen : GameScreen
     {
+        /// <summary>
+        /// ship contains all information about levels of the game
+        /// </summary>
         Ship ship;
+
+        /// <summary>
+        /// the player object.
+        /// </summary>
         Player player;
+
+        /// <summary>
+        /// a list of all objects in the current room
+        /// </summary>
         List<Object> activeObjects;
+
+
+        public SolitudeScreen(int scoreBoardIndex)
+            :base(scoreBoardIndex)
+        {
+            //todo: everything
+            
+
+
+
+            this.Reset();
+        }
+
+        internal override void Reset()
+        {
+            //todo: reset
+
+            base.Reset();
+        }
 
     }
 }

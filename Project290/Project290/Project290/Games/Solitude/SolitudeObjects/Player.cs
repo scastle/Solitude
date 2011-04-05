@@ -5,7 +5,14 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects
 {
-    class Player
+    class Player : SolitudeObject
     {
+
+        public void Update()
+        {
+        }
+        public void Draw()
+        {
+        }
     }
 }

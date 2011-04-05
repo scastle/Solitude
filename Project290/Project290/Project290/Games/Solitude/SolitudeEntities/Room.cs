@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Project290.Games.Solitude.SolitudeObjects;
 
 namespace Project290.Games.Solitude.SolitudeEntities
 {
@@ -17,8 +18,27 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <summary>
         /// List of ALL objects that need to be put into the room
         /// </summary>
-        List<Object> contents;
+        List<SolitudeObject> contents;
 
-        
+
+        public Room()
+        {
+
+        }
+        /// <summary>
+        /// Updates the objects in the room, only called when player is in room
+        /// </summary>
+        public void Update()
+        {
+            foreach (SolitudeObject m in contents)
+                m.Update();
+        }
+        public void Draw()
+        {
+        }
+
     }
+
+
+
 }

@@ -5,7 +5,13 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
-    class Fighter
+    class Fighter : SolitudeObject
     {
+        public void Update()
+        {
+        }
+        public void Draw()
+        {
+        }
     }
 }

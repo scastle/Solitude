@@ -5,7 +5,14 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Traps
 {
-    class LaserTurret
+    class LaserTurret : SolitudeObject
     {
+
+        public void Update()
+        {
+        }
+        public void Draw()
+        {
+        }
     }
 }
