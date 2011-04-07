@@ -28,3 +28,33 @@ C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\R
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Project290.pdb
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\x86\Release\Project290.exe
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\x86\Release\Project290.pdb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame1.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame2.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame3.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame4.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame5.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\Blank.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\tileSafeCheck.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Fonts\controllerFont.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\DefaultBackground\particle1.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\DefaultBackground\checkers.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\DefaultBackground\colorSwirl.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtHolder.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\titleNameBorder.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\instructionBorder.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\sampleInstructions.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\gradient.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Fonts\defaultFont.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\boxArtScroll.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuClick.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuGoBack.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuScrollDown.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuScrollUp.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlDown.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlUp.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Project290.exe
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Project290.pdb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Project290.exe
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Project290.pdb
