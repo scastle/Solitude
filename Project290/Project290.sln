@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project290Content", "Projec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbox 360 Copy of Project290", "Project290\Project290\Xbox 360 Copy of Project290.csproj", "{313765AA-0D76-4821-BDA2-B18B81AAE247}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer Physics 3.2 XNA Xbox360", "..\..\Desktop\Farseer\Farseer Physics Engine 3.2 XNA\Farseer Physics 3.2 XNA Xbox360.csproj", "{EAB66472-101E-4B9C-B856-855004E9BCC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -47,6 +49,16 @@ Global
 		{313765AA-0D76-4821-BDA2-B18B81AAE247}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
 		{313765AA-0D76-4821-BDA2-B18B81AAE247}.Release|Xbox 360.Build.0 = Release|Xbox 360
 		{313765AA-0D76-4821-BDA2-B18B81AAE247}.Release|Xbox 360.Deploy.0 = Release|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Debug|Mixed Platforms.ActiveCfg = Debug|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Debug|Mixed Platforms.Build.0 = Debug|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Debug|x86.ActiveCfg = Debug|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Release|Mixed Platforms.ActiveCfg = Release|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Release|Mixed Platforms.Build.0 = Release|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Release|x86.ActiveCfg = Release|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{EAB66472-101E-4B9C-B856-855004E9BCC3}.Release|Xbox 360.Build.0 = Release|Xbox 360
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

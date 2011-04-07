@@ -204,7 +204,7 @@ namespace Project290.GameElements
             {
                 this.Exit();
             }
-
+            
             GameClock.Update();
             ForceSignIn();
             gameSaver.Update();

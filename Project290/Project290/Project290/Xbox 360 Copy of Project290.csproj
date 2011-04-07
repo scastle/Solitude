@@ -58,6 +58,10 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Desktop\Farseer\Farseer Physics Engine 3.2 XNA\Farseer Physics 3.2 XNA Xbox360.csproj">
+      <Project>{EAB66472-101E-4B9C-B856-855004E9BCC3}</Project>
+      <Name>Farseer Physics 3.2 XNA Xbox360</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Project290Content\Project290Content.contentproj">
       <Name>Project290Content</Name>
       <XnaReferenceType>Content</XnaReferenceType>
