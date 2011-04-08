@@ -14,9 +14,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
         }
 
-        void Update();
+        public void Update() { }
 
-        void Draw()
+        public void Draw()
         {
 
         }
