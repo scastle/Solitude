@@ -58,5 +58,3 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Project290.exe
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Project290.pdb
-C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\FarseerPhysicsXNA.dll
-C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\FarseerPhysicsXNA.pdb

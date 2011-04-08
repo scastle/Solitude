@@ -184,8 +184,8 @@ namespace Project290.GameElements
                                 return;
                             }
                         }
-
-                        Guide.ShowSignIn(4, false);
+                        
+                        //Guide.ShowSignIn(4, false);
                     }
                 }
             }

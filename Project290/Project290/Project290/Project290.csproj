@@ -285,6 +285,7 @@
     <Compile Include="Screens\Title\GameInfoDisplayMenu.cs" />
     <Compile Include="Screens\Title\ScoreboardDisplay.cs" />
     <Compile Include="Screens\Title\TitleScreen.cs" />
+    <Compile Include="Games\Solitude\SolitudeTools\Serializer.cs" />
     <Compile Include="Storage\GameSaver.cs" />
     <Compile Include="Storage\PlayerScore.cs" />
     <Compile Include="Storage\Scoreboard.cs" />

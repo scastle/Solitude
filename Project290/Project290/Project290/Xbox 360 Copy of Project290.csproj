@@ -58,10 +58,6 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop\Farseer\Farseer Physics Engine 3.2 XNA\Farseer Physics 3.2 XNA Xbox360.csproj">
-      <Project>{EAB66472-101E-4B9C-B856-855004E9BCC3}</Project>
-      <Name>Farseer Physics 3.2 XNA Xbox360</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Project290Content\Project290Content.contentproj">
       <Name>Project290Content</Name>
       <XnaReferenceType>Content</XnaReferenceType>
@@ -94,6 +90,7 @@
     <Compile Include="Games\Solitude\SolitudeObjects\Wall.cs" />
     <Compile Include="Games\Solitude\SolitudeScreen.cs" />
     <Compile Include="Games\Solitude\SolitudeTools\Explosion.cs" />
+    <Compile Include="Games\Solitude\SolitudeTools\Serializer.cs" />
     <Compile Include="Games\Solitude\SolitudeTools\TextScreen.cs" />
     <Compile Include="Games\StupidGame\StupidGameScreen.cs" />
     <Compile Include="Inputs\RumblePack.cs" />
@@ -447,6 +444,7 @@
     <Reference Include="System.Xml.Linq">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

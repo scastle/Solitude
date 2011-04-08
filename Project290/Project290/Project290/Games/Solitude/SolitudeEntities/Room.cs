@@ -18,12 +18,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <summary>
         /// List of ALL objects that need to be put into the room
         /// </summary>
-        List<SolitudeObject> contents;
+        public List<Object> contents;
 
 
         public Room()
         {
-
+            contents = new List<object>();
         }
         /// <summary>
         /// Updates the objects in the room, only called when player is in room
