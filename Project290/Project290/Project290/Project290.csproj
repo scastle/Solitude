@@ -119,6 +119,7 @@
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Meddler.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Sentinel.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\TyTaylor.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\PhysicsItem.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\SolitudeObject.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Items\Block.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Items\Bomb.cs" />
