@@ -24,6 +24,9 @@ namespace Project290.GameElements
             TextureStatic.Load("BoxArtGame3", @"Shared\BoxArt\BoxArtGame3");
             TextureStatic.Load("BoxArtGame4", @"Shared\BoxArt\BoxArtGame4");
             TextureStatic.Load("BoxArtGame5", @"Shared\BoxArt\BoxArtGame5");
+            /////////////////////////////////////////////////////
+            TextureStatic.Load("BoxArtSolitude", @"Shared\BoxArt\BoxArtSolitude");
+            /////////////////////////////////////////////////////
             TextureStatic.Load("BoxArtHolder", @"Shared\BoxArt\BoxArtHolder");
             
             // Other Shared Textures
@@ -34,6 +37,9 @@ namespace Project290.GameElements
             TextureStatic.Load("checkers", @"DefaultBackground\checkers");
             TextureStatic.Load("colorSwirl", @"DefaultBackground\colorSwirl");
             TextureStatic.Load("sampleInstructions", @"Shared\Art\sampleInstructions");
+            /////////////////////////////////////////////////////
+            TextureStatic.Load("SolitudeInstructions", @"Shared\Art\SolitudeInstructions");
+            /////////////////////////////////////////////////////
             TextureStatic.Load("instructionBorder", @"Shared\Art\instructionBorder");
             TextureStatic.Load("gradient", @"Shared\Art\Gradient");
 
@@ -54,7 +60,7 @@ namespace Project290.GameElements
         /// <summary>
         /// Loads the content of a game. There will be one of these methods per mini game
         /// </summary>
-        public static void LoadYOURGAMENAMEHEREContent()
+        public static void LoadSolitudeContent()
         {
             // TODO: load all Textures.
 
@@ -114,6 +120,15 @@ namespace Project290.GameElements
                 "sampleInstructions",
                 scoreBoardIndex,
                 new LaunchStupidGameDelegate(scoreBoardIndex++)));
+
+            GameInfoCollection.GameInfos.Add(new GameInfo(
+                "Solitude",
+                "BoxArtSolitude",
+                "The best game ever made.",
+                "By Michael Oswalt, Michael Robertson, Steffen Castle, and Paul An",
+                "SolitudeInstructions",
+                scoreBoardIndex,
+                new LaunchSolitudeDelegate(scoreBoardIndex++)));
 
             // Must be last!
             GameInfoCollection.GameInfos.Add(new GameInfo(

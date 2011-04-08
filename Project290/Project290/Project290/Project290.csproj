@@ -137,6 +137,7 @@
     <Compile Include="Menus\BoxArtMenu.cs" />
     <Compile Include="Menus\DescriptionMenuEntry.cs" />
     <Compile Include="Menus\MenuDelegates\GoToTitleDelegate.cs" />
+    <Compile Include="Menus\MenuDelegates\LaunchSolitudeDelegate.cs" />
     <Compile Include="Menus\MenuDelegates\LaunchStupidGameDelegate.cs" />
     <Compile Include="Menus\MenuDelegates\QuitPauseScreenDelegate.cs" />
     <Compile Include="Menus\MenuDelegates\ChangeStorageDeviceDelegate.cs" />

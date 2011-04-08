@@ -29,18 +29,22 @@ namespace Project290.Games.Solitude
         /// </summary>
         List<Object> activeObjects;
 
-        public Physics.Dynamics.World PhysicsWorld = new Physics.Dynamics.World(Microsoft.Xna.Framework.Vector2.Zero);
-
+        
 
         public SolitudeScreen(int scoreBoardIndex)
             :base(scoreBoardIndex)
         {
             //todo: everything
-            
+            PhysicalWorld = new Physics.Dynamics.World(Microsoft.Xna.Framework.Vector2.Zero);
 
 
 
             this.Reset();
+        }
+
+        public override void Update()
+        {
+
         }
 
         internal override void Reset()

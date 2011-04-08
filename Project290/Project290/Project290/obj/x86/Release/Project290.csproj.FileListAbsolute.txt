@@ -58,3 +58,6 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Resol
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Project290.exe
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Release\Project290.pdb
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtSolitude.xnb
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.xnb
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.png

@@ -18,7 +18,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
     {
         public PhysicsItem()
         {
-            Body b = new Body(GameElements.GameWorld.screens.OfType<SolitudeScreen>().First().PhysicsWorld);
+            Body b = new Body(GameElements.GameWorld.screens.OfType<SolitudeScreen>().First().PhysicalWorld);
             b.BodyType = BodyType.Dynamic;
             CircleShape s = new CircleShape();
             Fixture f = new Fixture(b, s);
