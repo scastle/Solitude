@@ -14,6 +14,8 @@ Content\Shared\Art\titleNameBorder.xnb
 Content\Shared\Art\instructionBorder.xnb
 Content\Shared\Art\sampleInstructions.xnb
 Content\Shared\Art\gradient.xnb
+Content\Shared\BoxArt\BoxArtSolitude.xnb
+Content\Shared\Art\SolitudeInstructions.xnb
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb
@@ -22,6 +24,4 @@ Content\Shared\Sounds\menuScrollDown.xnb
 Content\Shared\Sounds\menuScrollUp.xnb
 Content\Shared\Sounds\volumeControlDown.xnb
 Content\Shared\Sounds\volumeControlUp.xnb
-Content\Shared\BoxArt\BoxArtSolitude.xnb
-Content\Shared\Art\SolitudeInstructions.xnb
 Content\Shared\Art\SolitudeInstructions.png

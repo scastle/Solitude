@@ -19,7 +19,7 @@ namespace Project290.Menus.MenuDelegates
         private int scoreBoardIndex;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="LaunchStupidGameDelegate"/> class.
+        /// Initializes a new instance of the <see cref="LaunchSolitudeGameDelegate"/> class.
         /// </summary>
         /// <param name="scoreBoardIndex">Index into the score board.</param>
         public LaunchSolitudeDelegate(int scoreBoardIndex)
@@ -30,7 +30,7 @@ namespace Project290.Menus.MenuDelegates
 
         /// <summary>
         /// Runs this instance. This pops the most recent screen off of the screen
-        /// stack of GameWorld and launches a new instance of StupidGameScreen.
+        /// stack of GameWorld and launches a new instance of SolitudeGameScreen.
         /// </summary>
         public void Run()
         {

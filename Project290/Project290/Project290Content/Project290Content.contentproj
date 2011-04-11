@@ -81,7 +81,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="YOURGAMEHERE\" />
+    <Folder Include="Solitude\Music\" />
+    <Folder Include="Solitude\Sounds\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Shared\Art\tileSafeCheck.png">
@@ -199,6 +200,48 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Art\wall-cold.png">
+      <Name>wall-cold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-door.png">
+      <Name>wall-door</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-grip.png">
+      <Name>wall-grip</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-handhold.png">
+      <Name>wall-handhold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-hot.png">
+      <Name>wall-hot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-metal.png">
+      <Name>wall-metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-smooth.png">
+      <Name>wall-smooth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Art\wall-spike.png">
+      <Name>wall-spike</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

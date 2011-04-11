@@ -62,6 +62,16 @@ namespace Project290.GameElements
         /// </summary>
         public static void LoadSolitudeContent()
         {
+            //load the walls
+            TextureStatic.Load("solitudeWallSmooth", @"Solitude\Art\wall-smooth");
+            TextureStatic.Load("solitudeWallHandHold", @"Solitude\Art\wall-handhold");
+            TextureStatic.Load("solitudeWallGrip", @"Solitude\Art\wall-grip");
+            TextureStatic.Load("solitudeWallMetal", @"Solitude\Art\wall-metal");
+            TextureStatic.Load("solitudeWallHot", @"Solitude\Art\wall-hot");
+            TextureStatic.Load("solitudeWallCold", @"Solitude\Art\wall-cold");
+            TextureStatic.Load("solitudeWallSpike", @"Solitude\Art\wall-spike");
+            TextureStatic.Load("solitudeWallDoor", @"Solitude\Art\wall-door");
+
             // TODO: load all Textures.
 
             // TODO: load all Audio.
