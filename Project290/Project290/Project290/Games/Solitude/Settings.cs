@@ -25,13 +25,5 @@ namespace Project290.Games.Solitude
         public static int maxShipColumns = 5;
 
 
-        public static Texture2D smoothWall;
-        public static Texture2D handHoldWall;
-        public static Texture2D gripWall;
-        public static Texture2D metalWall;
-        public static Texture2D hotWall;
-        public static Texture2D coldWall;
-        public static Texture2D spikeWall;
-        public static Texture2D doorWall;
     }
 }

@@ -8,6 +8,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
     class Player : SolitudeObject
     {
 
+
         public void Update()
         {
         }

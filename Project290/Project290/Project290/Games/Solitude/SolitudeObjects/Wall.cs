@@ -27,11 +27,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
         WallType type;
 
 
-        public Wall(Vector2 position, float width, float height, float density)
+        public Wall(Vector2 position, float width, float height, float density, WallType t)
             :base(position)
         {
             body.BodyType = BodyType.Static;
             FixtureFactory.CreateRectangle(width, height, density, Settings.zero, body, null);
+            
+            type = t;
 
             switch (type){
                 case WallType.Smooth:
