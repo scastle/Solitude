@@ -42,7 +42,7 @@ namespace Project290.Games.Solitude
             player = new Player(new Microsoft.Xna.Framework.Vector2(300f, 300f), PhysicalWorld);
             r = new Room();
             //r.Add(player);
-            r.Add(new Wall(new Microsoft.Xna.Framework.Vector2(400f, 400f), PhysicalWorld, 200f, 100f, 1f, WallType.HandHold));
+            r.Add(new Wall(new Microsoft.Xna.Framework.Vector2(500f, 500f), PhysicalWorld, 200f, 100f, 1f, WallType.HandHold));
 
             this.Reset();
         }
@@ -55,7 +55,7 @@ namespace Project290.Games.Solitude
         public override void Update()
         {
             r.Update();
-
+            player.Update();
         }
 
         internal override void Reset()

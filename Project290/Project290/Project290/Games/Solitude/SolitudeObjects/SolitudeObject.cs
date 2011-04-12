@@ -28,9 +28,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
         }
 
-        public void Draw()
-        {
+        abstract public void Draw();
 
-        }
     }
 }

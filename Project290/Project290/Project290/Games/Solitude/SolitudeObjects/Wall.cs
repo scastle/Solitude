@@ -59,8 +59,19 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
 
         }
-        public void Draw()
+        public override void Draw()
         {
+            Drawer.Draw(
+                TextureStatic.Get("solitudeWallHandHold"),
+                body.Position,
+                new Rectangle(0, 0, 128, 128),
+                Color.White,
+                body.Rotation,
+                TextureStatic.GetOrigin("solitudeWallHandHold"),
+                1,
+                SpriteEffects.None,
+                .8f);
+
         }
     }
 }

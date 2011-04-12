@@ -60,19 +60,19 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 
              */
         }
-        public void Draw()
+        public override void Draw()
         {
             
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
                 body.Position,
-                new Rectangle(300, 300, 300, 300),
+                new Rectangle(0, 0, 256, 256),
                 Color.White,
                 body.Rotation,
                 TextureStatic.GetOrigin("solitudePlayer"),
-                1f,
+                1,
                 SpriteEffects.None,
-                .5f);
+                .8f);
 
 
 
