@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Items
 {
-    class Bomb : SolitudeObject
+    class Bomb //: SolitudeObject
     {
 
         public void Update()

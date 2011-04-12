@@ -26,7 +26,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
         {
             contents = new List<object>();
         }
-
+        public void Add(SolitudeObject item)
+        {
+            contents.Add(item);
+        }
 
 
         /// <summary>
@@ -39,6 +42,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         }
         public void Draw()
         {
+            foreach (SolitudeObject m in contents)
+                m.Draw();
         }
 
     }

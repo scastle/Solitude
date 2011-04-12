@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
-    class TyTaylor : SolitudeObject
+    class TyTaylor //: SolitudeObject
     {
 
 

@@ -32,4 +32,5 @@ Content\Solitude\Art\wall-hot.xnb
 Content\Solitude\Art\wall-metal.xnb
 Content\Solitude\Art\wall-smooth.xnb
 Content\Solitude\Art\wall-spike.xnb
+Content\Solitude\Art\player.xnb
 Content\Shared\Art\SolitudeInstructions.png

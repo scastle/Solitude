@@ -17,9 +17,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public Body body;
 
 
-        public SolitudeObject(Vector2 position)
+        public SolitudeObject(Vector2 position, World world)
         {
-            body = BodyFactory.CreateBody(GameElements.GameWorld.screens.OfType<SolitudeScreen>().First().PhysicalWorld, position);
+            
+            body = BodyFactory.CreateBody(world, position);
         }
 
 

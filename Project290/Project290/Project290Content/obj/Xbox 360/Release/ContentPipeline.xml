@@ -307,6 +307,15 @@
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-spike.xnb</Output>
       <Time>2011-04-11T16:58:28.9846977-04:00</Time>
     </Item>
+    <Item>
+      <Source>Solitude\Art\player.png</Source>
+      <Name>Solitude\Art\player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\player.xnb</Output>
+      <Time>2011-04-11T19:00:56.6681403-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Xbox360</TargetPlatform>

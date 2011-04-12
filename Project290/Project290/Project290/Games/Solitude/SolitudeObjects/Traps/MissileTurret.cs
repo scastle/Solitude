@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Traps
 {
-    class MissileTurret : SolitudeObject
+    class MissileTurret //: SolitudeObject
     {
 
         public void Update()

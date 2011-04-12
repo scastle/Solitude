@@ -72,6 +72,8 @@ namespace Project290.GameElements
             TextureStatic.Load("solitudeWallSpike", @"Solitude\Art\wall-spike");
             TextureStatic.Load("solitudeWallDoor", @"Solitude\Art\wall-door");
 
+            //load the player
+            TextureStatic.Load("solitudePlayer", @"Solitude\Art\player");
             // TODO: load all Textures.
 
             // TODO: load all Audio.
