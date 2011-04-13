@@ -25,16 +25,18 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// The type of wall for purposes of what happens to the player
         /// </summary>
         WallType type;
-
+        Fixture fixture;
+        float width, height;
 
         public Wall(Vector2 position, World world, float width, float height, float density, WallType t)
             :base(position, world)
         {
             body.BodyType = BodyType.Static;
-            FixtureFactory.CreateRectangle(width, height, density, Settings.zero, body, null);
-            
+            world.AddBody(body);
+            fixture = FixtureFactory.CreateRectangle(width, height, density, Vector2.Zero, body, null);
             type = t;
-
+            this.width = width;
+            this.height = height;
             switch (type){
                 case WallType.Smooth:
                     texture = TextureStatic.Get("solitudeWallSmooth");      break;
@@ -59,12 +61,40 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
 
         }
+
+        public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
+        {
+            // Check if f2 is player
+            if (f1 == SolitudeScreen.ship.Player.PlayerFixture)
+            {
+                Vector2 distance = new Vector2(Math.Abs(f2.Body.Position.X - f1.Body.Position.X), Math.Abs(f2.Body.Position.Y - f1.Body.Position.Y));
+                switch (type)
+                {
+                    case WallType.Smooth: 
+                        // ball is above or below wall
+                        if (distance.X > distance.Y)
+                        {
+                            //f1.Body.LinearVelocity = new Vector2(f1.Body.LinearVelocity.X, f1.Body.LinearVelocity.Y * -1);
+                            f1.Body.LinearVelocity = Vector2.Zero;
+                        }
+                        // ball is to left or right of wall
+                        else
+                        {
+                        }
+                        break;
+
+                }
+            }
+            // Check if f2 is other item (ie block)
+            return true;
+        }
+
         public override void Draw()
         {
             Drawer.Draw(
                 TextureStatic.Get("solitudeWallHandHold"),
-                body.Position,
-                new Rectangle(0, 0, 128, 128),
+                body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                new Rectangle(0, 0, (int)width, (int)height),
                 Color.White,
                 body.Rotation,
                 TextureStatic.GetOrigin("solitudeWallHandHold"),

@@ -70,3 +70,15 @@ C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\R
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-smooth.xnb
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-spike.xnb
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\player.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtSolitude.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-cold.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-door.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-grip.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-handhold.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-hot.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-metal.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-smooth.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-spike.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\player.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.png

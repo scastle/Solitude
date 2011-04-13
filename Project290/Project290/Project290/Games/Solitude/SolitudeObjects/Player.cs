@@ -11,7 +11,7 @@ using Project290.Rendering;
 
 namespace Project290.Games.Solitude.SolitudeObjects
 {
-    class Player : SolitudeObject
+    public class Player : SolitudeObject
     {
         //integers tracking stats and inventory
         int oxygen, oxygenCap;
@@ -27,11 +27,15 @@ namespace Project290.Games.Solitude.SolitudeObjects
         bool hasSpaceSuit;
         bool hasJetpack;
 
+        int width = 128, height = 256;
+
+        public Fixture PlayerFixture;
+
         public Player(Vector2 position, World world)
             : base(position, world)
         {
             body.BodyType = BodyType.Dynamic;
-            FixtureFactory.CreateRectangle(128, 256, .5f, Settings.zero, body, null);
+            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Settings.zero, body, null);
 
             texture = TextureStatic.Get("solitudePlayer");
 
@@ -65,8 +69,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
-                body.Position,
-                new Rectangle(0, 0, 256, 256),
+                body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                new Rectangle(0, 0, width, height),
                 Color.White,
                 body.Rotation,
                 TextureStatic.GetOrigin("solitudePlayer"),
