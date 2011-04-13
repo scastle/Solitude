@@ -14,13 +14,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
     /// Each room is loaded at startup, and its contents will be put into the physics simulation when
     /// the ship class calls the Enter() method. 
     /// </summary>
-    class Room
+    public class Room
     {
         /// <summary>
         /// List of ALL objects that need to be put into the room
         /// </summary>
         public List<Object> contents;
-
 
         public Room()
         {

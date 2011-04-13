@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Project290.Games.Solitude.SolitudeTools;
+using Project290.Games.Solitude.SolitudeObjects;
+using Project290.Physics.Collision;
+using Project290.Physics.Dynamics;
 
 namespace Project290.Games.Solitude.SolitudeEntities
 {
@@ -11,27 +14,56 @@ namespace Project290.Games.Solitude.SolitudeEntities
     /// and determines when to enter/exit rooms and handles their objects' transitions
     /// into and out of the physicsworld
     /// </summary>
-    class Ship
+    public class Ship
     {
         /// <summary>
         /// The matrix containing each room in the game
         /// </summary>
-        Room[,] rooms;
+        static Room[,] rooms;
+
+        /// <summary>
+        /// the player object.
+        /// </summary>
+        public Player Player;
+
+        /// <summary>
+        /// The world for all physical objects to interact
+        /// </summary>
+        public World PhysicalWorld;
 
         /// <summary>
         /// the row index of the active room
         /// </summary>
-        int r;
+        static int r;
 
         /// <summary>
         /// the column index of the active room
         /// </summary>
-        int c;
+        static int c;
+
+        public Room GetCurrentRoom()
+        {
+            return rooms[r, c];
+        }
 
 
         public Ship()
         {
+            PhysicalWorld = new World(Microsoft.Xna.Framework.Vector2.Zero);
+            Player = new Player(new Microsoft.Xna.Framework.Vector2(1200f, 600f), PhysicalWorld);
             rooms = new Room[Settings.maxShipRows, Settings.maxShipColumns];
+            // initialize all rooms? replace this later once we have all the rooms
+            rooms[0, 0] = new Room();
+
+            Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 1050), PhysicalWorld, 112, 115, 1, WallType.Smooth);
+
+            PhysicalWorld.AddBody(Player.body);
+            PhysicalWorld.AddBody(w.body);
+
+            GetCurrentRoom().Add(w);
+            
+            Player.body.ApplyLinearImpulse(new Microsoft.Xna.Framework.Vector2(-5000, 5000));
+
             r = 0;
             c = 0;
         }
@@ -50,13 +82,15 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
-
-            rooms[r,c].Update();
+            Console.WriteLine(Player.body.Position);
+            PhysicalWorld.Step(0.3f);
+            Player.Update();
+            GetCurrentRoom().Update();
         }
         public void Draw()
         {
-
-            rooms[r,c].Draw();
+            Player.Draw();
+            GetCurrentRoom().Draw();
         }
 
     }

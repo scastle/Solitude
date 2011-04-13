@@ -16,14 +16,6 @@ Content\Shared\Art\sampleInstructions.xnb
 Content\Shared\Art\gradient.xnb
 Content\Shared\BoxArt\BoxArtSolitude.xnb
 Content\Shared\Art\SolitudeInstructions.xnb
-Content\Shared\Fonts\defaultFont.xnb
-Content\Shared\Sounds\boxArtScroll.xnb
-Content\Shared\Sounds\menuClick.xnb
-Content\Shared\Sounds\menuGoBack.xnb
-Content\Shared\Sounds\menuScrollDown.xnb
-Content\Shared\Sounds\menuScrollUp.xnb
-Content\Shared\Sounds\volumeControlDown.xnb
-Content\Shared\Sounds\volumeControlUp.xnb
 Content\Solitude\Art\wall-cold.xnb
 Content\Solitude\Art\wall-door.xnb
 Content\Solitude\Art\wall-grip.xnb
@@ -33,4 +25,12 @@ Content\Solitude\Art\wall-metal.xnb
 Content\Solitude\Art\wall-smooth.xnb
 Content\Solitude\Art\wall-spike.xnb
 Content\Solitude\Art\player.xnb
+Content\Shared\Fonts\defaultFont.xnb
+Content\Shared\Sounds\boxArtScroll.xnb
+Content\Shared\Sounds\menuClick.xnb
+Content\Shared\Sounds\menuGoBack.xnb
+Content\Shared\Sounds\menuScrollDown.xnb
+Content\Shared\Sounds\menuScrollUp.xnb
+Content\Shared\Sounds\volumeControlDown.xnb
+Content\Shared\Sounds\volumeControlUp.xnb
 Content\Shared\Art\SolitudeInstructions.png

@@ -19,59 +19,31 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// ship contains all information about levels of the game
         /// </summary>
-        Ship ship;
-
-        /// <summary>
-        /// the player object.
-        /// </summary>
-        Player player;
-
-        /// <summary>
-        /// a list of all objects in the current room
-        /// </summary>
-        List<Object> activeObjects;
-        Room r;
-        
+        public static Ship ship;
 
         public SolitudeScreen(int scoreBoardIndex)
             :base(scoreBoardIndex)
         {
             //todo: everything
-            PhysicalWorld = new Physics.Dynamics.World(Microsoft.Xna.Framework.Vector2.Zero);
-
-            player = new Player(new Microsoft.Xna.Framework.Vector2(300f, 300f), PhysicalWorld);
-            r = new Room();
-            //r.Add(player);
-            r.Add(new Wall(new Microsoft.Xna.Framework.Vector2(500f, 500f), PhysicalWorld, 200f, 100f, 1f, WallType.HandHold));
-
-            this.Reset();
-        }
-
-        public World getWorld()
-        {
-            return PhysicalWorld;
+            ship = new Ship();
+          //  this.Reset();
         }
 
         public override void Update()
         {
-            r.Update();
-            player.Update();
+            ship.Update();
         }
 
         internal override void Reset()
         {
             //todo: reset
-
             base.Reset();
         }
 
         public override void Draw()
         {
-            
+            ship.Draw();
             base.Draw();
-            player.Draw();
-            r.Draw();
-
         }
 
 
