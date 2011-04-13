@@ -9,10 +9,6 @@ namespace Project290.Games.Solitude
 {
     class Settings
     {
-        /// <summary>
-        /// a vector used so that you don't need to create a new vector2 as zero
-        /// </summary>
-        public static Vector2 zero = new Vector2(0);
 
         /// <summary>
         /// number of rows of rooms in the game

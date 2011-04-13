@@ -32,24 +32,21 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         Vector2 vector = new Vector2();
 
-        /// <summary>
-        /// rectangle used for drawing
-        /// </summary>
-        Rectangle rect;
 
-        int width = 32, height = 64;
+
+        public static int width = 32, height = 64;
 
         public Fixture PlayerFixture;
 
         public Player(Vector2 position, World world)
-            : base(position, world)
+            : base(position, world, (float)Player.width, (float)Player.height)
         {
             body.BodyType = BodyType.Dynamic;
-            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Settings.zero, body, null);
+            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
 
             texture = TextureStatic.Get("solitudePlayer");
 
-            rect = new Rectangle(0, 0, width, height);
+            
 
             oxygen = 100;
             oxygenCap = 100;
@@ -90,10 +87,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                rect,
+                drawRectangle,
                 Color.White,
                 body.Rotation,
-                TextureStatic.GetOrigin("solitudePlayer"),
+                drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
                 1,
                 SpriteEffects.None,
                 .8f);

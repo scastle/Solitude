@@ -31,16 +31,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         Vector2 distance = new Vector2();
 
-        /// <summary>
-        /// used for drawing
-        /// </summary>
-        Rectangle sourceRect;
+        
 
         Fixture fixture;
         float width, height;
 
         public Wall(Vector2 position, World world, float width, float height, float density, WallType t)
-            :base(position, world)
+            :base(position, world, width, height)
         {
             body.BodyType = BodyType.Static;
             world.AddBody(body);
@@ -49,7 +46,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             this.width = width;
             this.height = height;
 
-            sourceRect = new Rectangle(0,0, (int)width, (int)height);
+            //sourceRect = new Rectangle(0,0, (int)width, (int)height);
+            drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
             switch (type){
                 case WallType.Smooth:
                     texture = TextureStatic.Get("solitudeWallSmooth");      break;
@@ -109,10 +107,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
             Drawer.Draw(
                 TextureStatic.Get("solitudeWallHandHold"),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                sourceRect,
+                drawRectangle,
                 Color.White,
                 body.Rotation,
-                TextureStatic.GetOrigin("solitudeWallHandHold"),
+                drawOrigin,//TextureStatic.GetOrigin("solitudeWallHandHold"),
                 1,
                 SpriteEffects.None,
                 .8f);

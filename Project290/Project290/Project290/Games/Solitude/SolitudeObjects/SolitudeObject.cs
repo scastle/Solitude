@@ -15,21 +15,26 @@ namespace Project290.Games.Solitude.SolitudeObjects
     public abstract class SolitudeObject
     {
         public Texture2D texture;
-        
+        public Vector2 drawOrigin;
+        public Rectangle drawRectangle;
         public Body body;
         public Fixture fixture;
 
-        public SolitudeObject(Vector2 position, World world)
+        public SolitudeObject(Vector2 position, World world, float width, float height)
         {
             
             body = BodyFactory.CreateBody(world, position);
+            drawOrigin = new Vector2(width / 2f, height / 2f);
+            drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
         }
 
-        public SolitudeObject(Vector2 position, World world, Shape shape)
+        public SolitudeObject(Vector2 position, World world, Shape shape, float width, float height)
         {
             body = BodyFactory.CreateBody(world, position);
             fixture = new Fixture(body, shape);
             fixture.OnCollision += new OnCollisionEventHandler(OnCollision);
+            drawOrigin = new Vector2(width, height);
+            drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
         }
 
         public void Update() 
