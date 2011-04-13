@@ -20,6 +20,9 @@ namespace Project290.Games.Solitude
         /// </summary>
         public static int maxShipColumns = 5;
 
-
+        /// <summary>
+        /// a constant governing jetpack strength.
+        /// </summary>
+        public static int jetPackForceMult = 30000;
     }
 }

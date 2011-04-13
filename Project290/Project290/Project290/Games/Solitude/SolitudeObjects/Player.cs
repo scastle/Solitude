@@ -21,11 +21,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
         int numEMP;
 
         //Booleans to track upgrade levels
-        bool hasGloves;
-        bool hasBoots;
-        bool hasENVSuit;
-        bool hasSpaceSuit;
-        bool hasJetpack;
+        public bool hasGloves;
+        public bool hasBoots;
+        public bool hasENVSuit;
+        public bool hasSpaceSuit;
+        public bool hasJetpack;
 
         /// <summary>
         /// a vector to use for updating and drawing
@@ -75,8 +75,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             //Console.WriteLine(body.LinearVelocity);
             if (hasJetpack)
             {
-                vector.X = 10000 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
-                vector.Y = -10000 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
+                vector.X = Settings.jetPackForceMult * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
+                vector.Y = -1 * Settings.jetPackForceMult * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
                 body.ApplyForce(vector);
                 
             }

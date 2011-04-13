@@ -31,7 +31,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         Vector2 distance = new Vector2();
 
-        
+        string textureString;
 
         Fixture fixture;
         float width, height;
@@ -51,21 +51,21 @@ namespace Project290.Games.Solitude.SolitudeObjects
             drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
             switch (type){
                 case WallType.Smooth:
-                    texture = TextureStatic.Get("solitudeWallSmooth");      break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallSmooth";      break;
                 case WallType.HandHold:
-                    texture = TextureStatic.Get("solitudeWallHandHold");    break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallHandHold";    break;
                 case WallType.Grip:
-                    texture = TextureStatic.Get("solitudeWallGrip");        break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallGrip";        break;
                 case WallType.Metal:
-                    texture = TextureStatic.Get("solitudeWallMetal");       break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallMetal";       break;
                 case WallType.Hot:
-                    texture = TextureStatic.Get("solitudeWallHot");         break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallHot";         break;
                 case WallType.Cold:
-                    texture = TextureStatic.Get("solitudeWallCold");        break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallCold";        break;
                 case WallType.Spike:
-                    texture = TextureStatic.Get("solitudeWallSpike");       break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallSpike";       break;
                 case WallType.Door:
-                    texture = TextureStatic.Get("solitudeWallDoor");        break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallDoor";        break;
             }
         }
 
@@ -78,12 +78,48 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
             Console.WriteLine("COLLISION");
             // Check if f2 is player
-            if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
+            if (f2 == SolitudeScreen.ship.Player.PlayerFixture && type != WallType.Smooth)
             {
+
+                if (type == WallType.HandHold) //grab on to wall
+                {
+                    SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
+                    SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
+                }
+                else if (SolitudeScreen.ship.Player.hasGloves && type == WallType.Grip) // grab if player has gloves
+                {
+                    SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
+                    SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
+                }
+                else if (SolitudeScreen.ship.Player.hasBoots && type == WallType.Metal) // grab if player has boots
+                {
+                    SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
+                    SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
+                }
+                else //otherwise
+                {
+                    switch (type) //switch because player info is irrelevant
+                    {
+                        case WallType.Cold:
+                            break;
+                        case WallType.Hot:
+                            break;
+                        case WallType.Spike:
+                            break;
+                        case WallType.Door:
+                            break;
+                    }
+
+                }
+
                 distance.X = Math.Abs(f2.Body.Position.X - f1.Body.Position.X);
                 distance.Y = Math.Abs(f2.Body.Position.Y - f1.Body.Position.Y);
+
                 switch (type)
                 {
+                    
+
+
                     case WallType.Smooth: 
                         // ball is above or below wall
                         if (distance.X > distance.Y)
@@ -106,7 +142,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public override void Draw()
         {
             Drawer.Draw(
-                TextureStatic.Get("solitudeWallHandHold"),
+                TextureStatic.Get(textureString),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
                 drawRectangle,
                 Color.White,
