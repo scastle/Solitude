@@ -27,7 +27,17 @@ namespace Project290.Games.Solitude.SolitudeObjects
         bool hasSpaceSuit;
         bool hasJetpack;
 
-        int width = 128, height = 256;
+        /// <summary>
+        /// a vector to use for updating and drawing
+        /// </summary>
+        Vector2 vector = new Vector2();
+
+        /// <summary>
+        /// rectangle used for drawing
+        /// </summary>
+        Rectangle rect;
+
+        int width = 32, height = 64;
 
         public Fixture PlayerFixture;
 
@@ -35,9 +45,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
             : base(position, world)
         {
             body.BodyType = BodyType.Dynamic;
-            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .005f, Settings.zero, body, null);
+            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Settings.zero, body, null);
 
             texture = TextureStatic.Get("solitudePlayer");
+
+            rect = new Rectangle(0, 0, width, height);
 
             oxygen = 100;
             oxygenCap = 100;
@@ -63,12 +75,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 5. check damage from any effects
              * 
              */
-
+            Console.WriteLine(body.LinearVelocity);
             if (hasJetpack)
             {
-                float jetX = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
-                float jetY = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
-                body.ApplyForce(new Vector2(10000 * jetX, -10000 * jetY));
+                vector.X = 10000 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
+                vector.Y = -10000 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
+                body.ApplyForce(vector);
+                
             }
         }
         public override void Draw()
@@ -77,7 +90,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                new Rectangle(0, 0, width, height),
+                rect,
                 Color.White,
                 body.Rotation,
                 TextureStatic.GetOrigin("solitudePlayer"),

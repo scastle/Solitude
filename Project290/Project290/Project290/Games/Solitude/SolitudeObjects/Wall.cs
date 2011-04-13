@@ -25,6 +25,17 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// The type of wall for purposes of what happens to the player
         /// </summary>
         WallType type;
+
+        /// <summary>
+        /// used in oncollision method
+        /// </summary>
+        Vector2 distance = new Vector2();
+
+        /// <summary>
+        /// used for drawing
+        /// </summary>
+        Rectangle sourceRect;
+
         Fixture fixture;
         float width, height;
 
@@ -37,6 +48,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             type = t;
             this.width = width;
             this.height = height;
+
+            sourceRect = new Rectangle(0,0, (int)width, (int)height);
             switch (type){
                 case WallType.Smooth:
                     texture = TextureStatic.Get("solitudeWallSmooth");      break;
@@ -68,7 +81,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             // Check if f2 is player
             if (f1 == SolitudeScreen.ship.Player.PlayerFixture)
             {
-                Vector2 distance = new Vector2(Math.Abs(f2.Body.Position.X - f1.Body.Position.X), Math.Abs(f2.Body.Position.Y - f1.Body.Position.Y));
+                distance.X = Math.Abs(f2.Body.Position.X - f1.Body.Position.X);
+                distance.Y = Math.Abs(f2.Body.Position.Y - f1.Body.Position.Y);
                 switch (type)
                 {
                     case WallType.Smooth: 
@@ -95,7 +109,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             Drawer.Draw(
                 TextureStatic.Get("solitudeWallHandHold"),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                new Rectangle(0, 0, (int)width, (int)height),
+                sourceRect,
                 Color.White,
                 body.Rotation,
                 TextureStatic.GetOrigin("solitudeWallHandHold"),
