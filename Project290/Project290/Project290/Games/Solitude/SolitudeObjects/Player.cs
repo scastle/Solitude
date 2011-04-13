@@ -35,7 +35,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             : base(position, world)
         {
             body.BodyType = BodyType.Dynamic;
-            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Settings.zero, body, null);
+            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .005f, Settings.zero, body, null);
 
             texture = TextureStatic.Get("solitudePlayer");
 
@@ -48,7 +48,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             hasBoots = false;
             hasENVSuit = false;
             hasSpaceSuit = false;
-            hasJetpack = false;
+            hasJetpack = true;
 
         }
 
@@ -63,6 +63,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 5. check damage from any effects
              * 
              */
+
+            if (hasJetpack)
+            {
+                float jetX = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
+                float jetY = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
+                body.ApplyForce(new Vector2(10000 * jetX, -10000 * jetY));
+            }
         }
         public override void Draw()
         {

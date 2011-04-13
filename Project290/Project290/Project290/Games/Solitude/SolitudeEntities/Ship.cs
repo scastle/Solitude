@@ -82,8 +82,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
-            Console.WriteLine(Player.body.Position);
-            PhysicalWorld.Step(0.3f);
+            //Console.WriteLine(Player.body.Position);
+            PhysicalWorld.Step(0.1f);
             Player.Update();
             GetCurrentRoom().Update();
         }
