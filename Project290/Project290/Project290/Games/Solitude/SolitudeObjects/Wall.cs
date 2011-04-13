@@ -42,11 +42,12 @@ namespace Project290.Games.Solitude.SolitudeObjects
             body.BodyType = BodyType.Static;
             world.AddBody(body);
             fixture = FixtureFactory.CreateRectangle(width, height, density, Vector2.Zero, body, null);
+            fixture.OnCollision += new OnCollisionEventHandler(OnCollision);
             type = t;
             this.width = width;
             this.height = height;
 
-            //sourceRect = new Rectangle(0,0, (int)width, (int)height);
+            
             drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
             switch (type){
                 case WallType.Smooth:
@@ -77,7 +78,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
             Console.WriteLine("COLLISION");
             // Check if f2 is player
-            if (f1 == SolitudeScreen.ship.Player.PlayerFixture)
+            if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
             {
                 distance.X = Math.Abs(f2.Body.Position.X - f1.Body.Position.X);
                 distance.Y = Math.Abs(f2.Body.Position.Y - f1.Body.Position.Y);

@@ -31,8 +31,12 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public SolitudeObject(Vector2 position, World world, Shape shape, float width, float height)
         {
             body = BodyFactory.CreateBody(world, position);
+
+            //currently in wall class:
             fixture = new Fixture(body, shape);
             fixture.OnCollision += new OnCollisionEventHandler(OnCollision);
+            //###################
+
             drawOrigin = new Vector2(width, height);
             drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
         }

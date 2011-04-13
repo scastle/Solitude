@@ -72,7 +72,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 5. check damage from any effects
              * 
              */
-            Console.WriteLine(body.LinearVelocity);
+            //Console.WriteLine(body.LinearVelocity);
             if (hasJetpack)
             {
                 vector.X = 10000 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);

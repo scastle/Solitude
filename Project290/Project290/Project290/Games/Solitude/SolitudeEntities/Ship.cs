@@ -55,7 +55,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             // initialize all rooms? replace this later once we have all the rooms
             rooms[0, 0] = new Room();
 
-            Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 1050), PhysicalWorld, 112, 115, 1, WallType.Smooth);
+            Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Smooth);
 
             PhysicalWorld.AddBody(Player.body);
             PhysicalWorld.AddBody(w.body);
