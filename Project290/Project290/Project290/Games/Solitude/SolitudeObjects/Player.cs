@@ -48,18 +48,18 @@ namespace Project290.Games.Solitude.SolitudeObjects
             body.BodyType = BodyType.Dynamic;
             
             PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
-            PlayerFixture.Restitution = .2f;
+            PlayerFixture.Restitution = .5f;
             texture = TextureStatic.Get("solitudePlayer");
 
             onWall = false;
             jumpCounter = 0;
 
-            oxygen = 100;
-            oxygenCap = 100;
-            fuel = 100;
-            fuelCap = 100;
+            oxygen = 1000;
+            oxygenCap = 1000;
+            fuel = 1000;
+            fuelCap = 1000;
 
-            hasGloves = false;
+            hasGloves = true;
             hasBoots = false;
             hasENVSuit = false;
             hasSpaceSuit = false;
@@ -76,7 +76,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 3. lay bomb or use EMP: X or Y
              * 4. is jetpack enabled? yes = calc jetpack force
              * 5. check damage from any effects
-             * 
              */
 
             if (!body.LinearVelocity.Equals(Vector2.Zero))
@@ -113,8 +112,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
                             body.ApplyLinearImpulse(1000 * vector * jumpCounter);
                             onWall = false;
                         }
-
-                        
                     }
                     jumpCounter = 0;
                 }
@@ -122,12 +119,19 @@ namespace Project290.Games.Solitude.SolitudeObjects
             }
 
             //Console.WriteLine(body.LinearVelocity);
-            if (hasJetpack)
+            if (hasJetpack && fuel > 0)
             {
 
-                vector.X = Settings.jetPackForceMult * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
-                vector.Y = -1 * Settings.jetPackForceMult * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
-                body.ApplyForce(vector);
+                vector.X = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
+                vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
+                if (!vector.Equals(Vector2.Zero))
+                {
+                    vector.Normalize();
+                    fuel--;
+                    body.ApplyForce(vector * Settings.jetPackForceMult);
+                }
+                
+
                 
             }
         }

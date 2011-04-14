@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-grip.xnb</Output>
-      <Time>2011-04-13T00:44:13.1725187-04:00</Time>
+      <Time>2011-04-13T21:44:30.570073-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-handhold.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-handhold.xnb</Output>
-      <Time>2011-04-13T00:44:13.1745188-04:00</Time>
+      <Time>2011-04-13T21:44:14.8991767-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-hot.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-smooth.xnb</Output>
-      <Time>2011-04-13T00:44:13.1795191-04:00</Time>
+      <Time>2011-04-13T21:44:51.9542961-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-spike.png</Source>

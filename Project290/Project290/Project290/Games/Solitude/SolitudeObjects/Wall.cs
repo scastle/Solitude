@@ -76,7 +76,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
         {
-            Console.WriteLine("COLLISION");
+            
             // Check if f2 is player
             if (f2 == SolitudeScreen.ship.Player.PlayerFixture && type != WallType.Smooth)
             {

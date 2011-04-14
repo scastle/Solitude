@@ -57,14 +57,15 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Smooth);
             Wall h = new Wall(new Microsoft.Xna.Framework.Vector2(25, 270), PhysicalWorld, 16, 512, 1, WallType.HandHold);
-            
+            Wall i = new Wall(new Microsoft.Xna.Framework.Vector2(200, 270), PhysicalWorld, 256, 16, 1, WallType.Grip);
             PhysicalWorld.AddBody(Player.body);
             PhysicalWorld.AddBody(w.body);
             PhysicalWorld.AddBody(h.body);
+            PhysicalWorld.AddBody(i.body);
 
             GetCurrentRoom().Add(w);
             GetCurrentRoom().Add(h);
-            
+            GetCurrentRoom().Add(i);
             Player.body.ApplyLinearImpulse(new Microsoft.Xna.Framework.Vector2(-5000, 5000));
 
             r = 0;
