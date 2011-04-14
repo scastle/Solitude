@@ -46,8 +46,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
             : base(position, world, (float)Player.width, (float)Player.height)
         {
             body.BodyType = BodyType.Dynamic;
+            
             PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
-
+            PlayerFixture.Restitution = .2f;
             texture = TextureStatic.Get("solitudePlayer");
 
             onWall = false;
@@ -88,20 +89,34 @@ namespace Project290.Games.Solitude.SolitudeObjects
             {
                 if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.AButton))
                 {
-                    if (jumpCounter < 500000)
+                    if (jumpCounter < 125)
+                    {
                         jumpCounter++;
+                    }else{
+                        jumpCounter = 125;
+                    }
+
                 }
                 else
                 {
                     if (jumpCounter > 0)
                     {
                         //jump
-                        vector.X = jumpCounter * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
-                        vector.Y = -1 * jumpCounter * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
-                        body.ApplyLinearImpulse(1000 * vector);
-                        jumpCounter = 0;
-                        onWall = false;
+                        vector.X =  GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
+                        vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
+
+                        
+
+                        if (!vector.Equals(Vector2.Zero))
+                        {
+                            vector.Normalize();
+                            body.ApplyLinearImpulse(1000 * vector * jumpCounter);
+                            onWall = false;
+                        }
+
+                        
                     }
+                    jumpCounter = 0;
                 }
 
             }
