@@ -6,6 +6,7 @@ using Project290.Games.Solitude.SolitudeTools;
 using Project290.Games.Solitude.SolitudeObjects;
 using Project290.Physics.Collision;
 using Project290.Physics.Dynamics;
+using Microsoft.Xna.Framework;
 
 namespace Project290.Games.Solitude.SolitudeEntities
 {
@@ -41,6 +42,11 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         static int c;
 
+        /// <summary>
+        /// smooth walls bound every room
+        /// </summary>
+        static List<Wall> border = new List<Wall>();
+
         public Room GetCurrentRoom()
         {
             return rooms[r, c];
@@ -49,15 +55,36 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public Ship()
         {
-            PhysicalWorld = new World(Microsoft.Xna.Framework.Vector2.Zero);
-            Player = new Player(new Microsoft.Xna.Framework.Vector2(1200f, 600f), PhysicalWorld);
+            PhysicalWorld = new World(Vector2.Zero);
+            Player = new Player(new Vector2(1200f, 600f), PhysicalWorld);
+
+            
+            border.Add(new Wall(Vector2.Zero, PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
+            border.Add(new Wall(Vector2.Zero, PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(0, 1048), PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(1920, 0), PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
+
+
+            foreach (Wall j in border){
+                PhysicalWorld.AddBody(j.body);
+            }
+
+
+
+
             rooms = new Room[Settings.maxShipRows, Settings.maxShipColumns];
+
+
+
+
+
+
             // initialize all rooms? replace this later once we have all the rooms
             rooms[0, 0] = new Room();
 
-            Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Smooth);
+            Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Grip);
             Wall h = new Wall(new Microsoft.Xna.Framework.Vector2(25, 270), PhysicalWorld, 16, 512, 1, WallType.HandHold);
-            Wall i = new Wall(new Microsoft.Xna.Framework.Vector2(200, 270), PhysicalWorld, 256, 16, 1, WallType.Grip);
+            Wall i = new Wall(new Microsoft.Xna.Framework.Vector2(200, 270), PhysicalWorld, 256, 16, 1, WallType.Smooth);
             PhysicalWorld.AddBody(Player.body);
             PhysicalWorld.AddBody(w.body);
             PhysicalWorld.AddBody(h.body);
@@ -93,6 +120,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
         }
         public void Draw()
         {
+            foreach (Wall j in border)
+            {
+                j.Draw();
+            }
             Player.Draw();
             GetCurrentRoom().Draw();
         }

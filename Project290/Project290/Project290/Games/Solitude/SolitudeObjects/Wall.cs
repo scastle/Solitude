@@ -15,7 +15,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 {
     public enum WallType
     {
-        Smooth, HandHold, Grip, Metal, Hot, Cold, Spike, Door
+        Smooth, HandHold, Grip, Metal, Hot, Cold, Spike
     }
 
 
@@ -31,7 +31,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         Vector2 distance = new Vector2();
 
-        string textureString;
+        public string textureString;
 
         Fixture fixture;
         float width, height;
@@ -64,8 +64,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     textureString = /*TextureStatic.Get(*/"solitudeWallCold";        break;
                 case WallType.Spike:
                     textureString = /*TextureStatic.Get(*/"solitudeWallSpike";       break;
-                case WallType.Door:
-                    textureString = /*TextureStatic.Get(*/"solitudeWallDoor";        break;
             }
         }
 
@@ -108,8 +106,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         case WallType.Hot:
                             break;
                         case WallType.Spike:
-                            break;
-                        case WallType.Door:
                             break;
                     }
 

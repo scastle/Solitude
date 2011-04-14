@@ -21,6 +21,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<Object> contents;
 
+        
+
         public Room()
         {
             contents = new List<object>();
