@@ -20,12 +20,16 @@ namespace Project290.Games.Solitude.SolitudeObjects
         int numBombs;
         int numEMP;
 
+        public bool onWall;
+
         //Booleans to track upgrade levels
         public bool hasGloves;
         public bool hasBoots;
         public bool hasENVSuit;
         public bool hasSpaceSuit;
         public bool hasJetpack;
+
+        int jumpCounter;
 
         /// <summary>
         /// a vector to use for updating and drawing
@@ -46,7 +50,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             texture = TextureStatic.Get("solitudePlayer");
 
-            
+            onWall = false;
+            jumpCounter = 0;
 
             oxygen = 100;
             oxygenCap = 100;
@@ -72,9 +77,39 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 5. check damage from any effects
              * 
              */
+
+            if (!body.LinearVelocity.Equals(Vector2.Zero))
+            {
+                jumpCounter = 0;
+                onWall = false;
+            }
+
+            if (onWall)
+            {
+                if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.AButton))
+                {
+                    if (jumpCounter < 500000)
+                        jumpCounter++;
+                }
+                else
+                {
+                    if (jumpCounter > 0)
+                    {
+                        //jump
+                        vector.X = jumpCounter * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
+                        vector.Y = -1 * jumpCounter * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
+                        body.ApplyLinearImpulse(1000 * vector);
+                        jumpCounter = 0;
+                        onWall = false;
+                    }
+                }
+
+            }
+
             //Console.WriteLine(body.LinearVelocity);
             if (hasJetpack)
             {
+
                 vector.X = Settings.jetPackForceMult * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookHorizontal);
                 vector.Y = -1 * Settings.jetPackForceMult * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
                 body.ApplyForce(vector);

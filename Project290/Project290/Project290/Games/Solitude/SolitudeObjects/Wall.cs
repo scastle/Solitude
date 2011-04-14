@@ -85,16 +85,19 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 {
                     SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
                     SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
+                    SolitudeScreen.ship.Player.onWall = true;
                 }
                 else if (SolitudeScreen.ship.Player.hasGloves && type == WallType.Grip) // grab if player has gloves
                 {
                     SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
                     SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
+                    SolitudeScreen.ship.Player.onWall = true;
                 }
                 else if (SolitudeScreen.ship.Player.hasBoots && type == WallType.Metal) // grab if player has boots
                 {
                     SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
                     SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
+                    SolitudeScreen.ship.Player.onWall = true;
                 }
                 else //otherwise
                 {
