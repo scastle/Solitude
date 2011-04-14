@@ -11,6 +11,12 @@ using Microsoft.Xna.Framework;
 
 namespace Project290.Games.Solitude
 {
+
+    public enum Direction
+    {
+        Up, Down, Left, Right
+    }
+
     /// <summary>
     /// Object of the whole game.
     /// contains the ship, player, and objects, and governs interactions

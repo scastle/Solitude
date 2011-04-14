@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Project290.Rendering;
+using Project290.Games.Solitude;
 using Project290.Physics.Dynamics;
 
 namespace Project290.Games.Solitude.SolitudeObjects
 {
-    public enum Direction
-    {
-        Up, Down, Left, Right
-    }
+
 
     public class Door : Wall
     {
@@ -27,7 +27,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 case WallType.Smooth:
                     textureString = /*TextureStatic.Get(*/"solitudeDoorSmooth"; break;
                 case WallType.HandHold:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorHandHold"; break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallHandHold"; break;
                 case WallType.Grip:
                     textureString = /*TextureStatic.Get(*/"solitudeDoorGrip"; break;
                 case WallType.Metal:
@@ -41,12 +41,28 @@ namespace Project290.Games.Solitude.SolitudeObjects
             }
             direction = d;
 
-         
+            Console.WriteLine(textureString);
 
         }
         public void Enter()
         {
             SolitudeScreen.ship.EnterRoom(direction);
+        }
+
+        public override void Draw()
+        {
+            
+            Drawer.Draw(
+                TextureStatic.Get(textureString),
+                body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                drawRectangle,
+                Color.White,
+                body.Rotation,
+                drawOrigin,//TextureStatic.GetOrigin("solitudeWallHandHold"),
+                1,
+                SpriteEffects.None,
+                .8f);
+
         }
 
     }

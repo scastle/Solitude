@@ -81,22 +81,32 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             // initialize all rooms? replace this later once we have all the rooms
             rooms[0, 0] = new Room();
+            
 
             Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Grip);
             Wall h = new Wall(new Microsoft.Xna.Framework.Vector2(25, 270), PhysicalWorld, 16, 512, 1, WallType.HandHold);
             Wall i = new Wall(new Microsoft.Xna.Framework.Vector2(200, 270), PhysicalWorld, 256, 16, 1, WallType.Smooth);
+            Door door = new Door(new Vector2(1800, 500), PhysicalWorld, 32, 400, 1, WallType.HandHold, Direction.Right);
+            door.textureString = "solitudeWallCold";
+
             PhysicalWorld.AddBody(Player.body);
             PhysicalWorld.AddBody(w.body);
             PhysicalWorld.AddBody(h.body);
             PhysicalWorld.AddBody(i.body);
+            PhysicalWorld.AddBody(door.body);
+
+            r = 0;
+            c = 0;
 
             GetCurrentRoom().Add(w);
             GetCurrentRoom().Add(h);
             GetCurrentRoom().Add(i);
             Player.body.ApplyLinearImpulse(new Microsoft.Xna.Framework.Vector2(-5000, 5000));
 
-            r = 0;
-            c = 0;
+            rooms[1, 0] = new Room();
+            Wall sdfa = new Wall(new Vector2(200, 400), PhysicalWorld, 32, 512, 1, WallType.HandHold);
+            rooms[1,0].Add(sdfa);
+
         }
 
         /// <summary>
