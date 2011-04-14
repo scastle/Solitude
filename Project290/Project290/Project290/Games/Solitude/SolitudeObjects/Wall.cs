@@ -19,7 +19,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
     }
 
 
-    class Wall : SolitudeObject
+    public class Wall : SolitudeObject
     {
         /// <summary>
         /// The type of wall for purposes of what happens to the player
@@ -84,18 +84,21 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
                     SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
                     SolitudeScreen.ship.Player.onWall = true;
+                    SolitudeScreen.ship.Player.standingOn = this;
                 }
                 else if (SolitudeScreen.ship.Player.hasGloves && type == WallType.Grip) // grab if player has gloves
                 {
                     SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
                     SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
                     SolitudeScreen.ship.Player.onWall = true;
+                    SolitudeScreen.ship.Player.standingOn = this;
                 }
                 else if (SolitudeScreen.ship.Player.hasBoots && type == WallType.Metal) // grab if player has boots
                 {
                     SolitudeScreen.ship.Player.body.LinearVelocity = Vector2.Zero;
                     SolitudeScreen.ship.Player.body.AngularVelocity = 0f;
                     SolitudeScreen.ship.Player.onWall = true;
+                    SolitudeScreen.ship.Player.standingOn = this;
                 }
                 else //otherwise
                 {
@@ -111,28 +114,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
                 }
 
-                distance.X = Math.Abs(f2.Body.Position.X - f1.Body.Position.X);
-                distance.Y = Math.Abs(f2.Body.Position.Y - f1.Body.Position.Y);
-
-                switch (type)
-                {
-                    
-
-
-                    case WallType.Smooth: 
-                        // ball is above or below wall
-                        if (distance.X > distance.Y)
-                        {
-                            //f1.Body.LinearVelocity = new Vector2(f1.Body.LinearVelocity.X, f1.Body.LinearVelocity.Y * -1);
-                            f1.Body.LinearVelocity = Vector2.Zero;
-                        }
-                        // ball is to left or right of wall
-                        else
-                        {
-                        }
-                        break;
-
-                }
             }
             // Check if f2 is other item (ie block)
             return true;

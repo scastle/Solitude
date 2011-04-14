@@ -36,7 +36,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         Vector2 vector = new Vector2();
 
-
+        /// <summary>
+        /// a reference to the wall/door the player is on.
+        /// </summary>
+        public Wall standingOn;
 
         public static int width = 32, height = 64;
 
@@ -51,6 +54,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             PlayerFixture.Restitution = .5f;
             texture = TextureStatic.Get("solitudePlayer");
 
+            standingOn = null;
             onWall = false;
             jumpCounter = 0;
 
@@ -82,10 +86,15 @@ namespace Project290.Games.Solitude.SolitudeObjects
             {
                 jumpCounter = 0;
                 onWall = false;
+                standingOn = null;
             }
 
             if (onWall)
             {
+                if (standingOn is Door && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButton))
+                {
+                    (standingOn as Door).Enter();
+                }
                 if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.AButton))
                 {
                     if (jumpCounter < 125)
@@ -111,6 +120,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                             vector.Normalize();
                             body.ApplyLinearImpulse(1000 * vector * jumpCounter);
                             onWall = false;
+                            standingOn = null;
                         }
                     }
                     jumpCounter = 0;

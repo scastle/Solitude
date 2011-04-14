@@ -110,6 +110,31 @@ namespace Project290.Games.Solitude.SolitudeEntities
             rooms[row,column] = Serializer.DeserializeFile<Room>(path);
         }
 
+        public void EnterRoom(Direction d)
+        {
+            foreach (SolitudeObject o in rooms[r, c].contents)
+            {
+                PhysicalWorld.RemoveBody(o.body);
+            }
+            switch (d)
+            {
+                case Direction.Up:
+                    c--; break;
+                case Direction.Down:
+                    c++; break;
+
+                case Direction.Right:
+                    r++; break;
+                case Direction.Left:
+                    r--; break;
+            }
+            foreach (SolitudeObject o in rooms[r, c].contents)
+            {
+                PhysicalWorld.AddBody(o.body);
+            }
+        }
+
+
 
         public void Update()
         {

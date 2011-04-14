@@ -7,11 +7,12 @@ using Project290.Physics.Dynamics;
 
 namespace Project290.Games.Solitude.SolitudeObjects
 {
-    enum Direction
+    public enum Direction
     {
         Up, Down, Left, Right
     }
-    class Door : Wall
+
+    public class Door : Wall
     {
         /// <summary>
         /// the side of the room the wall is on and the direction of the next room
@@ -40,7 +41,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
             }
             direction = d;
 
+         
 
         }
+        public void Enter()
+        {
+            SolitudeScreen.ship.EnterRoom(direction);
+        }
+
     }
 }
