@@ -15,23 +15,30 @@ using Microsoft.Xna.Framework.Content;
 namespace Project290.Games.Solitude.SolitudeEntities
 {
     /// <summary>
-    /// Stores information about the entire world!!! It has a matrix of all the rooms
+    /// Stores information about the entire world!!! It controls EVERYTHING
     /// and determines when to enter/exit rooms and handles their objects' transitions
     /// into and out of the physicsworld
     /// </summary>
     public class Ship
     {
+
         /// <summary>
-        /// The matrix containing each room in the game
+        /// a class that contains info about how to construct a room for loading from files.
+        /// an instance represents one object in a room
         /// </summary>
-        static Room[,] rooms;
-
-
         public class ObjectListItem
         {
+            /// <summary>
+            /// class name of the object to be created
+            /// </summary>
             public string type;
+ 
             public Vector2 position;
             public Vector2 dimensions;
+
+            /// <summary>
+            /// Additional information that should be used to build certain types of objects
+            /// </summary>
             public List<string> moreInfo;
         }
 
@@ -65,32 +72,25 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         static List<Wall> border = new List<Wall>();
 
-        public Room GetCurrentRoom()
-        {
-            return rooms[r, c];
-        }
-
-        struct Level
-        {
-        }
-
 
         public Ship()
         {
+            //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
             Player = new Player(new Vector2(1200f, 600f), PhysicalWorld);
-
             
             border.Add(new Wall(Vector2.Zero, PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
             border.Add(new Wall(Vector2.Zero, PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(0, 1048), PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(1920, 0), PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
 
-
             foreach (Wall j in border){
                 PhysicalWorld.AddBody(j.body);
             }
 
+
+            /* was testing writing
+             * 
             List<ObjectListItem> ol = new List<ObjectListItem>();
             
             ObjectListItem ob = new ObjectListItem();
@@ -108,17 +108,18 @@ namespace Project290.Games.Solitude.SolitudeEntities
             ob.moreInfo.Add("HandHold");
             ob.moreInfo.Add("Left");
             ol.Add(ob);
-            
+            */
             //Serializer.SerializeFile(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/testObject.xml", ol);
 
 
-
+            //load the first room
             List<ObjectListItem> read;
             read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-0-0.xml");
 
             contents = new List<object>();
-            Enter(read);
+            CreateObjects(read);
 
+            /**
             foreach (ObjectListItem m in read)
             {
                 Console.WriteLine(m.type);
@@ -129,15 +130,15 @@ namespace Project290.Games.Solitude.SolitudeEntities
                     Console.WriteLine(k);
                 }
             }
+            */
 
 
 
 
-
-            rooms = new Room[Settings.maxShipRows, Settings.maxShipColumns];
+            //rooms = new Room[Settings.maxShipRows, Settings.maxShipColumns];
 
             // initialize all rooms? replace this later once we have all the rooms
-            rooms[0, 0] = new Room();
+            //rooms[0, 0] = new Room();
             
             /*
             Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Grip);
@@ -217,7 +218,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         contents.Add(w);
         }
 
-
         private void ItemIsDoor(ObjectListItem o)
         {
                         WallType t;
@@ -255,7 +255,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents.Add(door);
         }
 
-        public void Enter(List<ObjectListItem> items)
+
+        public void CreateObjects(List<ObjectListItem> items)
         {
             foreach (ObjectListItem o in items)
             {
@@ -277,11 +278,14 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <param name="d"></param>
         public void EnterRoom(Direction d)
         {
-            foreach (SolitudeObject o in rooms[r, c].contents)
+            //get rid of last rooms objects
+            foreach (SolitudeObject o in contents)
             {
-
                 PhysicalWorld.RemoveBody(o.body);
             }
+            contents.Clear();
+
+            //find out where the next room is
             switch (d)
             {
                 case Direction.Up:
@@ -294,23 +298,25 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 case Direction.Left:
                     r--; break;
             }
-            foreach (SolitudeObject o in rooms[r, c].contents)
-            {
-                PhysicalWorld.AddBody(o.body);
-            }
+
+            //read the next room's file
+            string s = GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-";
+            s += r + "-" + c + ".xml";
+            List<ObjectListItem> read;
+            read = Serializer.DeserializeFile<List<ObjectListItem>>(s);
+
+            //create the objects
+            CreateObjects(read);
         }
 
 
 
         public void Update()
         {
-            
-            //Console.WriteLine(Player.body.Position);
             PhysicalWorld.Step(0.01f);
             Player.Update();
             foreach (SolitudeObject m in contents)
                 m.Update();
-            //GetCurrentRoom().Update();
         }
         public void Draw()
         {
@@ -321,7 +327,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             Player.Draw();
             foreach (SolitudeObject m in contents)
                 m.Draw();
-            //GetCurrentRoom().Draw();
         }
 
     }
