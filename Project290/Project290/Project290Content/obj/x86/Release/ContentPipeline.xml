@@ -245,6 +245,24 @@
       <Time>2011-04-15T01:06:48.9939007-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\bullet.png</Source>
+      <Name>Solitude\Art\bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\bullet.xnb</Output>
+      <Time>2011-04-14T21:14:04.7533505-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\sentinel.png</Source>
+      <Name>Solitude\Art\sentinel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\sentinel.xnb</Output>
+      <Time>2011-04-15T01:15:54.5801064-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -315,24 +333,6 @@
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlUp.xnb</Output>
       <Time>2003-02-07T06:47:28-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\bullet.png</Source>
-      <Name>Solitude\Art\bullet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\bullet.xnb</Output>
-      <Time>2011-04-14T21:14:04.7533505-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\sentinel.png</Source>
-      <Name>Solitude\Art\sentinel</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\sentinel.xnb</Output>
-      <Time>2011-04-15T01:15:54.5801064-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

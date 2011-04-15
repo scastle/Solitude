@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Project290.Games.Solitude.SolitudeObjects;
+using Project290.Physics.Dynamics;
 
 
 namespace Project290.Games.Solitude.SolitudeEntities

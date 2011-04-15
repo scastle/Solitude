@@ -73,7 +73,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             velocity.Y = Settings.BulletSpeed * velocity.Y / magnitude;
             
             Bullet b = new Bullet(velocity, body.Position, world, Color.Red, this.fixture);
-            SolitudeScreen.ship.GetCurrentRoom().Add(b);
+            SolitudeScreen.ship.contents.Add(b);
         }
     }
 
@@ -132,7 +132,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                     //SolitudeScreen.ship.Player.health -= Settings.BulletDamage;
                 }
                 world.RemoveBody(body);
-                SolitudeScreen.ship.GetCurrentRoom().contents.Remove(this);
+                SolitudeScreen.ship.contents.Remove(this);
             }
             return true;
         }
@@ -146,7 +146,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                     SolitudeScreen.ship.Player.oxygen -= Settings.BulletDamage;
                 }
                 world.RemoveBody(body);
-                SolitudeScreen.ship.GetCurrentRoom().contents.Remove(this);
+                SolitudeScreen.ship.contents.Remove(this);
             }
             return true;
         }

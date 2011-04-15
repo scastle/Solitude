@@ -36,11 +36,16 @@ namespace Project290.Games.Solitude.SolitudeObjects
         Fixture fixture;
         float width, height;
 
+        public Wall()
+        {
+
+        }
+
         public Wall(Vector2 position, World world, float width, float height, float density, WallType t)
             :base(position, world, width, height)
         {
             body.BodyType = BodyType.Static;
-            world.AddBody(body);
+            //world.AddBody(body);
             fixture = FixtureFactory.CreateRectangle(width, height, density, Vector2.Zero, body, null);
             fixture.OnCollision += new OnCollisionEventHandler(OnCollision);
             type = t;
