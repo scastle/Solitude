@@ -79,10 +79,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
             PhysicalWorld = new World(Vector2.Zero);
             Player = new Player(new Vector2(1200f, 600f), PhysicalWorld);
             
-            border.Add(new Wall(Vector2.Zero, PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
-            border.Add(new Wall(Vector2.Zero, PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
-            border.Add(new Wall(new Vector2(0, 1048), PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
-            border.Add(new Wall(new Vector2(1920, 0), PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(1727, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(960, 971), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
 
             foreach (Wall j in border){
                 PhysicalWorld.AddBody(j.body);

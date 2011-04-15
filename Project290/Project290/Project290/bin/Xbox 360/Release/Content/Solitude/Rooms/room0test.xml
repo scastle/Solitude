@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0"?>
 <ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <!--floor and ceiling-->
   <ObjectListItem>
     <type>Wall</type>
     <position>
-      <X>960</X>
-      <Y>140</Y>
+      <X>32</X>
+      <Y>32</Y>
     </position>
     <dimensions>
-      <X>1900</X>
-      <Y>32</Y>
+      <X>200</X>
+      <Y>200</Y>
     </dimensions>
     <moreInfo>
       <string>HandHold</string>
@@ -18,27 +17,12 @@
   <ObjectListItem>
     <type>Wall</type>
     <position>
-      <X>960</X>
-      <Y>939</Y>
-    </position>
-    <dimensions>
-      <X>1900</X>
-      <Y>32</Y>
-    </dimensions>
-    <moreInfo>
-      <string>HandHold</string>
-    </moreInfo>
-  </ObjectListItem>
-  
-  <ObjectListItem>
-    <type>Wall</type>
-    <position>
-      <X>876</X>
+      <X>300</X>
       <Y>500</Y>
     </position>
     <dimensions>
       <X>32</X>
-      <Y>400</Y>
+      <Y>256</Y>
     </dimensions>
     <moreInfo>
       <string>Smooth</string>
@@ -47,8 +31,22 @@
   <ObjectListItem>
     <type>Wall</type>
     <position>
-      <X>600</X>
-      <Y>870</Y>
+      <X>400</X>
+      <Y>800</Y>
+    </position>
+    <dimensions>
+      <X>324</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Grip</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>950</X>
+      <Y>150</Y>
     </position>
     <dimensions>
       <X>256</X>
@@ -59,28 +57,27 @@
     </moreInfo>
   </ObjectListItem>
   <ObjectListItem>
-    <type>Door</type>
+    <type>Sentinel</type>
     <position>
-      <X>224</X>
-      <Y>540</Y>
+      <X>800</X>
+      <Y>800</Y>
     </position>
     <dimensions>
-      <X>32</X>
-      <Y>200</Y>
+      <X>80</X>
+      <Y>80</Y>
     </dimensions>
     <moreInfo>
-      <string>Grip</string>
-      <string>Left</string>
+      <string>3</string>
     </moreInfo>
   </ObjectListItem>
   <ObjectListItem>
     <type>Door</type>
     <position>
-      <X>1695</X>
-      <Y>540</Y>
+      <X>1700</X>
+      <Y>300</Y>
     </position>
     <dimensions>
-      <X>32</X>
+      <X>50</X>
       <Y>200</Y>
     </dimensions>
     <moreInfo>

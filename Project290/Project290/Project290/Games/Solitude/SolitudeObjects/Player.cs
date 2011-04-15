@@ -96,8 +96,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 if (standingOn is Door && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButtonFirst))
                 {
                     (standingOn as Door).Enter();
-                    //standingOn = null;
-                    //onWall = false;
                     jumpCounter = 0;
                 }
                 if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.AButton))
