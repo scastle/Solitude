@@ -19,13 +19,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <summary>
         /// List of ALL objects that need to be put into the room
         /// </summary>
-        public List<Object> contents;
-
+        public List<SolitudeObject> contents;
         
 
         public Room()
         {
-            contents = new List<object>();
+            contents = new List<SolitudeObject>();
         }
         public void Add(SolitudeObject item)
         {
@@ -38,13 +37,11 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public void Update()
         {
-            foreach (SolitudeObject m in contents)
-                m.Update();
+            contents.ForEach(i => i.Update());
         }
         public void Draw()
         {
-            foreach (SolitudeObject m in contents)
-                m.Draw();
+            contents.ForEach(i => i.Draw());
         }
 
     }

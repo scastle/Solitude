@@ -14,7 +14,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
     public class Player : SolitudeObject
     {
         //integers tracking stats and inventory
-        int oxygen, oxygenCap;
+        public int oxygen, oxygenCap;
         int fuel, fuelCap;
         int lives;
         int numBombs;
@@ -41,7 +41,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         public Wall standingOn;
 
-        public static int width = 32, height = 64;
+        public static int width = 33, height = 56;
 
         public Fixture PlayerFixture;
 

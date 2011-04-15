@@ -64,7 +64,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             border.Add(new Wall(new Vector2(0, 1048), PhysicalWorld, 4920, 32, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(1920, 0), PhysicalWorld, 32, 2080, 1f, WallType.Smooth));
 
-
             foreach (Wall j in border){
                 PhysicalWorld.AddBody(j.body);
             }
@@ -98,9 +97,13 @@ namespace Project290.Games.Solitude.SolitudeEntities
             r = 0;
             c = 0;
 
+            Solitude.SolitudeObjects.Enemies.Sentinel s = new SolitudeObjects.Enemies.Sentinel(new Vector2(700, 250), new Vector2(0, 0), PhysicalWorld);
+            GetCurrentRoom().Add(s);
+
             GetCurrentRoom().Add(w);
             GetCurrentRoom().Add(h);
             GetCurrentRoom().Add(i);
+
             Player.body.ApplyLinearImpulse(new Microsoft.Xna.Framework.Vector2(-5000, 5000));
 
             rooms[1, 0] = new Room();

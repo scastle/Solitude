@@ -125,3 +125,6 @@ C:\Users\Michael\Desktop\git projects\Solitude\Project290\Project290\Project290\
 C:\Users\Michael\Desktop\git projects\Solitude\Project290\Project290\Project290\obj\x86\Release\Project290.exe
 C:\Users\Michael\Desktop\git projects\Solitude\Project290\Project290\Project290\obj\x86\Release\Project290.pdb
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtSolitude.jpg
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtSolitude.jpg
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\bullet.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\sentinel.xnb

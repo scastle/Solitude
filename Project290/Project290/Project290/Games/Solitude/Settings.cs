@@ -24,5 +24,25 @@ namespace Project290.Games.Solitude
         /// a constant governing jetpack strength.
         /// </summary>
         public static int jetPackForceMult = 30000;
+
+        /// <summary>
+        /// The amount a damage a punch does
+        /// </summary>
+        public static int PunchDamage = 50;
+
+        /// <summary>
+        /// The amount of damage a bullet does
+        /// </summary>
+        public static int BulletDamage = 50;
+
+        /// <summary>
+        /// The speed of a bullet
+        /// </summary>
+        public static int BulletSpeed = 400;
+
+        /// <summary>
+        /// Time (in seconds) between shots for the Sentinel
+        /// </summary>
+        public static int SentinelShootRate = 2;
     }
 }

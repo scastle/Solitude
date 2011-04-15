@@ -71,6 +71,8 @@ namespace Project290.GameElements
             TextureStatic.Load("solitudeWallCold", @"Solitude\Art\wall-cold");
             TextureStatic.Load("solitudeWallSpike", @"Solitude\Art\wall-spike");
             TextureStatic.Load("solitudeWallDoor", @"Solitude\Art\wall-door");
+            TextureStatic.Load("bullet", @"Solitude\Art\bullet");
+            TextureStatic.Load("sentinel", @"Solitude\Art\sentinel");
 
             //load the player
             TextureStatic.Load("solitudePlayer", @"Solitude\Art\player");
