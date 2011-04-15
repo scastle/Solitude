@@ -208,6 +208,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             switch (s[0])
             {
                 case "3": i = 3; break;
+                case "4": i = 4; break;
                 default: i = 5; break;
             }
             SolitudeObjects.Enemies.Sentinel sn = new SolitudeObjects.Enemies.Sentinel(o.position, o.dimensions, PhysicalWorld, i);
@@ -262,7 +263,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             //read the next room's file
             string s = GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-";
-            s += r + "-" + c + ".xml";
+            s += r + "-" + c +".xml";
             List<ObjectListItem> read;
             read = Serializer.DeserializeFile<List<ObjectListItem>>(s);
 
@@ -279,8 +280,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             Player.Update();
             
             contents.ForEach(i => i.Update());
-            //foreach (SolitudeObject m in contents)
-            //    m.Update();
         }
         public void Draw()
         {
@@ -289,8 +288,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 j.Draw();
             }
             Player.Draw();
-            foreach (SolitudeObject m in contents)
-                m.Draw();
+            contents.ForEach(i => i.Draw());
         }
 
     }

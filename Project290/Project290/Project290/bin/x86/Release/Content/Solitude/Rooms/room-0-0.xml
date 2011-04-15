@@ -3,8 +3,8 @@
   <ObjectListItem>
     <type>Wall</type>
     <position>
-      <X>0</X>
-      <Y>0</Y>
+      <X>32</X>
+      <Y>32</Y>
     </position>
     <dimensions>
       <X>200</X>
@@ -82,7 +82,7 @@
     </dimensions>
     <moreInfo>
       <string>HandHold</string>
-      <string>Left</string>
+      <string>Right</string>
     </moreInfo>
   </ObjectListItem>
 </ArrayOfObjectListItem>
