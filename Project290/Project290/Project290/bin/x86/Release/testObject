@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <type>Wall</type>
+  <position>
+    <X>0</X>
+    <Y>0</Y>
+  </position>
+  <dimensions>
+    <X>500</X>
+    <Y>500</Y>
+  </dimensions>
+  <moreInfo>
+    <string>HandHold</string>
+  </moreInfo>
+</ObjectListItem>

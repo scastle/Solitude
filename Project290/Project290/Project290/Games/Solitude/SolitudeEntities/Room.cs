@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Project290.Games.Solitude.SolitudeObjects;
+using Project290.Physics.Dynamics;
 
 
 namespace Project290.Games.Solitude.SolitudeEntities
@@ -21,10 +22,11 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<Object> contents;
 
-        
+        //public World world;
 
         public Room()
         {
+            
             contents = new List<object>();
         }
         public void Add(SolitudeObject item)
@@ -45,6 +47,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
         {
             foreach (SolitudeObject m in contents)
                 m.Draw();
+
         }
 
     }

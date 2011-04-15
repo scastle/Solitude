@@ -20,6 +20,12 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public Body body;
         public Fixture fixture;
 
+        public SolitudeObject()
+        {
+        }
+
+
+
         public SolitudeObject(Vector2 position, World world, float width, float height)
         {
             

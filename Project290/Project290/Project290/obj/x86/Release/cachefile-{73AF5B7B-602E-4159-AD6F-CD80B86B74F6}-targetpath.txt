@@ -33,5 +33,7 @@ Content\Shared\Sounds\menuScrollDown.xnb
 Content\Shared\Sounds\menuScrollUp.xnb
 Content\Shared\Sounds\volumeControlDown.xnb
 Content\Shared\Sounds\volumeControlUp.xnb
+Content\Solitude\Music\testObject.xml
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Shared\Art\SolitudeInstructions.png
+Content\Solitude\Rooms\room-0-0.xml

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>1700</X>
+      <Y>300</Y>
+    </position>
+    <dimensions>
+      <X>50</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Left</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>1700</X>
+      <Y>300</Y>
+    </position>
+    <dimensions>
+      <X>50</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Left</string>
+    </moreInfo>
+  </ObjectListItem>
+</ArrayOfObjectListItem>
