@@ -65,7 +65,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <summary>
         /// A list of objects in the room
         /// </summary>
-        public List<object> contents;
+        public List<SolitudeObject> contents;
 
         /// <summary>
         /// smooth walls bound every room
@@ -116,62 +116,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
             List<ObjectListItem> read;
             read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-0-0.xml");
 
-            contents = new List<object>();
+            contents = new List<SolitudeObject>();
             CreateObjects(read);
-
-            /**
-            foreach (ObjectListItem m in read)
-            {
-                Console.WriteLine(m.type);
-                Console.WriteLine(m.position.ToString());
-                Console.WriteLine(m.dimensions.ToString());
-                foreach (object k in m.moreInfo)
-                {
-                    Console.WriteLine(k);
-                }
-            }
-            */
-
-
-
-
-            //rooms = new Room[Settings.maxShipRows, Settings.maxShipColumns];
-
-            // initialize all rooms? replace this later once we have all the rooms
-            //rooms[0, 0] = new Room();
-            
-            /*
-            Wall w = new Wall(new Microsoft.Xna.Framework.Vector2(950, 750), PhysicalWorld, 112, 500, 1, WallType.Grip);
-            Wall h = new Wall(new Microsoft.Xna.Framework.Vector2(25, 270), PhysicalWorld, 16, 512, 1, WallType.HandHold);
-            Wall i = new Wall(new Microsoft.Xna.Framework.Vector2(200, 270), PhysicalWorld, 256, 16, 1, WallType.Smooth);
-            Door door = new Door(new Vector2(1800, 500), PhysicalWorld, 32, 400, 1, WallType.HandHold, Direction.Right);
-           // door.textureString = "solitudeWallCold";
-
-            PhysicalWorld.AddBody(Player.body);
-            PhysicalWorld.AddBody(w.body);
-            PhysicalWorld.AddBody(h.body);
-            PhysicalWorld.AddBody(i.body);
-            PhysicalWorld.AddBody(door.body);
-
-            r = 0;
-            c = 0;
-
-            GetCurrentRoom().Add(w);
-            GetCurrentRoom().Add(h);
-            GetCurrentRoom().Add(i);
-            GetCurrentRoom().Add(door);
-            Player.body.ApplyLinearImpulse(new Microsoft.Xna.Framework.Vector2(-5000, 5000));
-
-            rooms[1, 0] = new Room();
-            Wall sdfa = new Wall(new Vector2(200, 400), PhysicalWorld, 32, 512, 1, WallType.HandHold);
-            Door door2 = new Door(new Vector2(100, 600), PhysicalWorld, 32, 400, 1, WallType.HandHold, Direction.Left);
-            rooms[1,0].Add(sdfa);
-            rooms[1, 0].Add(door2);
-            */
-
-
-            //Serializer.SerializeFile(@"Solitude/room-0-0", rooms[0, 0]);
-            //Serializer.SerializeFile(@"Solitude/room-1-0", rooms[1, 0]);
 
         }
 
@@ -255,6 +201,18 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents.Add(door);
         }
 
+        private void ItemIsSentinel(ObjectListItem o)
+        {
+            string[] s = o.moreInfo.ToArray();
+            int i;
+            switch (s[0])
+            {
+                case "3": i = 3; break;
+                default: i = 5; break;
+            }
+            SolitudeObjects.Enemies.Sentinel sn = new SolitudeObjects.Enemies.Sentinel(o.position, o.dimensions, PhysicalWorld, i);
+            contents.Add(sn);
+        }
 
         public void CreateObjects(List<ObjectListItem> items)
         {
@@ -267,6 +225,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         break;
                     case "Door":
                         ItemIsDoor(o);
+                        break;
+                    case "Sentinel":
+                        ItemIsSentinel(o);
                         break;
                 }
             }
@@ -311,12 +272,15 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
 
 
+
         public void Update()
         {
             PhysicalWorld.Step(0.01f);
             Player.Update();
-            foreach (SolitudeObject m in contents)
-                m.Update();
+            
+            contents.ForEach(i => i.Update());
+            //foreach (SolitudeObject m in contents)
+            //    m.Update();
         }
         public void Draw()
         {

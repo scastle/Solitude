@@ -14,7 +14,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
     public class Player : SolitudeObject
     {
         //integers tracking stats and inventory
-        int oxygen, oxygenCap;
+        public int oxygen, oxygenCap;
         int fuel, fuelCap;
         int lives;
         int numBombs;
@@ -41,7 +41,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         public Wall standingOn;
 
-        public static int width = 32, height = 64;
+        public static int width = 33, height = 56;
 
         public Fixture PlayerFixture;
 
@@ -49,8 +49,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             : base(position, world, (float)Player.width, (float)Player.height)
         {
             body.BodyType = BodyType.Dynamic;
-            
-            PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
+            PlayerFixture = FixtureFactory.CreateEllipse(width / 2, height / 2, 32, .1f, body);
+            //PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
             PlayerFixture.Restitution = .5f;
             texture = TextureStatic.Get("solitudePlayer");
 

@@ -47,8 +47,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
             drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
         }
 
-        public void Update() 
+        virtual public void Update() 
         {
+            //Console.WriteLine(this);
         }
 
         public bool OnCollision(Fixture f1, Fixture f2, Contact c)

@@ -81,6 +81,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Solitude\Music\" />
     <Folder Include="Solitude\Sounds\" />
   </ItemGroup>
   <ItemGroup>
@@ -252,12 +253,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Solitude\Music\testObject.xml">
-      <Name>testObject</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Compile Include="Solitude\Art\bullet.png">
+      <Name>bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Art\sentinel.png">
+      <Name>sentinel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Solitude\Rooms\room-0-0.xml">
       <Name>room-0-0</Name>
       <Importer>XmlImporter</Importer>
