@@ -269,6 +269,51 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             //create the objects
             CreateObjects(read);
+
+            //place the player
+            foreach (SolitudeObject o in contents)
+            {
+                if (o is Door)
+                {
+                    Door dr = o as Door;
+                    if ((int)dr.direction == -(int)d) //If the door is linking to the room we just left
+                    {
+                        float x, y;
+                        Player.body.Rotation = 0;
+                        switch (dr.direction)
+                        {
+
+                            case Direction.Down:
+                                x = dr.body.Position.X;
+                                y = dr.body.Position.Y - dr.drawOrigin.Y - Player.drawOrigin.Y; 
+                                Player.body.Position = new Vector2(x,y);
+                                break;
+                            case Direction.Up:
+                                x = dr.body.Position.X;
+                                y = dr.body.Position.Y + dr.drawOrigin.Y + Player.drawOrigin.Y;
+                                Player.body.Position = new Vector2(x, y);
+                                break;
+
+                            case Direction.Left:
+                                x = dr.body.Position.X + dr.drawOrigin.X + Player.drawOrigin.X;
+                                y = dr.body.Position.Y; 
+                                Player.body.Position = new Vector2(x, y);
+                                break;
+                            case Direction.Right:
+                                x = dr.body.Position.X - dr.drawOrigin.X - Player.drawOrigin.X;
+                                y = dr.body.Position.Y;
+                                Player.body.Position = new Vector2(x, y);
+                                break;
+                        }
+                        Player.onWall = true;
+                        Player.standingOn = dr;
+                        
+                    }
+
+                }
+            }
+
+
         }
 
 

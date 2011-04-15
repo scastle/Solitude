@@ -45,6 +45,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         public Fixture PlayerFixture;
 
+
         public Player(Vector2 position, World world)
             : base(position, world, (float)Player.width, (float)Player.height)
         {
@@ -91,11 +92,12 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             if (onWall)
             {
-                if (standingOn is Door && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButton))
+
+                if (standingOn is Door && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButtonFirst))
                 {
                     (standingOn as Door).Enter();
-                    standingOn = null;
-                    onWall = false;
+                    //standingOn = null;
+                    //onWall = false;
                     jumpCounter = 0;
                 }
                 if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.AButton))

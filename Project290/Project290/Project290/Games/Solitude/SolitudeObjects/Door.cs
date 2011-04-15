@@ -17,7 +17,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// <summary>
         /// the side of the room the wall is on and the direction of the next room
         /// </summary>
-        Direction direction;
+        public Direction direction;
 
         string textureString;
 
