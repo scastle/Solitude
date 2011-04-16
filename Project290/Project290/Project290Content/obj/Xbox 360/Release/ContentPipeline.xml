@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
-      <Time>2011-04-15T12:31:24.8445272-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
+      <Time>2011-02-22T16:04:20-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame2.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
-      <Time>2011-04-15T12:31:24.8465273-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
+      <Time>2011-02-22T16:06:08-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame3.jpg</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
-      <Time>2011-04-15T12:31:24.8495275-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
+      <Time>2011-02-22T16:09:32-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame4.jpg</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
-      <Time>2011-04-15T12:31:24.9155312-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
+      <Time>2011-02-22T18:05:22-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame5.jpg</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
-      <Time>2011-04-15T12:31:24.9185314-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
+      <Time>2011-02-22T18:09:34-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\Blank.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\Blank.xnb</Output>
-      <Time>2011-04-15T12:31:24.7975245-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\Blank.xnb</Output>
+      <Time>2011-02-24T21:31:44-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\tileSafeCheck.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\tileSafeCheck.xnb</Output>
-      <Time>2011-04-15T12:31:24.8395269-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\tileSafeCheck.xnb</Output>
+      <Time>2011-03-12T17:03:44-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Fonts\controllerFont.tga</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Fonts\controllerFont.xnb</Output>
-      <Time>2011-04-15T12:31:24.9345323-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Fonts\controllerFont.xnb</Output>
+      <Time>2007-09-25T14:24:12-04:00</Time>
     </Item>
     <Item>
       <Source>DefaultBackground\particle1.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\DefaultBackground\particle1.xnb</Output>
-      <Time>2011-04-15T12:31:24.7925242-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\DefaultBackground\particle1.xnb</Output>
+      <Time>2011-03-16T15:11:38-04:00</Time>
     </Item>
     <Item>
       <Source>DefaultBackground\checkers.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\DefaultBackground\checkers.xnb</Output>
-      <Time>2011-04-15T12:31:24.7835237-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\DefaultBackground\checkers.xnb</Output>
+      <Time>2011-04-01T15:01:06-04:00</Time>
     </Item>
     <Item>
       <Source>DefaultBackground\colorSwirl.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\DefaultBackground\colorSwirl.xnb</Output>
-      <Time>2011-04-15T12:31:24.7875239-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\DefaultBackground\colorSwirl.xnb</Output>
+      <Time>2011-04-01T08:53:44-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtHolder.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
-      <Time>2011-04-15T12:31:24.9205315-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
+      <Time>2011-03-31T22:23:46-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\titleNameBorder.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\titleNameBorder.xnb</Output>
-      <Time>2011-04-15T12:31:24.8405269-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\titleNameBorder.xnb</Output>
+      <Time>2011-03-31T21:02:02-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\instructionBorder.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\instructionBorder.xnb</Output>
-      <Time>2011-04-15T12:31:24.8035248-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\instructionBorder.xnb</Output>
+      <Time>2011-04-02T09:53:16-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\sampleInstructions.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\sampleInstructions.xnb</Output>
-      <Time>2011-04-15T12:31:24.8355267-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\sampleInstructions.xnb</Output>
+      <Time>2011-03-31T18:42:22-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\gradient.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\gradient.xnb</Output>
-      <Time>2011-04-15T12:31:24.8005247-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\gradient.xnb</Output>
+      <Time>2011-03-31T20:51:44-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtSolitude.jpg</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
-      <Time>2011-04-15T12:31:24.9265319-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
+      <Time>2011-04-14T20:15:28.6512409-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Art\SolitudeInstructions.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions.xnb</Output>
-      <Time>2011-04-15T12:31:24.7995246-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions.xnb</Output>
+      <Time>2011-04-10T17:38:11.3590949-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-cold.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-cold.xnb</Output>
-      <Time>2011-04-15T12:31:24.9935357-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-cold.xnb</Output>
+      <Time>2011-04-12T21:25:06.9919973-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-door.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-door.xnb</Output>
-      <Time>2011-04-15T12:31:24.9955358-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-door.xnb</Output>
+      <Time>2011-04-12T21:25:06.9929973-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-grip.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-grip.xnb</Output>
-      <Time>2011-04-15T12:31:24.9965359-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-grip.xnb</Output>
+      <Time>2011-04-14T20:15:28.652241-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-handhold.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-handhold.xnb</Output>
-      <Time>2011-04-15T12:31:24.998536-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-handhold.xnb</Output>
+      <Time>2011-04-14T20:15:28.6532411-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-hot.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-hot.xnb</Output>
-      <Time>2011-04-15T12:31:25.0055364-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-hot.xnb</Output>
+      <Time>2011-04-12T21:25:06.9989977-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-metal.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-metal.xnb</Output>
-      <Time>2011-04-15T12:31:25.0075365-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-metal.xnb</Output>
+      <Time>2011-04-12T21:25:07.0009978-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-smooth.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-smooth.xnb</Output>
-      <Time>2011-04-15T12:31:25.0085366-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-smooth.xnb</Output>
+      <Time>2011-04-14T20:15:28.6532411-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-spike.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-spike.xnb</Output>
-      <Time>2011-04-15T12:31:25.0105367-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-spike.xnb</Output>
+      <Time>2011-04-12T21:25:07.0029979-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\player.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\player.xnb</Output>
-      <Time>2011-04-15T12:31:24.9885354-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\player.xnb</Output>
+      <Time>2011-04-15T01:06:48.9939007-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\bullet.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\bullet.xnb</Output>
-      <Time>2011-04-15T12:31:24.9865353-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\bullet.xnb</Output>
+      <Time>2011-04-14T21:14:04.7533505-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\sentinel.png</Source>
@@ -259,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\sentinel.xnb</Output>
-      <Time>2011-04-15T12:31:24.9905355-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\sentinel.xnb</Output>
+      <Time>2011-04-15T01:15:54.5801064-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
@@ -268,8 +268,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Fonts\defaultFont.xnb</Output>
-      <Time>2011-04-15T12:31:24.9365324-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Fonts\defaultFont.xnb</Output>
+      <Time>2011-03-24T14:56:50-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\boxArtScroll.wav</Source>
@@ -277,8 +277,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\boxArtScroll.xnb</Output>
-      <Time>2011-04-15T12:31:24.9395326-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\boxArtScroll.xnb</Output>
+      <Time>2003-02-07T06:47:34-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\menuClick.wav</Source>
@@ -286,8 +286,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuClick.xnb</Output>
-      <Time>2011-04-15T12:31:24.945533-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuClick.xnb</Output>
+      <Time>2003-02-07T06:47:20-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\menuGoBack.wav</Source>
@@ -295,8 +295,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuGoBack.xnb</Output>
-      <Time>2011-04-15T12:31:24.9475331-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuGoBack.xnb</Output>
+      <Time>2003-02-07T06:47:26-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\menuScrollDown.wav</Source>
@@ -304,8 +304,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuScrollDown.xnb</Output>
-      <Time>2011-04-15T12:31:24.9745346-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuScrollDown.xnb</Output>
+      <Time>2003-02-07T06:47:22-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\menuScrollUp.wav</Source>
@@ -313,8 +313,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuScrollUp.xnb</Output>
-      <Time>2011-04-15T12:31:24.9775348-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuScrollUp.xnb</Output>
+      <Time>2003-02-07T06:47:22-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\volumeControlDown.wav</Source>
@@ -322,8 +322,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\volumeControlDown.xnb</Output>
-      <Time>2011-04-15T12:31:24.9795349-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\volumeControlDown.xnb</Output>
+      <Time>2003-02-07T06:47:28-05:00</Time>
     </Item>
     <Item>
       <Source>Shared\Sounds\volumeControlUp.wav</Source>
@@ -331,8 +331,17 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\volumeControlUp.xnb</Output>
-      <Time>2011-04-15T12:31:24.981535-04:00</Time>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\volumeControlUp.xnb</Output>
+      <Time>2003-02-07T06:47:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\fighter.png</Source>
+      <Name>Solitude\Art\fighter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\fighter.xnb</Output>
+      <Time>2011-04-15T16:32:59.7126236-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -340,39 +349,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\obj\Xbox 360\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Steffen\Solitude\Project290\Project290\Project290Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Steffen\Solitude\Project290\Project290\Project290\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Steffen\Solitude\Project290\Project290\Project290Content\obj\Xbox 360\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-04-10T11:02:54.1294772-04:00</Value>
+        <Value>2011-02-01T13:50:55.9827584-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

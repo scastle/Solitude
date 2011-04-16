@@ -35,7 +35,6 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Conte
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuScrollUp.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlDown.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlUp.xnb
-C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\testObject.xml
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtSolitude.jpg
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Rooms\room-0-0.xml
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.png
@@ -92,3 +91,5 @@ C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\x86\R
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\x86\Release\Project290.exe
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\x86\Release\Project290.pdb
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Rooms\room-1-0.xml
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Rooms\room-1-0.xml
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\fighter.xnb
