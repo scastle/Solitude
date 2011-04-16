@@ -16,15 +16,28 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
     class Fighter : SolitudeObject
     {
         World world;
+        DateTime lastShot;
 
         public Fighter(Vector2 position, World w)
             : base(position, w, TextureStatic.Get("fighter").Width, TextureStatic.Get("fighter").Height)
         {
             world = w;
+            lastShot = DateTime.Now;
+            world = w;
+            body.BodyType = BodyType.Dynamic;
+            body.Position = position;
+            texture = TextureStatic.Get("fighter");
+            fixture = FixtureFactory.CreateRectangle(texture.Width, texture.Height, 0.25f, Vector2.Zero, body);
+            world.AddBody(body);
         }
 
         public override void Update()
         {
+            if (DateTime.Now - lastShot > TimeSpan.FromSeconds(Settings.SentinelShootRate))
+            {
+                lastShot = DateTime.Now;
+                Shoot();
+            }
         }
 
         public override void  Draw()

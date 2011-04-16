@@ -112,7 +112,7 @@ namespace Project290.Physics.Collision.Shapes
         /// <param name="vertices">The vertices.</param>
         public void Set(Vertices vertices)
         {
-            Debug.Assert(vertices.Count >= 2 && vertices.Count <= Settings.MaxPolygonVertices);
+            //Debug.Assert(vertices.Count >= 2 && vertices.Count <= Settings.MaxPolygonVertices);
 
             if (Settings.ConserveMemory)
                 Vertices = vertices;
@@ -128,7 +128,7 @@ namespace Project290.Physics.Collision.Shapes
                 int i1 = i;
                 int i2 = i + 1 < vertices.Count ? i + 1 : 0;
                 Vector2 edge = Vertices[i2] - Vertices[i1];
-                Debug.Assert(edge.LengthSquared() > Settings.Epsilon*Settings.Epsilon);
+                //Debug.Assert(edge.LengthSquared() > Settings.Epsilon*Settings.Epsilon);
 
                 Vector2 temp = new Vector2(edge.Y, -edge.X);
                 temp.Normalize();

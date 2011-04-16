@@ -38,9 +38,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 case WallType.HandHold:
                     textureString = /*TextureStatic.Get(*/"solitudeWallHandHold"; break;
                 case WallType.Grip:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorGrip"; break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallGrip"; break;
                 case WallType.Metal:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorMetal"; break;
+                    textureString = /*TextureStatic.Get(*/"solitudeWallMetal"; break;
                 case WallType.Hot:
                     textureString = /*TextureStatic.Get(*/"solitudeDoorHot"; break;
                 case WallType.Cold:
@@ -110,7 +110,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public override void Draw()
         {
             Drawer.Draw(
-                TextureStatic.Get("solitudeWallHandHold"),
+                TextureStatic.Get(textureString),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
                 drawRectangle,
                 Color.White,
