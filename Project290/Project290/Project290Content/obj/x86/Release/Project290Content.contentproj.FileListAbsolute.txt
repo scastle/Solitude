@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\obj\x86\Release\ResolveAssemblyReference.cache
+=======
+C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290Content\obj\x86\Release\ResolveAssemblyReference.cache
+>>>>>>> 03023e865fe34799c26b13edbf6500c9799c057e

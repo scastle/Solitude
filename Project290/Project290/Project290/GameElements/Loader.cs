@@ -85,6 +85,8 @@ namespace Project290.GameElements
             // TODO: load all Textures.
 
             // TODO: load all Audio.
+            GameWorld.audio.LoadSong("eerie1", @"Solitude\Music\Eerie1");
+            GameWorld.audio.LoadSong("heartbeat1", @"Solitude\Music\heartbeat1");
 
             // TODO: load all Fonts, and anything else.
         }

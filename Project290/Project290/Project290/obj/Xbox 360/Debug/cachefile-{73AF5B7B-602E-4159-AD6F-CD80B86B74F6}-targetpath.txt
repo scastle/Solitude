@@ -36,7 +36,14 @@ Content\Shared\Sounds\menuScrollDown.xnb
 Content\Shared\Sounds\menuScrollUp.xnb
 Content\Shared\Sounds\volumeControlDown.xnb
 Content\Shared\Sounds\volumeControlUp.xnb
+<<<<<<< HEAD
 Content\Solitude\Art\bomb.xnb
+=======
+Content\Solitude\Music\Eerie1.xnb
+Content\Solitude\Music\Eerie1.wma
+Content\Solitude\Music\heartbeat1.xnb
+Content\Solitude\Music\heartbeat1.wma
+>>>>>>> 03023e865fe34799c26b13edbf6500c9799c057e
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Shared\Art\SolitudeInstructions.png
 Content\Solitude\Rooms\room0test.xml

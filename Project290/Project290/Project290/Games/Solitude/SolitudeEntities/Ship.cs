@@ -8,6 +8,8 @@ using Project290.Games.Solitude.SolitudeObjects.Items;
 using Project290.Physics.Collision;
 using Project290.Physics.Dynamics;
 using Microsoft.Xna.Framework;
+using Project290.Audio;
+using Project290.GameElements;
 
 using System.Xml;
 using Microsoft.Xna.Framework.Content;
@@ -27,6 +29,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// a class that contains info about how to construct a room for loading from files.
         /// an instance represents one object in a room
         /// </summary>
+        static string[] songs = {"eerie1", "heartbeat1"}; 
+
         public class ObjectListItem
         {
             /// <summary>
@@ -68,6 +72,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<SolitudeObject> contents;
 
+        public Random random;
+
         /// <summary>
         /// smooth walls bound every room
         /// </summary>
@@ -83,9 +89,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public Ship()
         {
+
             bombCount = 0;
             toKill = new List<SolitudeObject>();
 
+
+            random = new Random();
             //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
             Player = new Player(new Vector2(600f, 830f), PhysicalWorld);
@@ -347,6 +356,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
+
             //remove bodies to be killed from the world
             foreach (SolitudeObject o in toKill)
             {
@@ -355,6 +365,14 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 PhysicalWorld.RemoveBody(o.body);
             }
             //step world (actually removes the bodies)
+
+            if (!GameWorld.audio.IsSongActive)
+            {
+                //Random Song Number
+                int randomNumber = random.Next(0, 2);
+                GameWorld.audio.SongPlay(songs[randomNumber], false);
+            }
+
             PhysicalWorld.Step(0.01f);
             //now it is safe to remove the objects
             foreach (SolitudeObject o in toKill)

@@ -352,26 +352,6 @@
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlUp.xnb</Output>
       <Time>2011-04-15T12:31:24.981535-04:00</Time>
     </Item>
-    <Item>
-      <Source>Solitude\Music\Eerie1.mp3</Source>
-      <Name>Solitude\Music\Eerie1</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\Eerie1.xnb</Output>
-      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\Eerie1.wma</Extra>
-      <Time>2011-04-15T21:56:13.4723535-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Music\heartbeat1.mp3</Source>
-      <Name>Solitude\Music\heartbeat1</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\heartbeat1.xnb</Output>
-      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\heartbeat1.wma</Extra>
-      <Time>2011-04-15T21:56:13.4853542-04:00</Time>
-    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

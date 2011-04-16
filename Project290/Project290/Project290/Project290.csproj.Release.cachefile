@@ -28,7 +28,10 @@ Content\Solitude\Art\player.xnb
 Content\Solitude\Art\bullet.xnb
 Content\Solitude\Art\sentinel.xnb
 Content\Solitude\Art\fighter.xnb
+<<<<<<< HEAD
 Content\Solitude\Art\bomb.xnb
+=======
+>>>>>>> 03023e865fe34799c26b13edbf6500c9799c057e
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb
@@ -37,6 +40,13 @@ Content\Shared\Sounds\menuScrollDown.xnb
 Content\Shared\Sounds\menuScrollUp.xnb
 Content\Shared\Sounds\volumeControlDown.xnb
 Content\Shared\Sounds\volumeControlUp.xnb
+<<<<<<< HEAD
+=======
+Content\Solitude\Music\Eerie1.xnb
+Content\Solitude\Music\heartbeat1.xnb
+Content\Solitude\Music\Eerie1.wma
+Content\Solitude\Music\heartbeat1.wma
+>>>>>>> 03023e865fe34799c26b13edbf6500c9799c057e
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Solitude\Rooms\room0test.xml
 Content\Solitude\Rooms\room1test.xml
