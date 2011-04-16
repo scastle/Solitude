@@ -44,5 +44,10 @@ namespace Project290.Games.Solitude
         /// Time (in seconds) between shots for the Sentinel
         /// </summary>
         public static int SentinelShootRate = 2;
+
+        /// <summary>
+        /// The velocity that that Fighter moves
+        /// </summary>
+        public static int FighterSpeed = 100;
     }
 }

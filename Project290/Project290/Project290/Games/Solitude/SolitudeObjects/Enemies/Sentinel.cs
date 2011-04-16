@@ -108,6 +108,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             texture = TextureStatic.Get("bullet");
             fixture = FixtureFactory.CreateCircle(7f, 1, body);
             body.Mass = 0;
+            fixture.Body.UserData = "bullet";
             body.Inertia = 0;
             body.Torque = 0;
             fixture.CollisionFilter.IgnoreCollisionWith(senderFixture);
@@ -138,7 +139,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             {
                 if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
                 {
-                    //SolitudeScreen.ship.Player.health -= Settings.BulletDamage;
+                    SolitudeScreen.ship.Player.oxygen -= Settings.BulletDamage;
                 }
                 world.RemoveBody(body);
                 SolitudeScreen.ship.contents.Remove(this);
@@ -146,7 +147,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             return true;
         }
 
-        public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
+        public new bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
         {
             if (f2 != senderFixture)
             {
