@@ -78,7 +78,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         }
 
 
-        public void Update()
+        public override void Update()
         {
             /*
              * 1. get controller input
@@ -151,7 +151,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.XButtonFirst))
             {
-                if (Settings.maxBombs > SolitudeScreen.ship.bombCount)
+                if (Settings.maxBombs > SolitudeScreen.ship.bombCount && !onWall)
                 {
                     vector.X = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
                     vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);

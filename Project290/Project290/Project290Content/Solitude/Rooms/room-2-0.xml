@@ -136,4 +136,27 @@
       <string>Right</string>
     </moreInfo>
   </ObjectListItem>
+  <!--bad guys!!!-->
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>700</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>48</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>4</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Fighter</type>
+    <position>
+      <X>1500</X>
+      <Y>540</Y>
+    </position>
+  </ObjectListItem>
+  
 </ArrayOfObjectListItem>

@@ -138,7 +138,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-0-0.xml");
 
             contents = new List<SolitudeObject>();
-            contents.Add(new Solitude.SolitudeObjects.Enemies.Fighter(new Vector2(500, 500), PhysicalWorld));
             CreateObjects(read);
 
 
@@ -250,6 +249,21 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents.Add(sn);
         }
 
+        private void ItemIsFighter(ObjectListItem o)
+        {
+            /*
+            string[] s = o.moreInfo.ToArray();
+            int i;
+            switch (s[0])
+            {
+                case "3": i = 3; break;
+                case "4": i = 4; break;
+                default: i = 5; break;
+            }*/
+            SolitudeObjects.Enemies.Fighter f = new SolitudeObjects.Enemies.Fighter(o.position, PhysicalWorld);
+            contents.Add(f);
+        }
+
         public void CreateObjects(List<ObjectListItem> items)
         {
             foreach (ObjectListItem o in items)
@@ -264,6 +278,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         break;
                     case "Sentinel":
                         ItemIsSentinel(o);
+                        break;
+                    case "Fighter":
+                        ItemIsFighter(o);
                         break;
                 }
             }
@@ -347,8 +364,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
                 }
             }
-
-
+            bombCount = 0;
         }
 
 
@@ -372,10 +388,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
             foreach (SolitudeObject o in toKill)
             {
                 contents.Remove(o);
-                toKill.Remove(o);
             }
-
-
+            toKill.Clear();
             Player.Update();
             contents.ForEach(i => i.Update());
             
