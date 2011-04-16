@@ -36,6 +36,21 @@ namespace Project290.Games.Solitude
         public static int BulletDamage = 50;
 
         /// <summary>
+        /// the time (in seconds) for a bomb to explode
+        /// </summary>
+        public static int BombTimer = 5;
+
+        /// <summary>
+        /// force applied when a bomb is used
+        /// </summary>
+        public static int bombForce = 1500000;
+
+        /// <summary>
+        /// maximum number of bombs at a time
+        /// </summary>
+        public static int maxBombs = 3;
+
+        /// <summary>
         /// The speed of a bullet
         /// </summary>
         public static int BulletSpeed = 400;

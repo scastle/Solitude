@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using Project290.Games.Solitude.SolitudeTools;
 using Project290.Games.Solitude.SolitudeObjects;
+using Project290.Games.Solitude.SolitudeObjects.Items;
 using Project290.Physics.Collision;
 using Project290.Physics.Dynamics;
 using Microsoft.Xna.Framework;
+using Project290.Audio;
+using Project290.GameElements;
 
 using System.Xml;
 using Microsoft.Xna.Framework.Content;
@@ -26,6 +29,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// a class that contains info about how to construct a room for loading from files.
         /// an instance represents one object in a room
         /// </summary>
+        static string[] songs = {"eerie1", "heartbeat1"}; 
+
         public class ObjectListItem
         {
             /// <summary>
@@ -67,17 +72,33 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<SolitudeObject> contents;
 
+        public Random random;
+
         /// <summary>
         /// smooth walls bound every room
         /// </summary>
         static List<Wall> border = new List<Wall>();
 
+        private List<SolitudeObject> toKill;
+
+        /// <summary>
+        /// number of bombs currently active
+        /// </summary>
+        public int bombCount;
+
 
         public Ship()
         {
+
+            bombCount = 0;
+            toKill = new List<SolitudeObject>();
+
+
+            random = new Random();
             //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
-            Player = new Player(new Vector2(1200f, 600f), PhysicalWorld);
+            Player = new Player(new Vector2(600f, 830f), PhysicalWorld);
+            Player.onWall = true;
             
             border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
@@ -117,8 +138,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
             read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-0-0.xml");
 
             contents = new List<SolitudeObject>();
-            contents.Add(new Solitude.SolitudeObjects.Enemies.Fighter(new Vector2(500, 500), PhysicalWorld));
             CreateObjects(read);
+
 
         }
 
@@ -133,6 +154,18 @@ namespace Project290.Games.Solitude.SolitudeEntities
             List<ObjectListItem> l = Serializer.DeserializeFile<List<ObjectListItem>>(path);
             //create them
         }
+
+
+        /// <summary>
+        /// lets ship know to destroy an object (such as bomb or power up)
+        /// </summary>
+        /// <param name="o"></param>
+        public void Destroy(SolitudeObject o)
+        {
+            toKill.Add(o);
+        }
+        
+        
 
 
         /// <summary>
@@ -216,6 +249,21 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents.Add(sn);
         }
 
+        private void ItemIsFighter(ObjectListItem o)
+        {
+            /*
+            string[] s = o.moreInfo.ToArray();
+            int i;
+            switch (s[0])
+            {
+                case "3": i = 3; break;
+                case "4": i = 4; break;
+                default: i = 5; break;
+            }*/
+            SolitudeObjects.Enemies.Fighter f = new SolitudeObjects.Enemies.Fighter(o.position, PhysicalWorld);
+            contents.Add(f);
+        }
+
         public void CreateObjects(List<ObjectListItem> items)
         {
             foreach (ObjectListItem o in items)
@@ -230,6 +278,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         break;
                     case "Sentinel":
                         ItemIsSentinel(o);
+                        break;
+                    case "Fighter":
+                        ItemIsFighter(o);
                         break;
                 }
             }
@@ -313,8 +364,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
                 }
             }
-
-
+            bombCount = 0;
         }
 
 
@@ -322,10 +372,34 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
+
+            //remove bodies to be killed from the world
+            foreach (SolitudeObject o in toKill)
+            {
+                if (o is Bomb)
+                    bombCount--;
+                PhysicalWorld.RemoveBody(o.body);
+            }
+            //step world (actually removes the bodies)
+
+
             PhysicalWorld.Step(0.01f);
+            //now it is safe to remove the objects
+            foreach (SolitudeObject o in toKill)
+            {
+                contents.Remove(o);
+            }
+            toKill.Clear();
             Player.Update();
-            
             contents.ForEach(i => i.Update());
+            
+            if (!GameWorld.audio.IsSongActive)
+            {
+                //Random Song Number
+                int randomNumber = random.Next(0, 2);
+                GameWorld.audio.SongPlay(songs[randomNumber], false);
+            }
+
         }
         public void Draw()
         {

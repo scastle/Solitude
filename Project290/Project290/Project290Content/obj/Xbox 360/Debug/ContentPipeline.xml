@@ -272,6 +272,15 @@
       <Time>2011-04-15T16:32:59.7126236-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\bomb.png</Source>
+      <Name>Solitude\Art\bomb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\bomb.xnb</Output>
+      <Time>2011-04-16T02:23:11.5986277-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -342,6 +351,26 @@
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Shared\Sounds\volumeControlUp.xnb</Output>
       <Time>2003-02-07T06:47:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Music\Eerie1.mp3</Source>
+      <Name>Solitude\Music\Eerie1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\Eerie1.xnb</Output>
+      <Extra>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\Eerie1.wma</Extra>
+      <Time>2011-04-16T02:23:11.6156287-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Music\heartbeat1.mp3</Source>
+      <Name>Solitude\Music\heartbeat1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
+      <Extra>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
+      <Time>2011-04-16T02:23:11.6286294-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

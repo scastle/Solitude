@@ -71,15 +71,22 @@ namespace Project290.GameElements
             TextureStatic.Load("solitudeWallCold", @"Solitude\Art\wall-cold");
             TextureStatic.Load("solitudeWallSpike", @"Solitude\Art\wall-spike");
             TextureStatic.Load("solitudeWallDoor", @"Solitude\Art\wall-door");
+
             TextureStatic.Load("bullet", @"Solitude\Art\bullet");
             TextureStatic.Load("sentinel", @"Solitude\Art\sentinel");
+
+            TextureStatic.Load("bomb", @"Solitude\Art\bomb");
+
             TextureStatic.Load("fighter", @"Solitude\Art\fighter");
+
 
             //load the player
             TextureStatic.Load("solitudePlayer", @"Solitude\Art\player");
             // TODO: load all Textures.
 
             // TODO: load all Audio.
+            GameWorld.audio.LoadSong("eerie1", @"Solitude\Music\Eerie1");
+            GameWorld.audio.LoadSong("heartbeat1", @"Solitude\Music\heartbeat1");
 
             // TODO: load all Fonts, and anything else.
         }

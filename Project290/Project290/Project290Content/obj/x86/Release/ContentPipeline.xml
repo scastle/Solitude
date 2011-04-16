@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Shared\BoxArt\BoxArtGame1.jpg</Source>
+      <Name>Shared\BoxArt\BoxArtGame1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
+      <Time>2011-04-15T12:31:24.8445272-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\BoxArt\BoxArtGame2.jpg</Source>
+      <Name>Shared\BoxArt\BoxArtGame2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
+      <Time>2011-04-15T12:31:24.8465273-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\BoxArt\BoxArtGame3.jpg</Source>
+      <Name>Shared\BoxArt\BoxArtGame3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
+      <Time>2011-04-15T12:31:24.8495275-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\BoxArt\BoxArtGame4.jpg</Source>
+      <Name>Shared\BoxArt\BoxArtGame4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
+      <Time>2011-04-15T12:31:24.9155312-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\BoxArt\BoxArtGame5.jpg</Source>
+      <Name>Shared\BoxArt\BoxArtGame5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
+      <Time>2011-04-15T12:31:24.9185314-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\Blank.png</Source>
+      <Name>Shared\Art\Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\Blank.xnb</Output>
+      <Time>2011-04-15T12:31:24.7975245-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\tileSafeCheck.png</Source>
+      <Name>Shared\Art\tileSafeCheck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\tileSafeCheck.xnb</Output>
+      <Time>2011-04-15T12:31:24.8395269-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Fonts\controllerFont.tga</Source>
+      <Name>Shared\Fonts\controllerFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Fonts\controllerFont.xnb</Output>
+      <Time>2011-04-15T12:31:24.9345323-04:00</Time>
+    </Item>
+    <Item>
+      <Source>DefaultBackground\particle1.png</Source>
+      <Name>DefaultBackground\particle1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\DefaultBackground\particle1.xnb</Output>
+      <Time>2011-04-15T12:31:24.7925242-04:00</Time>
+    </Item>
+    <Item>
+      <Source>DefaultBackground\checkers.png</Source>
+      <Name>DefaultBackground\checkers</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\DefaultBackground\checkers.xnb</Output>
+      <Time>2011-04-15T12:31:24.7835237-04:00</Time>
+    </Item>
+    <Item>
+      <Source>DefaultBackground\colorSwirl.png</Source>
+      <Name>DefaultBackground\colorSwirl</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\DefaultBackground\colorSwirl.xnb</Output>
+      <Time>2011-04-15T12:31:24.7875239-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\BoxArt\BoxArtHolder.png</Source>
+      <Name>Shared\BoxArt\BoxArtHolder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
+      <Time>2011-04-15T12:31:24.9205315-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\titleNameBorder.png</Source>
+      <Name>Shared\Art\titleNameBorder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\titleNameBorder.xnb</Output>
+      <Time>2011-04-15T12:31:24.8405269-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\instructionBorder.png</Source>
+      <Name>Shared\Art\instructionBorder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\instructionBorder.xnb</Output>
+      <Time>2011-04-15T12:31:24.8035248-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\sampleInstructions.png</Source>
+      <Name>Shared\Art\sampleInstructions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\sampleInstructions.xnb</Output>
+      <Time>2011-04-15T12:31:24.8355267-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\gradient.png</Source>
+      <Name>Shared\Art\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\gradient.xnb</Output>
+      <Time>2011-04-15T12:31:24.8005247-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\BoxArt\BoxArtSolitude.jpg</Source>
+      <Name>Shared\BoxArt\BoxArtSolitude</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
+      <Time>2011-04-15T12:31:24.9265319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\SolitudeInstructions.png</Source>
+      <Name>Shared\Art\SolitudeInstructions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.xnb</Output>
+      <Time>2011-04-15T12:31:24.7995246-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-cold.png</Source>
+      <Name>Solitude\Art\wall-cold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-cold.xnb</Output>
+      <Time>2011-04-15T12:31:24.9935357-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-door.png</Source>
+      <Name>Solitude\Art\wall-door</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-door.xnb</Output>
+      <Time>2011-04-15T12:31:24.9955358-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-grip.png</Source>
+      <Name>Solitude\Art\wall-grip</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-grip.xnb</Output>
+      <Time>2011-04-15T12:31:24.9965359-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-handhold.png</Source>
+      <Name>Solitude\Art\wall-handhold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-handhold.xnb</Output>
+      <Time>2011-04-15T12:31:24.998536-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-hot.png</Source>
+      <Name>Solitude\Art\wall-hot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-hot.xnb</Output>
+      <Time>2011-04-15T12:31:25.0055364-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-metal.png</Source>
+      <Name>Solitude\Art\wall-metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-metal.xnb</Output>
+      <Time>2011-04-15T12:31:25.0075365-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-smooth.png</Source>
+      <Name>Solitude\Art\wall-smooth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-smooth.xnb</Output>
+      <Time>2011-04-15T12:31:25.0085366-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\wall-spike.png</Source>
+      <Name>Solitude\Art\wall-spike</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\wall-spike.xnb</Output>
+      <Time>2011-04-15T12:31:25.0105367-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\player.png</Source>
+      <Name>Solitude\Art\player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\player.xnb</Output>
+      <Time>2011-04-15T12:31:24.9885354-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\bullet.png</Source>
+      <Name>Solitude\Art\bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\bullet.xnb</Output>
+      <Time>2011-04-15T12:31:24.9865353-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\sentinel.png</Source>
+      <Name>Solitude\Art\sentinel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\sentinel.xnb</Output>
+      <Time>2011-04-15T12:31:24.9905355-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\fighter.png</Source>
+      <Name>Solitude\Art\fighter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\fighter.xnb</Output>
+      <Time>2011-04-15T21:51:38.639634-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\bomb.png</Source>
+      <Name>Solitude\Art\bomb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\bomb.xnb</Output>
+      <Time>2011-04-15T20:23:06.6828074-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Fonts\defaultFont.spritefont</Source>
+      <Name>Shared\Fonts\defaultFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Fonts\defaultFont.xnb</Output>
+      <Time>2011-04-15T12:31:24.9365324-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\boxArtScroll.wav</Source>
+      <Name>Shared\Sounds\boxArtScroll</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\boxArtScroll.xnb</Output>
+      <Time>2011-04-15T12:31:24.9395326-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\menuClick.wav</Source>
+      <Name>Shared\Sounds\menuClick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuClick.xnb</Output>
+      <Time>2011-04-15T12:31:24.945533-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\menuGoBack.wav</Source>
+      <Name>Shared\Sounds\menuGoBack</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuGoBack.xnb</Output>
+      <Time>2011-04-15T12:31:24.9475331-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\menuScrollDown.wav</Source>
+      <Name>Shared\Sounds\menuScrollDown</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuScrollDown.xnb</Output>
+      <Time>2011-04-15T12:31:24.9745346-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\menuScrollUp.wav</Source>
+      <Name>Shared\Sounds\menuScrollUp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\menuScrollUp.xnb</Output>
+      <Time>2011-04-15T12:31:24.9775348-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\volumeControlDown.wav</Source>
+      <Name>Shared\Sounds\volumeControlDown</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlDown.xnb</Output>
+      <Time>2011-04-15T12:31:24.9795349-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Sounds\volumeControlUp.wav</Source>
+      <Name>Shared\Sounds\volumeControlUp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Sounds\volumeControlUp.xnb</Output>
+      <Time>2011-04-15T12:31:24.981535-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Music\Eerie1.mp3</Source>
+      <Name>Solitude\Music\Eerie1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\Eerie1.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\Eerie1.wma</Extra>
+      <Time>2011-04-15T21:56:13.4723535-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Music\heartbeat1.mp3</Source>
+      <Name>Solitude\Music\heartbeat1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\heartbeat1.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Music\heartbeat1.wma</Extra>
+      <Time>2011-04-15T21:56:13.4853542-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-04-10T11:02:54.1294772-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
