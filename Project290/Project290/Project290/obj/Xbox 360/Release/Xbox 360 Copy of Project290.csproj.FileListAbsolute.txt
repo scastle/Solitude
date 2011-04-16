@@ -149,3 +149,4 @@ C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\
 C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions.png
 C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Project290.exe
 C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Project290.pdb
+C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\fighter.xnb

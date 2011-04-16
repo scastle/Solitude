@@ -263,6 +263,15 @@
       <Time>2011-04-15T21:36:20.0146484-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\fighter.png</Source>
+      <Name>Solitude\Art\fighter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\fighter.xnb</Output>
+      <Time>2011-04-15T21:50:25.0458984-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
