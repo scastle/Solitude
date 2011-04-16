@@ -7,6 +7,8 @@ using Project290.Games.Solitude.SolitudeObjects;
 using Project290.Physics.Collision;
 using Project290.Physics.Dynamics;
 using Microsoft.Xna.Framework;
+using Project290.Audio;
+using Project290.GameElements;
 
 using System.Xml;
 using Microsoft.Xna.Framework.Content;
@@ -26,6 +28,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// a class that contains info about how to construct a room for loading from files.
         /// an instance represents one object in a room
         /// </summary>
+        static string[] songs = {"eerie1", "heartbeat1"}; 
+
         public class ObjectListItem
         {
             /// <summary>
@@ -67,6 +71,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<SolitudeObject> contents;
 
+        public Random random;
+
         /// <summary>
         /// smooth walls bound every room
         /// </summary>
@@ -75,6 +81,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public Ship()
         {
+            random = new Random();
             //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
             Player = new Player(new Vector2(1200f, 600f), PhysicalWorld);
@@ -321,6 +328,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
+            if (!GameWorld.audio.IsSongActive)
+            {
+                //Random Song Number
+                int randomNumber = random.Next(0, 2);
+                GameWorld.audio.SongPlay(songs[randomNumber], false);
+            }
             PhysicalWorld.Step(0.01f);
             Player.Update();
             

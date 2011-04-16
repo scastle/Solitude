@@ -81,7 +81,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solitude\Music\" />
     <Folder Include="Solitude\Sounds\" />
   </ItemGroup>
   <ItemGroup>
@@ -305,6 +304,18 @@
       <Processor>PassThroughProcessor</Processor>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Music\Eerie1.mp3">
+      <Name>Eerie1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="Solitude\Music\heartbeat1.mp3">
+      <Name>heartbeat1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
