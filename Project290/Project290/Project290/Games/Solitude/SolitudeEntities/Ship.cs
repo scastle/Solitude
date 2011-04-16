@@ -129,6 +129,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-0-0.xml");
 
             contents = new List<SolitudeObject>();
+            contents.Add(new Solitude.SolitudeObjects.Enemies.Fighter(new Vector2(500, 500), PhysicalWorld));
             CreateObjects(read);
 
 

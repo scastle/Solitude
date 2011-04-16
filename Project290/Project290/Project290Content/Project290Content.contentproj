@@ -299,6 +299,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solitude\Art\fighter.png">
+      <Name>fighter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Solitude\Rooms\room-2-0.xml">
       <Name>room-2-0</Name>
       <Importer>XmlImporter</Importer>

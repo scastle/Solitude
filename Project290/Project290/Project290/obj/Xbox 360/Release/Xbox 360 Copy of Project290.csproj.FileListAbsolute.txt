@@ -96,3 +96,4 @@ C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-1-0.xml
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-2-0.xml
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\bomb.xnb
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\fighter.xnb

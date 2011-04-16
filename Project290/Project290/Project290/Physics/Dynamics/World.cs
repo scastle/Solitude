@@ -358,7 +358,7 @@ namespace Project290.Physics.Dynamics
         public void AddBody(Body body)
         {
             //You are adding a body that is already in the simulation
-            Debug.Assert(!_bodyAddList.Contains(body));
+            //Debug.Assert(!_bodyAddList.Contains(body));
 
             if (!_bodyAddList.Contains(body))
                 _bodyAddList.Add(body);
@@ -372,7 +372,7 @@ namespace Project290.Physics.Dynamics
         public void RemoveBody(Body body)
         {
             //You are removing a body twice?
-            Debug.Assert(!_bodyRemoveList.Contains(body));
+            //Debug.Assert(!_bodyRemoveList.Contains(body));
 
             if (!_bodyRemoveList.Contains(body))
                 _bodyRemoveList.Add(body);

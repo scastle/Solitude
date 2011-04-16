@@ -27,6 +27,8 @@ Content\Solitude\Art\wall-spike.xnb
 Content\Solitude\Art\player.xnb
 Content\Solitude\Art\bullet.xnb
 Content\Solitude\Art\sentinel.xnb
+Content\Solitude\Art\fighter.xnb
+Content\Solitude\Art\bomb.xnb
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb
@@ -35,7 +37,6 @@ Content\Shared\Sounds\menuScrollDown.xnb
 Content\Shared\Sounds\menuScrollUp.xnb
 Content\Shared\Sounds\volumeControlDown.xnb
 Content\Shared\Sounds\volumeControlUp.xnb
-Content\Solitude\Art\bomb.xnb
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Solitude\Rooms\room0test.xml
 Content\Solitude\Rooms\room1test.xml

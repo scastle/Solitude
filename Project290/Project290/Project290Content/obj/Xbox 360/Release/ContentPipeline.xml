@@ -343,6 +343,15 @@
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\bomb.xnb</Output>
       <Time>2011-04-15T20:23:06.6828074-04:00</Time>
     </Item>
+    <Item>
+      <Source>Solitude\Art\fighter.png</Source>
+      <Name>Solitude\Art\fighter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\fighter.xnb</Output>
+      <Time>2011-04-15T21:51:38.639634-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Xbox360</TargetPlatform>
