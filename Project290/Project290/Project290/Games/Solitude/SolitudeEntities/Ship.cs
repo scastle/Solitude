@@ -366,6 +366,19 @@ namespace Project290.Games.Solitude.SolitudeEntities
             }
             //step world (actually removes the bodies)
 
+
+            PhysicalWorld.Step(0.01f);
+            //now it is safe to remove the objects
+            foreach (SolitudeObject o in toKill)
+            {
+                contents.Remove(o);
+                toKill.Remove(o);
+            }
+
+
+            Player.Update();
+            contents.ForEach(i => i.Update());
+            
             if (!GameWorld.audio.IsSongActive)
             {
                 //Random Song Number
@@ -373,16 +386,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 GameWorld.audio.SongPlay(songs[randomNumber], false);
             }
 
-            PhysicalWorld.Step(0.01f);
-            //now it is safe to remove the objects
-            foreach (SolitudeObject o in toKill)
-            {
-                contents.Remove(o);
-            }
-            toKill.Clear();
-
-            Player.Update();
-            contents.ForEach(i => i.Update());
         }
         public void Draw()
         {
