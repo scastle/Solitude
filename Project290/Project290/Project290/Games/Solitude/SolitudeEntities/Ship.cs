@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Project290.Games.Solitude.SolitudeTools;
 using Project290.Games.Solitude.SolitudeObjects;
+using Project290.Games.Solitude.SolitudeObjects.Items;
 using Project290.Physics.Collision;
 using Project290.Physics.Dynamics;
 using Microsoft.Xna.Framework;
@@ -72,12 +73,23 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         static List<Wall> border = new List<Wall>();
 
+        private List<SolitudeObject> toKill;
+
+        /// <summary>
+        /// number of bombs currently active
+        /// </summary>
+        public int bombCount;
+
 
         public Ship()
         {
+            bombCount = 0;
+            toKill = new List<SolitudeObject>();
+
             //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
-            Player = new Player(new Vector2(1200f, 600f), PhysicalWorld);
+            Player = new Player(new Vector2(600f, 830f), PhysicalWorld);
+            Player.onWall = true;
             
             border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
@@ -119,6 +131,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents = new List<SolitudeObject>();
             CreateObjects(read);
 
+
         }
 
         /// <summary>
@@ -132,6 +145,18 @@ namespace Project290.Games.Solitude.SolitudeEntities
             List<ObjectListItem> l = Serializer.DeserializeFile<List<ObjectListItem>>(path);
             //create them
         }
+
+
+        /// <summary>
+        /// lets ship know to destroy an object (such as bomb or power up)
+        /// </summary>
+        /// <param name="o"></param>
+        public void Destroy(SolitudeObject o)
+        {
+            toKill.Add(o);
+        }
+        
+        
 
 
         /// <summary>
@@ -321,9 +346,23 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
+            //remove bodies to be killed from the world
+            foreach (SolitudeObject o in toKill)
+            {
+                if (o is Bomb)
+                    bombCount--;
+                PhysicalWorld.RemoveBody(o.body);
+            }
+            //step world (actually removes the bodies)
             PhysicalWorld.Step(0.01f);
+            //now it is safe to remove the objects
+            foreach (SolitudeObject o in toKill)
+            {
+                contents.Remove(o);
+            }
+            toKill.Clear();
+
             Player.Update();
-            
             contents.ForEach(i => i.Update());
         }
         public void Draw()

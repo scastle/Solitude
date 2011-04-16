@@ -39,7 +39,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             body.BodyType = BodyType.Dynamic;
             speed = velocity;
             body.LinearVelocity = velocity;
-            body.Position = position;
+            //body.Position = position;
             texture = TextureStatic.Get("sentinel");
             fixture = FixtureFactory.CreateRectangle(texture.Width, texture.Height, 0.25f, Vector2.Zero, body);
             world.AddBody(body);

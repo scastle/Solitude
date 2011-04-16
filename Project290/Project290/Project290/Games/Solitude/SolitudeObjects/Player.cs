@@ -8,6 +8,9 @@ using Project290.Physics.Collision.Shapes;
 using Project290.Physics.Factories;
 using Project290.Physics.Dynamics;
 using Project290.Rendering;
+using Project290.Games.Solitude.SolitudeObjects.Items;
+using Project290.Games.Solitude.SolitudeEntities;
+using Project290.Games.Solitude;
 
 namespace Project290.Games.Solitude.SolitudeObjects
 {
@@ -64,6 +67,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             fuel = 1000;
             fuelCap = 1000;
 
+            numBombs = 3;
+
             hasGloves = true;
             hasBoots = false;
             hasENVSuit = false;
@@ -104,7 +109,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     {
                         jumpCounter++;
                     }else{
-                        jumpCounter = 125;
+                        jumpCounter = 100;
                     }
 
                 }
@@ -121,7 +126,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         if (!vector.Equals(Vector2.Zero))
                         {
                             vector.Normalize();
-                            body.ApplyLinearImpulse(1000 * vector * jumpCounter);
+                            body.ApplyLinearImpulse(1300 * vector * jumpCounter);
                             onWall = false;
                             standingOn = null;
                         }
@@ -131,7 +136,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             }
 
-            //Console.WriteLine(body.LinearVelocity);
             if (hasJetpack && fuel > 0)
             {
 
@@ -143,10 +147,36 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     fuel--;
                     body.ApplyForce(vector * Settings.jetPackForceMult);
                 }
-                
-
-                
             }
+
+            if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.XButtonFirst))
+            {
+                if (Settings.maxBombs > SolitudeScreen.ship.bombCount)
+                {
+                    vector.X = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
+                    vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
+                    if (!vector.Equals(Vector2.Zero))
+                    {
+                        vector.Normalize();
+                        numBombs--;
+                        body.ApplyForce(vector * Settings.bombForce);
+
+
+                        Vector2 bombSpeed = new Vector2();
+                        bombSpeed = -1 * vector * body.LinearVelocity.Length();
+                        Vector2 temp = new Vector2();
+                        temp = body.LinearVelocity;
+                        temp.Normalize();
+
+
+
+                        Bomb b = new Bomb(body.Position - 32 * temp, SolitudeScreen.ship.PhysicalWorld, bombSpeed);
+                        SolitudeScreen.ship.contents.Add(b);
+                        SolitudeScreen.ship.bombCount++;
+                    }
+                }
+            }
+
         }
         public override void Draw()
         {
