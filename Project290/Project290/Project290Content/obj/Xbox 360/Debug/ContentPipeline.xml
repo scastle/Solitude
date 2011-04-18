@@ -372,6 +372,15 @@
       <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
       <Time>2011-04-15T21:56:13.4853542-04:00</Time>
     </Item>
+    <Item>
+      <Source>Solitude\Art\explosion.png</Source>
+      <Name>Solitude\Art\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\explosion.xnb</Output>
+      <Time>2011-04-17T22:56:18.9948456-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Xbox360</TargetPlatform>

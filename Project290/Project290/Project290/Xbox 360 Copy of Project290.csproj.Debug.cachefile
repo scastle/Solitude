@@ -39,6 +39,7 @@ Content\Shared\Sounds\volumeControlDown.xnb
 Content\Shared\Sounds\volumeControlUp.xnb
 Content\Solitude\Music\Eerie1.xnb
 Content\Solitude\Music\heartbeat1.xnb
+Content\Solitude\Art\explosion.xnb
 Content\Solitude\Music\Eerie1.wma
 Content\Solitude\Music\heartbeat1.wma
 Content\Shared\BoxArt\BoxArtSolitude.jpg
@@ -48,5 +49,6 @@ Content\Solitude\Rooms\room-5-5.xml
 Content\Solitude\Rooms\room-6-5.xml
 Content\Solitude\Rooms\room-7-5.xml
 Content\Shared\Art\SolitudeInstructions.png
+Content\Solitude\Art\explosion.png
 Content\Solitude\Rooms\room-8-5.xml
 Content\Solitude\Rooms\room-8-4.xml

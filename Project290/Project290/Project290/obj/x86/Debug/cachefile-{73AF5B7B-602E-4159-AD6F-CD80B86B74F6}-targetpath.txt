@@ -41,8 +41,10 @@ Content\Solitude\Music\Eerie1.xnb
 Content\Solitude\Music\Eerie1.wma
 Content\Solitude\Music\heartbeat1.xnb
 Content\Solitude\Music\heartbeat1.wma
+Content\Solitude\Art\explosion.xnb
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Shared\Art\SolitudeInstructions.png
+Content\Solitude\Art\explosion.png
 Content\Solitude\Rooms\room0test.xml
 Content\Solitude\Rooms\room1test.xml
 Content\Solitude\Rooms\room-5-5.xml

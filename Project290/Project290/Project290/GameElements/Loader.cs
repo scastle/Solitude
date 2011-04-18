@@ -76,6 +76,7 @@ namespace Project290.GameElements
             TextureStatic.Load("sentinel", @"Solitude\Art\sentinel");
 
             TextureStatic.Load("bomb", @"Solitude\Art\bomb");
+            TextureStatic.Load("solitudeExplosion", @"Solitude\Art\explosion");
 
             TextureStatic.Load("fighter", @"Solitude\Art\fighter");
 
