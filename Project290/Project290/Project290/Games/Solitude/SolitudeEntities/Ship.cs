@@ -139,6 +139,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             contents = new List<SolitudeObject>();
             CreateObjects(read);
+            contents.Add(new SolitudeObjects.Enemies.Mauler(new Vector2(1400, 300), PhysicalWorld));
 
 
         }

@@ -43,9 +43,6 @@ namespace Project290.Games.Solitude.SolitudeTools
             {
                 radius += radius * .05f;
             }
-
-            
-            
         }
         public override void Draw()
         {
@@ -56,7 +53,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 Color.White,
                 body.Rotation,
                 drawOrigin,
-                radius,
+                radius / texture.Width * 2,
                 SpriteEffects.None,
                 .8f);
         }

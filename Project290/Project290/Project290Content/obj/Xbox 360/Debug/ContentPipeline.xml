@@ -381,6 +381,15 @@
       <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\explosion.xnb</Output>
       <Time>2011-04-17T22:56:18.9948456-04:00</Time>
     </Item>
+    <Item>
+      <Source>Solitude\Art\mauler.png</Source>
+      <Name>Solitude\Art\mauler</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\mauler.xnb</Output>
+      <Time>2011-04-18T14:47:57.7357789-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Xbox360</TargetPlatform>

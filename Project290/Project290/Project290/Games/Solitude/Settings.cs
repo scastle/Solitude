@@ -13,7 +13,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// number of rows of rooms in the game
         /// </summary>
-        public static int maxShipRows = 5;
+        public static int maxShipRows = 10;
 
         /// <summary>
         /// number of columns of rooms in the game
@@ -35,10 +35,16 @@ namespace Project290.Games.Solitude
         /// </summary>
         public static int BulletDamage = 50;
 
+
+        /// <summary>
+        /// the rate at which a mauler charges
+        /// </summary>
+        public static int MaulerForce = 100000;
+
         /// <summary>
         /// the time (in seconds) for a bomb to explode
         /// </summary>
-        public static int BombTimer = 5;
+        public static int BombTimer = 4;
 
         /// <summary>
         /// force applied when a bomb is used
