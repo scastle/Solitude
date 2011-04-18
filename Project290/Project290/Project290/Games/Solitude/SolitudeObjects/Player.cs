@@ -17,11 +17,19 @@ namespace Project290.Games.Solitude.SolitudeObjects
     public class Player : SolitudeObject
     {
         //integers tracking stats and inventory
+
+        //health
         public int oxygen, oxygenCap;
         int fuel, fuelCap;
         int lives;
         int numBombs;
         int numEMP;
+
+        /// <summary>
+        /// door used to enter room
+        /// </summary>
+        public  Door enterDoor;
+        public Vector2 enterPosition;
 
         public bool onWall;
 
@@ -53,9 +61,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
             : base(position, world, (float)Player.width, (float)Player.height)
         {
             body.BodyType = BodyType.Dynamic;
-            PlayerFixture = FixtureFactory.CreateEllipse(width / 2, height / 2, 32, .1f, body);
+            PlayerFixture = FixtureFactory.CreateEllipse(width / 2, height / 2, 32, .2f, body);
             //PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
-            PlayerFixture.Restitution = .9f;
+            PlayerFixture.Restitution = .8f;
             texture = TextureStatic.Get("solitudePlayer");
 
             standingOn = null;
@@ -66,8 +74,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             oxygenCap = 1000;
             fuel = 1000;
             fuelCap = 1000;
-
-            numBombs = 3;
+            lives = 3;
+            numBombs = 10;
 
             hasGloves = true;
             hasBoots = false;
@@ -126,7 +134,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         if (!vector.Equals(Vector2.Zero))
                         {
                             vector.Normalize();
-                            body.ApplyLinearImpulse(1300 * vector * jumpCounter);
+                            body.ApplyLinearImpulse(2000 * vector * jumpCounter);
                             onWall = false;
                             standingOn = null;
                         }
@@ -151,7 +159,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.XButtonFirst))
             {
-                if (Settings.maxBombs > SolitudeScreen.ship.bombCount && !onWall)
+                if (Settings.maxBombs > SolitudeScreen.ship.bombCount && !onWall && numBombs > 0)
                 {
                     vector.X = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
                     vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
@@ -176,6 +184,25 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     }
                 }
             }
+
+            if (oxygen <= 0)
+            {
+                if (lives > 0)
+                {
+                    lives--;
+                    standingOn = enterDoor;
+                    body.Position = enterPosition;
+                    onWall = true;
+                    body.LinearVelocity = Vector2.Zero;
+                    body.AngularVelocity = 0f;
+                    oxygen = oxygenCap;
+                }
+                else
+                {
+                    //gameover
+                }
+            }
+
 
         }
         public override void Draw()

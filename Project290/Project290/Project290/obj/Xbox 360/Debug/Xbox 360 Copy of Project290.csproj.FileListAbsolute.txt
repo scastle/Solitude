@@ -60,3 +60,4 @@ C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\explosion.png
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\mauler.xnb
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\mauler.png
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Rooms\room-7-4.xml

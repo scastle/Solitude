@@ -23,7 +23,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// a constant governing jetpack strength.
         /// </summary>
-        public static int jetPackForceMult = 30000;
+        public static int jetPackForceMult = 100000;
 
         /// <summary>
         /// The amount a damage a punch does
@@ -33,7 +33,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// The amount of damage a bullet does
         /// </summary>
-        public static int BulletDamage = 50;
+        public static int BulletDamage = 100;
 
 
         /// <summary>
@@ -44,12 +44,12 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// the time (in seconds) for a bomb to explode
         /// </summary>
-        public static int BombTimer = 4;
+        public static int BombTimer = 2;
 
         /// <summary>
         /// force applied when a bomb is used
         /// </summary>
-        public static int bombForce = 1500000;
+        public static int bombForce =1000000;
 
         /// <summary>
         /// maximum number of bombs at a time

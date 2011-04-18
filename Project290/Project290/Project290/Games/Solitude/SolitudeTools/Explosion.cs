@@ -41,7 +41,7 @@ namespace Project290.Games.Solitude.SolitudeTools
             }
             else
             {
-                radius += radius * .05f;
+                radius += radius * .1f;
             }
         }
         public override void Draw()

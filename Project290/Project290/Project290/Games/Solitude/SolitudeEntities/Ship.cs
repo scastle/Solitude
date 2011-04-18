@@ -265,6 +265,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents.Add(f);
         }
 
+        private void ItemIsMauler(ObjectListItem o)
+        {
+            SolitudeObjects.Enemies.Mauler m = new SolitudeObjects.Enemies.Mauler(o.position, PhysicalWorld);
+            contents.Add(m);
+        }
+
         public void CreateObjects(List<ObjectListItem> items)
         {
             foreach (ObjectListItem o in items)
@@ -282,6 +288,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         break;
                     case "Fighter":
                         ItemIsFighter(o);
+                        break;
+                    case "Mauler":
+                        ItemIsMauler(o);
                         break;
                 }
             }
@@ -360,7 +369,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         }
                         Player.onWall = true;
                         Player.standingOn = dr;
-                        
+                        Player.enterDoor = dr;
+                        Player.enterPosition = Player.body.Position;
                     }
 
                 }
