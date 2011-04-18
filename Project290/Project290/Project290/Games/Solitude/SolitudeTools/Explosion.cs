@@ -25,17 +25,26 @@ namespace Project290.Games.Solitude.SolitudeTools
             body.BodyType = BodyType.Kinematic;
             body.Position = position;
             start = DateTime.Now;
-            this.radius = .001f;
+            this.radius = 1f;
             maxRadius = radius;
             this.power = power;
-            fixture = FixtureFactory.CreateCircle(this.radius, 0f, body);
+            fixture = FixtureFactory.CreateCircle(this.maxRadius, 0f, body);
             fixture.CollisionFilter.CollidesWith = Category.None;
             texture = TextureStatic.Get("solitudeExplosion");
         }
 
         public override void Update()
         {
-            fixture.Shape.Radius += .1f;
+            if (radius > maxRadius)
+            {
+                SolitudeScreen.ship.Destroy(this);
+            }
+            else
+            {
+                radius += radius * .05f;
+            }
+
+            
             
         }
         public override void Draw()
@@ -44,7 +53,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 texture,
                 body.Position,
                 drawRectangle,
-                Color.Black,
+                Color.White,
                 body.Rotation,
                 drawOrigin,
                 radius,
