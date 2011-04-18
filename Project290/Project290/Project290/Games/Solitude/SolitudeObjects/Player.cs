@@ -55,7 +55,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             body.BodyType = BodyType.Dynamic;
             PlayerFixture = FixtureFactory.CreateEllipse(width / 2, height / 2, 32, .1f, body);
             //PlayerFixture = FixtureFactory.CreateRectangle(width, height, .05f, Vector2.Zero, body, null);
-            PlayerFixture.Restitution = .5f;
+            PlayerFixture.Restitution = .9f;
             texture = TextureStatic.Get("solitudePlayer");
 
             standingOn = null;

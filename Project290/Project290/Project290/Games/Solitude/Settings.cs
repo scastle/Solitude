@@ -18,7 +18,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// number of columns of rooms in the game
         /// </summary>
-        public static int maxShipColumns = 5;
+        public static int maxShipColumns =10;
 
         /// <summary>
         /// a constant governing jetpack strength.
@@ -59,5 +59,10 @@ namespace Project290.Games.Solitude
         /// Time (in seconds) between shots for the Sentinel
         /// </summary>
         public static int SentinelShootRate = 2;
+
+        /// <summary>
+        /// The velocity that that Fighter moves
+        /// </summary>
+        public static int FighterSpeed = 100;
     }
 }

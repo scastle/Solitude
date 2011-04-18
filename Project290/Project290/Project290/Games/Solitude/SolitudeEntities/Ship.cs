@@ -109,7 +109,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 PhysicalWorld.AddBody(j.body);
             }
 
-
+            r = 5; c = 5;
             /* was testing writing
              * 
             List<ObjectListItem> ol = new List<ObjectListItem>();
@@ -135,7 +135,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             //load the first room
             List<ObjectListItem> read;
-            read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-0-0.xml");
+            read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-5-5.xml");
 
             contents = new List<SolitudeObject>();
             CreateObjects(read);

@@ -1,0 +1,2 @@
+C:\Users\Steffen\Solitude\Project290\Project290\Project290Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\obj\x86\Debug\ResolveAssemblyReference.cache
