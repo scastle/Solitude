@@ -23,10 +23,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         WallType type;
 
-        public Door()
-        {
-        }
-
         public Door(Vector2 position, World world, float width, float height, float density, WallType type, Direction d)
             : base(position, world, width, height, density, type)
         {

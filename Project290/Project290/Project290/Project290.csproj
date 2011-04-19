@@ -116,6 +116,7 @@
     <Compile Include="Games\Solitude\SolitudeEntities\Ship.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Door.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Clinger.cs" />
+    <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Enemy.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Fighter.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Mauler.cs" />
     <Compile Include="Games\Solitude\SolitudeObjects\Enemies\Meddler.cs" />

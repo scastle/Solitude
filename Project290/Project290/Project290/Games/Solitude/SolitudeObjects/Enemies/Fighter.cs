@@ -13,7 +13,7 @@ using Project290.Rendering;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
-    class Fighter : SolitudeObject
+    class Fighter : Enemy
     {
         World world;
         DateTime lastShot;
@@ -24,6 +24,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         public Fighter(Vector2 position, World w)
             : base(position, w, TextureStatic.Get("fighter").Width, TextureStatic.Get("fighter").Height)
         {
+            this.health = 500;
             world = w;
             lastShot = DateTime.Now;
             world = w;
@@ -37,6 +38,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
         public override void Update()
         {
+            base.Update();
             CheckCanSeePlayer();
             if (DateTime.Now - lastShot > TimeSpan.FromSeconds(Settings.SentinelShootRate) && CanSeePlayer)
             {

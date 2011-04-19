@@ -13,7 +13,7 @@ using Project290.Rendering;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
-    class Mauler : SolitudeObject
+    class Mauler : Enemy
     {
         World world;
         bool CanSeePlayer = false;
@@ -23,6 +23,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         public Mauler(Vector2 position, World w)
             : base(position, w, TextureStatic.Get("solitudeMauler").Width, TextureStatic.Get("solitudeMauler").Height)
         {
+            health = 200;
             world = w;
             body.BodyType = BodyType.Dynamic;
             body.Position = position;
@@ -34,6 +35,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
         public override void Update()
         {
+            base.Update();
             CheckCanSeePlayer();
             Charge();
 

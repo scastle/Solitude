@@ -110,28 +110,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             }
 
             r = 5; c = 5;
-            /* was testing writing
-             * 
-            List<ObjectListItem> ol = new List<ObjectListItem>();
-            
-            ObjectListItem ob = new ObjectListItem();
-            ob.type = "Wall";
-            ob.position = Vector2.Zero;
-            ob.dimensions = new Vector2(500, 500);
-            ob.moreInfo = new List<string>();
-            ob.moreInfo.Add("HandHold");
-            ol.Add(ob);
-
-            ob.type = "Door";
-            ob.position = new Vector2(1700, 300);
-            ob.dimensions = new Vector2(50, 200);
-            ob.moreInfo = new List<string>();
-            ob.moreInfo.Add("HandHold");
-            ob.moreInfo.Add("Left");
-            ol.Add(ob);
-            */
-            //Serializer.SerializeFile(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/testObject.xml", ol);
-
 
             //load the first room
             List<ObjectListItem> read;
@@ -139,23 +117,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             contents = new List<SolitudeObject>();
             CreateObjects(read);
-            contents.Add(new SolitudeObjects.Enemies.Mauler(new Vector2(1400, 300), PhysicalWorld));
-
-
         }
-
-        /// <summary>
-        /// This will deserialize a room and add it to the ship matrix
-        /// </summary>
-        /// <param name="row">row of the room</param>
-        /// <param name="column">column of the room</param>
-        /// <param name="path">filename of the xml file</param>
-        public void createRoom(int row, int column, string path)
-        {
-            List<ObjectListItem> l = Serializer.DeserializeFile<List<ObjectListItem>>(path);
-            //create them
-        }
-
 
         /// <summary>
         /// lets ship know to destroy an object (such as bomb or power up)
@@ -165,9 +127,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
         {
             toKill.Add(o);
         }
-        
-        
-
 
         /// <summary>
         /// Creates a wall based on information from an ObjectListItem o
@@ -198,7 +157,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         Wall w = new Wall(o.position, PhysicalWorld, o.dimensions.X, o.dimensions.Y, 1, t);
                         contents.Add(w);
         }
-
         private void ItemIsDoor(ObjectListItem o)
         {
                         WallType t;
@@ -235,7 +193,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             Door door = new Door(o.position, PhysicalWorld, o.dimensions.X, o.dimensions.Y, 1, t, d);
             contents.Add(door);
         }
-
         private void ItemIsSentinel(ObjectListItem o)
         {
             string[] s = o.moreInfo.ToArray();
@@ -249,7 +206,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             SolitudeObjects.Enemies.Sentinel sn = new SolitudeObjects.Enemies.Sentinel(o.position, o.dimensions, PhysicalWorld, i);
             contents.Add(sn);
         }
-
         private void ItemIsFighter(ObjectListItem o)
         {
             /*
@@ -264,13 +220,16 @@ namespace Project290.Games.Solitude.SolitudeEntities
             SolitudeObjects.Enemies.Fighter f = new SolitudeObjects.Enemies.Fighter(o.position, PhysicalWorld);
             contents.Add(f);
         }
-
         private void ItemIsMauler(ObjectListItem o)
         {
             SolitudeObjects.Enemies.Mauler m = new SolitudeObjects.Enemies.Mauler(o.position, PhysicalWorld);
             contents.Add(m);
         }
 
+        /// <summary>
+        /// take the list of objects in the room and actually create them
+        /// </summary>
+        /// <param name="items"></param>
         public void CreateObjects(List<ObjectListItem> items)
         {
             foreach (ObjectListItem o in items)
@@ -297,7 +256,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
         }
 
         /// <summary>
-        /// old version... being updated
+        /// 
         /// </summary>
         /// <param name="d"></param>
         public void EnterRoom(Direction d)

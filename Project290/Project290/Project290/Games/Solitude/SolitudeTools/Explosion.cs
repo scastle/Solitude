@@ -8,6 +8,7 @@ using Project290.Physics.Dynamics;
 using Project290.Physics.Factories;
 using Project290.Rendering;
 using Project290.Games.Solitude.SolitudeObjects;
+using Project290.Games.Solitude.SolitudeObjects.Enemies;
 
 namespace Project290.Games.Solitude.SolitudeTools
 {
@@ -35,6 +36,24 @@ namespace Project290.Games.Solitude.SolitudeTools
 
         public override void Update()
         {
+            foreach(SolitudeObject o in SolitudeScreen.ship.contents)
+            {
+                    if (o is Player || o is Enemy)
+                    {
+                        //if the sum of their radii is less than the distance between them i.e. if the explosion is touching the fixture
+                        if (o.body.FixtureList.First().Shape.Radius + radius <= (o.body.Position - body.Position).Length())
+                        {
+                            if (o is Player)
+                            {
+                                (o as Player).oxygen-= power ;
+                            }
+                            else if (o is Enemy)
+                            {
+                                (o as Enemy).health-= power;
+                            }
+                        }
+                    }
+            }
             if (radius > maxRadius)
             {
                 SolitudeScreen.ship.Destroy(this);
@@ -44,6 +63,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 radius += radius * .1f;
             }
         }
+
         public override void Draw()
         {
             Drawer.Draw(
@@ -53,7 +73,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 Color.White,
                 body.Rotation,
                 drawOrigin,
-                radius / texture.Width * 2,
+                radius / (texture.Width /2),
                 SpriteEffects.None,
                 .8f);
         }

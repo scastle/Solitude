@@ -26,7 +26,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         int numEMP;
 
         /// <summary>
-        /// door used to enter room
+        /// the door used to enter room, so we can reset if the player dies
         /// </summary>
         public  Door enterDoor;
         public Vector2 enterPosition;
@@ -77,7 +77,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             lives = 3;
             numBombs = 10;
 
-            hasGloves = true;
+            hasGloves = false;
             hasBoots = false;
             hasENVSuit = false;
             hasSpaceSuit = false;
@@ -178,7 +178,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
 
 
-                        Bomb b = new Bomb(body.Position - 32 * temp, SolitudeScreen.ship.PhysicalWorld, bombSpeed);
+                        Bomb b = new Bomb(body.Position - 50 * vector, SolitudeScreen.ship.PhysicalWorld, bombSpeed);
                         SolitudeScreen.ship.contents.Add(b);
                         SolitudeScreen.ship.bombCount++;
                     }
