@@ -312,14 +312,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-    <ItemGroup>
+  <ItemGroup>
     <Compile Include="Solitude\Art\bomb.png">
       <Name>bomb</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    </ItemGroup>
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Solitude\Music\Eerie1.mp3">
       <Name>Eerie1</Name>
@@ -330,7 +329,13 @@
       <Name>heartbeat1</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
-
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Art\terminal.png">
+      <Name>terminal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

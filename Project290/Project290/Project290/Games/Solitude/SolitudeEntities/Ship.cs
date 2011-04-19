@@ -139,8 +139,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             contents = new List<SolitudeObject>();
             CreateObjects(read);
-
-
+            contents.Add(new Terminal(new Vector2(400, 400), PhysicalWorld));
         }
 
         /// <summary>

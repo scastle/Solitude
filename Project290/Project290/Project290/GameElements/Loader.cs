@@ -79,6 +79,7 @@ namespace Project290.GameElements
 
             TextureStatic.Load("fighter", @"Solitude\Art\fighter");
 
+            TextureStatic.Load("terminal", @"Solitude\Art\terminal");
 
             //load the player
             TextureStatic.Load("solitudePlayer", @"Solitude\Art\player");

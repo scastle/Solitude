@@ -54,3 +54,4 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Co
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\Eerie1.wma
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.wma
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\terminal.xnb

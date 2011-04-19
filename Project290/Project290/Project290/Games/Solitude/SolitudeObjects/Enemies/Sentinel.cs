@@ -130,7 +130,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 drawOrigin,
                 1f,
                 SpriteEffects.None,
-                0.1f);
+                0.05f);
         }
 
         public bool BeforeCollision(Fixture f1, Fixture f2)
