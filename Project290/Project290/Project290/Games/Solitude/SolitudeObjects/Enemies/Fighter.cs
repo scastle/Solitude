@@ -46,7 +46,6 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 Shoot();
             }
             SetVelocity();
-
         }
 
         private void SetVelocity()

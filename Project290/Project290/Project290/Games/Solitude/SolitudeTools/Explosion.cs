@@ -38,21 +38,18 @@ namespace Project290.Games.Solitude.SolitudeTools
         {
             foreach(SolitudeObject o in SolitudeScreen.ship.contents)
             {
-                    if (o is Player || o is Enemy)
+                    if (o is Enemy)
                     {
                         //if the sum of their radii is less than the distance between them i.e. if the explosion is touching the fixture
-                        if (o.body.FixtureList.First().Shape.Radius + radius <= (o.body.Position - body.Position).Length())
+                        if (o.body.FixtureList.Last().Shape.Radius + this.radius <= (o.body.Position - this.body.Position).Length())
                         {
-                            if (o is Player)
-                            {
-                                (o as Player).oxygen-= power ;
-                            }
-                            else if (o is Enemy)
-                            {
                                 (o as Enemy).health-= power;
-                            }
                         }
                     }
+            }
+            if (SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius + this.radius <= (SolitudeScreen.ship.Player.body.Position - this.body.Position).Length())
+            {
+                SolitudeScreen.ship.Player.oxygen -= power;
             }
             if (radius > maxRadius)
             {
@@ -73,7 +70,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 Color.White,
                 body.Rotation,
                 drawOrigin,
-                radius / (texture.Width /2),
+                radius / (texture.Width / 2), //draw to the scale the ratio of radius to its texture
                 SpriteEffects.None,
                 .8f);
         }

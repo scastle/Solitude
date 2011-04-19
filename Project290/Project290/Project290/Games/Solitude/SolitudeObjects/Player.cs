@@ -70,7 +70,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             onWall = false;
             jumpCounter = 0;
 
-            oxygen = 1000;
+            oxygen = 100;
             oxygenCap = 1000;
             fuel = 1000;
             fuelCap = 1000;
