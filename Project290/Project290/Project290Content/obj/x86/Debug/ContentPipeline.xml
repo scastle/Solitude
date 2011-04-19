@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bomb.xnb</Output>
-      <Time>2011-04-16T02:23:11.5986277-04:00</Time>
+      <Time>2011-04-19T01:21:01.4491247-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\terminal.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\explosion.xnb</Output>
-      <Time>2011-04-18T22:59:16.8136873-04:00</Time>
+      <Time>2011-04-19T01:21:01.4501247-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\mauler.png</Source>

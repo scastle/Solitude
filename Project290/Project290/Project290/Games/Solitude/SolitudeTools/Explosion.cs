@@ -19,10 +19,12 @@ namespace Project290.Games.Solitude.SolitudeTools
         private float maxRadius;
         private int power;
         private Fixture fixture;
+        private bool hasDamagedPlayer;
 
         public Explosion(Vector2 position, World world, float radius, int power)
             :base(position, world, TextureStatic.Get("solitudeExplosion").Width, TextureStatic.Get("solitudeExplosion").Height)
         {
+            hasDamagedPlayer = false;
             body.BodyType = BodyType.Kinematic;
             body.Position = position;
             start = DateTime.Now;
@@ -47,16 +49,21 @@ namespace Project290.Games.Solitude.SolitudeTools
                         }
                     }
             }
-            if (SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius + this.radius <= (SolitudeScreen.ship.Player.body.Position - this.body.Position).Length())
+            if (SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius + this.radius <= (SolitudeScreen.ship.Player.body.Position - this.body.Position).Length() && !hasDamagedPlayer)
             {
                 SolitudeScreen.ship.Player.oxygen -= power;
+                Console.WriteLine("Doing damage to the player");
+                hasDamagedPlayer = true;
             }
             if (radius > maxRadius)
             {
                 SolitudeScreen.ship.Destroy(this);
+                hasDamagedPlayer = false;
             }
             else
             {
+                Console.WriteLine("Max Radius is {0}", maxRadius);
+                Console.WriteLine("Radius is {0}", radius);
                 radius += radius * .1f;
             }
         }
@@ -70,7 +77,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 Color.White,
                 body.Rotation,
                 drawOrigin,
-                radius / (texture.Width / 2), //draw to the scale the ratio of radius to its texture
+                radius, //draw to the scale the ratio of radius to its texture
                 SpriteEffects.None,
                 .8f);
         }
