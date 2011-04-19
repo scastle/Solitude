@@ -43,17 +43,19 @@ namespace Project290.Games.Solitude.SolitudeTools
                     if (o is Enemy)
                     {
                         //if the sum of their radii is less than the distance between them i.e. if the explosion is touching the fixture
-                        if (o.body.FixtureList.Last().Shape.Radius + this.radius <= (o.body.Position - this.body.Position).Length())
+                        if (o.body.FixtureList.Last().Shape.Radius + this.radius <= (o.body.Position.Length() - this.body.Position.Length()))
                         {
                                 (o as Enemy).health-= power;
                         }
                     }
             }
-            if (SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius + this.radius <= (SolitudeScreen.ship.Player.body.Position - this.body.Position).Length() && !hasDamagedPlayer)
+            if (this.radius >= (SolitudeScreen.ship.Player.body.Position.Length() - this.body.Position.Length()) && !hasDamagedPlayer)
             {
                 SolitudeScreen.ship.Player.oxygen -= power;
-                Console.WriteLine("Doing damage to the player");
+                Console.WriteLine("Player radius {0}, Explosion Radius {1}, Distance between them", SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius, this.radius);
                 hasDamagedPlayer = true;
+                Console.WriteLine("Total radius is {0} is <= {1}", SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius + this.radius,
+                    (SolitudeScreen.ship.Player.body.Position.Length() - this.body.Position.Length()));
             }
             if (radius > maxRadius)
             {
@@ -62,8 +64,8 @@ namespace Project290.Games.Solitude.SolitudeTools
             }
             else
             {
-                Console.WriteLine("Max Radius is {0}", maxRadius);
-                Console.WriteLine("Radius is {0}", radius);
+                //Console.WriteLine("Max Radius is {0}", maxRadius);
+                //Console.WriteLine("Radius is {0}", radius);
                 radius += radius * .1f;
             }
         }
@@ -77,7 +79,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 Color.White,
                 body.Rotation,
                 drawOrigin,
-                radius, //draw to the scale the ratio of radius to its texture
+                radius/(texture.Width/2), //draw to the scale the ratio of radius to its texture
                 SpriteEffects.None,
                 .8f);
         }

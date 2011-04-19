@@ -11,6 +11,7 @@ using Project290.Rendering;
 using Project290.Games.Solitude.SolitudeObjects.Items;
 using Project290.Games.Solitude.SolitudeEntities;
 using Project290.Games.Solitude;
+using Project290.Games.Solitude.SolitudeHUD;
 
 namespace Project290.Games.Solitude.SolitudeObjects
 {
@@ -30,6 +31,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// </summary>
         public  Door enterDoor;
         public Vector2 enterPosition;
+
+        public HealthBar hpBar;
 
         public bool onWall;
 
@@ -66,6 +69,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             PlayerFixture.Restitution = .8f;
             texture = TextureStatic.Get("solitudePlayer");
 
+            
+
             standingOn = null;
             onWall = false;
             jumpCounter = 0;
@@ -77,6 +82,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             fuelCap = 1000;
             lives = 3;
             numBombs = 10;
+
+            hpBar = new HealthBar(oxygen, oxygenCap);
 
             hasGloves = false;
             hasBoots = false;
