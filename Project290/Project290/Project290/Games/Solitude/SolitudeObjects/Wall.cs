@@ -36,11 +36,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
         Fixture fixture;
         float width, height;
 
-        public Wall()
-        {
-
-        }
-
         public Wall(Vector2 position, World world, float width, float height, float density, WallType t)
             :base(position, world, width, height)
         {

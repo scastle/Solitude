@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Project290.Physics.Dynamics;
 using Project290.Physics.Factories;
 using Project290.Rendering;
+using Project290.Games.Solitude.SolitudeTools;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Items
 {
@@ -32,6 +33,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
             if (DateTime.Now - age > TimeSpan.FromSeconds(Settings.BombTimer))
             {
                 //explode
+                SolitudeScreen.ship.contents.Add(new Explosion(body.Position, body.World, 128, 5));
                 SolitudeScreen.ship.Destroy(this);
             }
         }

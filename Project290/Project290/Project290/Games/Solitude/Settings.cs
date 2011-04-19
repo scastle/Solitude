@@ -13,17 +13,17 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// number of rows of rooms in the game
         /// </summary>
-        public static int maxShipRows = 5;
+        public static int maxShipRows = 10;
 
         /// <summary>
         /// number of columns of rooms in the game
         /// </summary>
-        public static int maxShipColumns = 5;
+        public static int maxShipColumns =10;
 
         /// <summary>
         /// a constant governing jetpack strength.
         /// </summary>
-        public static int jetPackForceMult = 30000;
+        public static int jetPackForceMult = 100000;
 
         /// <summary>
         /// The amount a damage a punch does
@@ -33,17 +33,23 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// The amount of damage a bullet does
         /// </summary>
-        public static int BulletDamage = 50;
+        public static int BulletDamage = 100;
+
+
+        /// <summary>
+        /// the rate at which a mauler charges
+        /// </summary>
+        public static int MaulerForce = 100000;
 
         /// <summary>
         /// the time (in seconds) for a bomb to explode
         /// </summary>
-        public static int BombTimer = 5;
+        public static int BombTimer = 2;
 
         /// <summary>
         /// force applied when a bomb is used
         /// </summary>
-        public static int bombForce = 1500000;
+        public static int bombForce =1000000;
 
         /// <summary>
         /// maximum number of bombs at a time

@@ -17,12 +17,9 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
     /// This enemy moves back and forth in set path or semi-random directions. 
     /// If the player draws near, it attacks
     /// </summary>
-    class Sentinel : SolitudeObject
+    class Sentinel : Enemy
     {
-        /// <summary>
-        /// The health of the Sentinel
-        /// </summary>
-        int Health = 150;
+
         private World world;
         int patrolRate;
         private DateTime lastShot;
@@ -30,8 +27,9 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         Vector2 speed;
 
         public Sentinel(Vector2 position, Vector2 velocity, World w, int rate)
-            : base(position, w, TextureStatic.Get("sentinel").Width, TextureStatic.Get("sentinel").Height)
+             : base(position, w, TextureStatic.Get("sentinel").Width, TextureStatic.Get("sentinel").Height)
         {
+            health = 300;
             patrolRate = rate;
             lastShot = DateTime.Now;
             lastTurn = lastShot;
@@ -47,6 +45,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
         override public void Update()
         {
+            base.Update();
             if(DateTime.Now  - lastTurn > TimeSpan.FromSeconds(patrolRate)){
                 lastTurn = DateTime.Now;
                 speed *= -1;

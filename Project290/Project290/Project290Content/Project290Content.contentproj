@@ -282,16 +282,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Solitude\Rooms\room-0-0.xml">
-      <Name>room-0-0</Name>
+    <None Include="Solitude\Rooms\room-5-5.xml">
+      <Name>room-5-5</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Solitude\Rooms\room-1-0.xml">
-      <Name>room-1-0</Name>
+    <None Include="Solitude\Rooms\room-6-5.xml">
+      <Name>room-6-5</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -305,8 +305,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Solitude\Rooms\room-2-0.xml">
-      <Name>room-2-0</Name>
+    <None Include="Solitude\Rooms\room-7-5.xml">
+      <Name>room-7-5</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -337,6 +337,46 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solitude\Rooms\room-8-5.xml">
+      <Name>room-8-5</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solitude\Rooms\room-8-4.xml">
+      <Name>room-8-4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Art\explosion.png">
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Art\mauler.png">
+      <Name>mauler</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solitude\Rooms\room-7-4.xml">
+      <Name>room-7-4</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 

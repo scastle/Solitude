@@ -281,6 +281,33 @@
       <Time>2011-04-16T02:23:11.5986277-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\terminal.png</Source>
+      <Name>Solitude\Art\terminal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\terminal.xnb</Output>
+      <Time>2011-04-18T21:57:30.5517013-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\explosion.png</Source>
+      <Name>Solitude\Art\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\explosion.xnb</Output>
+      <Time>2011-04-18T22:59:16.8136873-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\mauler.png</Source>
+      <Name>Solitude\Art\mauler</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\mauler.xnb</Output>
+      <Time>2011-04-18T22:59:16.8146874-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -371,15 +398,6 @@
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
       <Extra>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
       <Time>2011-04-16T02:23:11.6286294-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\terminal.png</Source>
-      <Name>Solitude\Art\terminal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\terminal.xnb</Output>
-      <Time>2011-04-18T21:57:30.5517013-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
