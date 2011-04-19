@@ -69,6 +69,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             standingOn = null;
             onWall = false;
             jumpCounter = 0;
+            enterPosition = new Vector2(600, 800);
 
             oxygen = 100;
             oxygenCap = 1000;
