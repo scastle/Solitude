@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-door.xnb</Output>
-      <Time>2011-04-12T21:25:06.9929973-04:00</Time>
+      <Time>2011-04-19T00:21:45.4187314-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-grip.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\mauler.xnb</Output>
-      <Time>2011-04-18T22:59:16.8146874-04:00</Time>
+      <Time>2011-04-19T00:50:58.2939901-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>

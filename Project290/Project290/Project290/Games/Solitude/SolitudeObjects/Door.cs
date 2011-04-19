@@ -27,26 +27,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             : base(position, world, width, height, density, type)
         {
             this.type = type;
-            switch (type)
-            {
-                case WallType.Smooth:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorSmooth"; break;
-                case WallType.HandHold:
-                    textureString = /*TextureStatic.Get(*/"solitudeWallHandHold"; break;
-                case WallType.Grip:
-                    textureString = /*TextureStatic.Get(*/"solitudeWallGrip"; break;
-                case WallType.Metal:
-                    textureString = /*TextureStatic.Get(*/"solitudeWallMetal"; break;
-                case WallType.Hot:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorHot"; break;
-                case WallType.Cold:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorCold"; break;
-                case WallType.Spike:
-                    textureString = /*TextureStatic.Get(*/"solitudeDoorSpike"; break;
-            }
+            textureString = "solitudeWallDoor";
             direction = d;
-
-            Console.WriteLine(textureString);
 
         }
         public void Enter()
