@@ -20,33 +20,35 @@ namespace Project290.Games.Solitude.SolitudeHUD
         int healthPercent;
         Vector2 midPoint;
         Rectangle drawRectangle;
+        float width;
 
         public HealthBar(int currentHealth, int totalHealth)
         {
-            texture = TextureStatic.Get("healthbar");
-            midPoint = new Vector2(300, 200);
+            //texture = TextureStatic.Get("healthbar");
+            //midPoint = new Vector2(300, 200);
             healthPercent = currentHealth / totalHealth;
-            drawRectangle = new Rectangle(0, 0, (int)healthPercent, (int)50);
+            drawRectangle = new Rectangle(200, 200, healthPercent, 33);
         }
 
-        public void Update()
+        public void Update(int pointX, int pointY)
         {
             healthPercent = SolitudeScreen.ship.Player.oxygen / SolitudeScreen.ship.Player.oxygenCap;
-            midPoint.X = 200 + healthPercent;
         }
 
         public void Draw()
         {
-            Drawer.Draw(
-                texture,
-                new Vector2(200, 200),
-                drawRectangle,
-                Color.White,
-                1f,
-                midPoint,
-                1, //draw to the scale the ratio of radius to its texture
-                SpriteEffects.None,
-                .8f);
+            //Drawer.Draw(
+            //    texture,
+            //    new Vector2(200, 200),
+            //    drawRectangle,
+            //    Color.White,
+            //    1f,
+            //    midPoint,
+            //    1, //draw to the scale the ratio of radius to its texture
+            //    SpriteEffects.None,
+            //    .8f);
+            
+            Drawer.DrawLine(new Vector2(300, 112), new Vector2(300 + healthPercent*200, 112), 20, .8f, Color.PaleGreen);
         }
     }
 }

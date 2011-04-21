@@ -101,7 +101,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             Player.onWall = true;
             
             border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
-            border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 64, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(1727, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(960, 971), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
 

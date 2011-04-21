@@ -9,6 +9,7 @@ using Project290.Physics.Factories;
 using Project290.Rendering;
 using Project290.Games.Solitude.SolitudeObjects;
 using Project290.Games.Solitude.SolitudeObjects.Enemies;
+using Project290.Games.Solitude;
 
 namespace Project290.Games.Solitude.SolitudeTools
 {
@@ -61,6 +62,7 @@ namespace Project290.Games.Solitude.SolitudeTools
             {
                 SolitudeScreen.ship.Destroy(this);
                 hasDamagedPlayer = false;
+                SolitudeScreen.ship.Player.hasDiedRecently = false;
             }
             else
             {

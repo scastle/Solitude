@@ -36,6 +36,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         public bool onWall;
 
+        public bool hasDiedRecently;
+
         //Booleans to track upgrade levels
         public bool hasGloves;
         public bool hasBoots;
@@ -69,17 +71,17 @@ namespace Project290.Games.Solitude.SolitudeObjects
             PlayerFixture.Restitution = .8f;
             texture = TextureStatic.Get("solitudePlayer");
 
-            
+            hasDiedRecently = false;
 
             standingOn = null;
             onWall = false;
             jumpCounter = 0;
             enterPosition = new Vector2(600, 800);
 
-            oxygen = 100;
+            oxygen = 1000;
             oxygenCap = 1000;
-            fuel = 1000;
-            fuelCap = 1000;
+            fuel = 10000;
+            fuelCap = 10000;
             lives = 3;
             numBombs = 10;
 
@@ -103,7 +105,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 4. is jetpack enabled? yes = calc jetpack force
              * 5. check damage from any effects
              */
-
+            //if(body.Position.X <= 225 && body.Position.Y <= 225)
+            //    hpBar.Update(200, 1000);
+            //else
+                hpBar.Update(250, 112);
             if (!body.LinearVelocity.Equals(Vector2.Zero))
             {
                 jumpCounter = 0;
@@ -193,9 +198,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 }
             }
 
-            if (oxygen <= 0)
+            if (oxygen <= 0 )
             {
-                if (lives > 0)
+                if (lives > 0 /*&& !hasDiedRecently*/)
                 {
                     lives--;
                     standingOn = enterDoor;
@@ -204,6 +209,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     body.LinearVelocity = Vector2.Zero;
                     body.AngularVelocity = 0f;
                     oxygen = oxygenCap;
+                    hasDiedRecently = true;
                 }
                 else
                 {
@@ -215,7 +221,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         }
         public override void Draw()
         {
-            
+            hpBar.Draw();
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
