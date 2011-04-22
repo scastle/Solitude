@@ -308,6 +308,24 @@
       <Time>2011-04-19T00:50:58.2939901-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\arrow.png</Source>
+      <Name>Solitude\Art\arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb</Output>
+      <Time>2011-04-21T13:59:28.5091699-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\arrow-body.png</Source>
+      <Name>Solitude\Art\arrow-body</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb</Output>
+      <Time>2011-04-21T13:59:32.4422305-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -398,24 +416,6 @@
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
       <Extra>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
       <Time>2011-04-16T02:23:11.6286294-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\arrow.png</Source>
-      <Name>Solitude\Art\arrow</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb</Output>
-      <Time>2011-04-21T13:59:28.5091699-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\arrow-body.png</Source>
-      <Name>Solitude\Art\arrow-body</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb</Output>
-      <Time>2011-04-21T13:59:32.4422305-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

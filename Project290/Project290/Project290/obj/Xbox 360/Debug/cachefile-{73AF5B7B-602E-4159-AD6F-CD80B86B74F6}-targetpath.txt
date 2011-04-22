@@ -32,6 +32,8 @@ Content\Solitude\Art\bomb.xnb
 Content\Solitude\Art\terminal.xnb
 Content\Solitude\Art\explosion.xnb
 Content\Solitude\Art\mauler.xnb
+Content\Solitude\Art\arrow.xnb
+Content\Solitude\Art\arrow-body.xnb
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb
@@ -44,8 +46,6 @@ Content\Solitude\Music\Eerie1.xnb
 Content\Solitude\Music\Eerie1.wma
 Content\Solitude\Music\heartbeat1.xnb
 Content\Solitude\Music\heartbeat1.wma
-Content\Solitude\Art\arrow.xnb
-Content\Solitude\Art\arrow-body.xnb
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Solitude\Art\mauler.png
 Content\Shared\Art\SolitudeInstructions.png
