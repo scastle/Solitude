@@ -126,3 +126,5 @@ C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\x8
 C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\x86\Debug\Project290.exe
 C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\x86\Debug\Project290.pdb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb

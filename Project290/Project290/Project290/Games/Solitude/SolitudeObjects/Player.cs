@@ -40,6 +40,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public bool hasSpaceSuit;
         public bool hasJetpack;
 
+        float rotation;
+
+        Vector2 arrowbodyPosition;
+        Vector2 arrowheadPosition;
+
         int jumpCounter;
 
         /// <summary>
@@ -106,6 +111,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             if (onWall)
             {
+                vector.X =  GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
+                vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
 
                 if (standingOn is Door && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButtonFirst))
                 {
@@ -120,18 +127,26 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     }else{
                         jumpCounter = 100;
                     }
+                    // Draw arrow
+                    vector.Normalize();
+                    int arrowDistance = 50;
+                    
+                    rotation = (float)Math.Atan(vector.Y / vector.X) - (float)Math.PI / 2;
+                    if (vector.X >= 0)
+                        rotation += (float)Math.PI;
 
+                    arrowbodyPosition = new Vector2(
+                        body.Position.X + arrowDistance * vector.X,
+                        body.Position.Y + arrowDistance * vector.Y);
+                    arrowheadPosition = new Vector2(
+                        arrowbodyPosition.X + vector.X * (jumpCounter + 15),
+                        arrowbodyPosition.Y + vector.Y * (jumpCounter + 15));
                 }
                 else
                 {
                     if (jumpCounter > 0)
                     {
                         //jump
-                        vector.X =  GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
-                        vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
-
-                        
-
                         if (!vector.Equals(Vector2.Zero))
                         {
                             vector.Normalize();
@@ -206,6 +221,17 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
 
         }
+
+        Color arrowColor;
+        Rectangle arrowbodyRectangle;
+        Rectangle arrowheadRectangle = new Rectangle(
+                    0,
+                    0,
+                    21,
+                    21);
+        Vector2 arrowbodyOrigin = new Vector2(4, 0);
+        Vector2 arrowheadOrigin = new Vector2(10, 0);
+
         public override void Draw()
         {
             
@@ -219,6 +245,35 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 1,
                 SpriteEffects.None,
                 .8f);
+            if (jumpCounter > 0)
+            {
+                arrowColor = new Color(255, 255 - jumpCounter * 2, 0); 
+                arrowbodyRectangle = new Rectangle(
+                     0,
+                     0,
+                     7,
+                     jumpCounter);
+                Drawer.Draw(
+                    TextureStatic.Get("arrow-body"),
+                    arrowbodyPosition,
+                    arrowbodyRectangle,
+                    arrowColor,
+                    (float)Math.PI + rotation,
+                    arrowbodyOrigin,
+                    1,
+                    SpriteEffects.None,
+                    1f);
+                Drawer.Draw(
+                    TextureStatic.Get("arrow"),
+                    arrowheadPosition,
+                    arrowheadRectangle,
+                    arrowColor,
+                    rotation,
+                    arrowheadOrigin,
+                    1,
+                    SpriteEffects.None,
+                    1f);
+            }
 
 
 
