@@ -23,7 +23,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         public Mauler(Vector2 position, World w)
             : base(position, w, TextureStatic.Get("solitudeMauler").Width, TextureStatic.Get("solitudeMauler").Height)
         {
-            health = 200;
+            health = Settings.maulerHealth;
             world = w;
             body.BodyType = BodyType.Dynamic;
             body.Position = position;

@@ -24,7 +24,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         public Fighter(Vector2 position, World w)
             : base(position, w, TextureStatic.Get("fighter").Width, TextureStatic.Get("fighter").Height)
         {
-            this.health = 500;
+            this.health = Settings.fighterHealth;
             world = w;
             lastShot = DateTime.Now;
             world = w;

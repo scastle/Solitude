@@ -29,7 +29,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         public Sentinel(Vector2 position, Vector2 velocity, World w, int rate)
              : base(position, w, TextureStatic.Get("sentinel").Width, TextureStatic.Get("sentinel").Height)
         {
-            health = 300;
+            health = Settings.sentinelHealth;
             patrolRate = rate;
             lastShot = DateTime.Now;
             lastTurn = lastShot;

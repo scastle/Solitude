@@ -147,7 +147,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                                 t = WallType.Smooth; break;
                             case "Metal":
                                 t = WallType.Metal; break;
-                            case "Hot":
+                            case "Fire":
                                 t = WallType.Hot; break;
                             case "Cold":
                                 t = WallType.Cold; break;

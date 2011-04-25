@@ -9,6 +9,8 @@ using Project290.Games.Solitude.SolitudeObjects;
 using Project290.GameElements;
 using Microsoft.Xna.Framework;
 
+using Project290.Particles;
+
 namespace Project290.Games.Solitude
 {
 
@@ -48,14 +50,13 @@ namespace Project290.Games.Solitude
         }
 
         Rectangle screenSize = new Rectangle(0, 0, 1920, 1080);
-
+        
         public override void Draw()
         {
             Rendering.Drawer.DrawRectangle(screenSize, 1920f, 0, Color.LightBlue);
             ship.Draw();
             base.Draw();
         }
-
 
         internal override void GameOver()
         {

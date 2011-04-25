@@ -105,39 +105,34 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         public override void Update()
         {
-            /*
-             * 1. get controller input
-             * 2. check if on object: yes = jump if A pressed; no: check whether collision with object
-             * 3. lay bomb or use EMP: X or Y
-             * 4. is jetpack enabled? yes = calc jetpack force
-             * 5. check damage from any effects
-             */
+            //update health and fuel bars
+            hpBar.Update();
+            fBar.Update();
 
-            Console.WriteLine(this.oxygen);
-            //if(body.Position.X <= 225 && body.Position.Y <= 225)
-            //    hpBar.Update(200, 1000);
-            //else
-                hpBar.Update();
-                fBar.Update();
+            //if moving, make sure not on wall
             if (!body.LinearVelocity.Equals(Vector2.Zero))
             {
                 jumpCounter = 0;
                 onWall = false;
                 standingOn = null;
             }
-
             if (onWall)
             {
+                //get input
                 vector.X =  GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
                 vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
 
+                //if B pressed on door, enter next room
                 if (standingOn is Door && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButtonFirst))
                 {
                     (standingOn as Door).Enter();
                     jumpCounter = 0;
                 }
+
+                //if the A button is held down
                 if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.AButton))
                 {
+                    //power up jump
                     if (jumpCounter < 125)
                     {
                         jumpCounter++;
@@ -159,7 +154,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         arrowbodyPosition.X + vector.X * (jumpCounter + 15),
                         arrowbodyPosition.Y + vector.Y * (jumpCounter + 15));
                 }
-                else
+                else //A is not pressed
                 {
                     if (jumpCounter > 0)
                     {
@@ -167,7 +162,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         if (!vector.Equals(Vector2.Zero))
                         {
                             vector.Normalize();
-                            body.ApplyLinearImpulse(2000 * vector * jumpCounter);
+                            body.ApplyLinearImpulse(2000 * vector * (jumpCounter + 25));
                             onWall = false;
                             standingOn = null;
                         }
@@ -177,6 +172,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             }
 
+            //update jetpack
             if (hasJetpack && fuel > 0)
             {
 
@@ -197,20 +193,17 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 {
                     vector.X = GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveHorizontal);
                     vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.MoveVertical);
+                    
+                    //if the player is holding a direction
                     if (!vector.Equals(Vector2.Zero))
                     {
                         vector.Normalize();
                         numBombs--;
                         body.ApplyForce(vector * Settings.bombForce);
 
-
+                        //calculate the bomb's speed
                         Vector2 bombSpeed = new Vector2();
                         bombSpeed = -1 * vector * body.LinearVelocity.Length();
-                        Vector2 temp = new Vector2();
-                        temp = body.LinearVelocity;
-                        temp.Normalize();
-
-
 
                         Bomb b = new Bomb(body.Position - 50 * vector, SolitudeScreen.ship.PhysicalWorld, bombSpeed);
                         SolitudeScreen.ship.contents.Add(b);
@@ -223,6 +216,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             {
                 if (lives > 0 /*&& !hasDiedRecently*/)
                 {
+                    //die, and place player back at start of room
                     lives--;
                     standingOn = enterDoor;
                     body.Position = enterPosition;
@@ -234,6 +228,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 }
                 else
                 {
+                    
                     //gameover
                 }
             }

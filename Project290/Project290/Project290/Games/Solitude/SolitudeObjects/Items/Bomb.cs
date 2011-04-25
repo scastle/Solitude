@@ -33,7 +33,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
             if (DateTime.Now - age > TimeSpan.FromSeconds(Settings.BombTimer))
             {
                 //explode
-                SolitudeScreen.ship.contents.Add(new Explosion(body.Position, body.World, 256f, 200));
+                SolitudeScreen.ship.contents.Add(new Explosion(body.Position, body.World, Settings.bombExpRadius, Settings.bombExpPower));
                 SolitudeScreen.ship.Destroy(this);
             }
         }

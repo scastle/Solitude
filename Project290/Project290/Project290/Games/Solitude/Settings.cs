@@ -35,7 +35,6 @@ namespace Project290.Games.Solitude
         /// </summary>
         public static int BulletDamage = 100;
 
-
         /// <summary>
         /// the rate at which a mauler charges
         /// </summary>
@@ -70,5 +69,40 @@ namespace Project290.Games.Solitude
         /// The velocity that that Fighter moves
         /// </summary>
         public static int FighterSpeed = 100;
+    
+        /// <summary>
+        /// width of the explosion caused by an enemy dying.
+        /// </summary>
+        public static int robotExpRadius = 128;
+
+        /// <summary>
+        /// damage dealt by enemy's explosion
+        /// </summary>
+        public static int robotExpPower = 100;
+
+        /// <summary>
+        /// width of the explosion caused by a bomb
+        /// </summary>
+        public static int bombExpRadius = 256;
+
+        /// <summary>
+        /// damage dealt by a bomb's explosion
+        /// </summary>
+        public static int bombExpPower = 200;
+
+        /// <summary>
+        /// health of a sentinel
+        /// </summary>
+        public static int sentinelHealth = 300;
+
+        /// <summary>
+        /// health of a mauler
+        /// </summary>
+        public static int maulerHealth = 200;
+
+        /// <summary>
+        /// health of a fighter
+        /// </summary>
+        public static int fighterHealth = 500;
     }
 }

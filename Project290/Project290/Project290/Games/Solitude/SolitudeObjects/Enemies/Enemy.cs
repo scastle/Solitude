@@ -22,7 +22,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         {
             if(health <= 0)
             {
-                SolitudeScreen.ship.contents.Add(new Explosion(body.Position, SolitudeScreen.ship.PhysicalWorld,128, 100));
+                SolitudeScreen.ship.contents.Add(new Explosion(body.Position, SolitudeScreen.ship.PhysicalWorld,Settings.robotExpRadius, Settings.robotExpPower));
                 SolitudeScreen.ship.PhysicalWorld.RemoveBody(body);
                 SolitudeScreen.ship.Destroy(this);
             }
