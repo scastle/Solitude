@@ -14,27 +14,27 @@ using Project290.Games.Solitude;
 
 namespace Project290.Games.Solitude.SolitudeHUD
 {
-    public class HealthBar
+    public class FuelBar
     {
-        float healthPercent;
-        Vector2 pointA = new Vector2(300, 112); //start of bar
-        Vector2 pointB = new Vector2(300, 112); //end of health
-        Vector2 pointC = new Vector2(600, 112); //end of bar
+        float fuelPercent;
+        Vector2 pointA = new Vector2(600, 112); //start of bar
+        Vector2 pointB = new Vector2(600, 112); //end of health
+        Vector2 pointC = new Vector2(900, 112); //end of bar
 
-        public HealthBar(int currentHealth, int totalHealth)
+        public FuelBar(int currentFuel, int totalFuel)
         {
-            healthPercent = (float)currentHealth / (float)totalHealth;
+            fuelPercent = (float)currentFuel / (float)totalFuel;
         }
 
         public void Update()
         {
-            healthPercent = (float)SolitudeScreen.ship.Player.oxygen / (float)SolitudeScreen.ship.Player.oxygenCap;
-            pointB.X = 300 + 300 * healthPercent;
+            fuelPercent = (float)SolitudeScreen.ship.Player.fuel / (float)SolitudeScreen.ship.Player.fuelCap;
+            pointB.X = 600 + 300 * fuelPercent;
         }
 
         public void Draw()
-        {      
-            Drawer.DrawLine(pointA, pointB, 20, .9f, Color.PaleGreen);
+        {
+            Drawer.DrawLine(pointA, pointB, 20, .9f, Color.Orange);
             Drawer.DrawLine(pointB, pointC, 20, .9f, Color.Black);
         }
     }

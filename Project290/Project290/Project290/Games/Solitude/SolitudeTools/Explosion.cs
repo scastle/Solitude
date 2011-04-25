@@ -39,32 +39,38 @@ namespace Project290.Games.Solitude.SolitudeTools
 
         public override void Update()
         {
-            foreach(SolitudeObject o in SolitudeScreen.ship.contents)
-            {
-                    if (o is Enemy)
-                    {
-                        //if the sum of their radii is less than the distance between them i.e. if the explosion is touching the fixture
-                        if (o.body.FixtureList.Last().Shape.Radius + this.radius <= (o.body.Position.Length() - this.body.Position.Length()))
-                        {
-                                (o as Enemy).health-= power;
-                        }
-                    }
-            }
-            if (this.radius >= (SolitudeScreen.ship.Player.body.Position.Length() - this.body.Position.Length()) && !hasDamagedPlayer)
-            {
-                SolitudeScreen.ship.Player.oxygen -= power;
-                Console.WriteLine("Player radius {0}, Explosion Radius {1}, Distance between them", SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius, this.radius);
-                hasDamagedPlayer = true;
-                Console.WriteLine("Total radius is {0} is <= {1}", SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius + this.radius,
-                    (SolitudeScreen.ship.Player.body.Position.Length() - this.body.Position.Length()));
-            }
+
+
+            //end if explosion has reached max size
             if (radius > maxRadius)
             {
+                //objects are only damaged in the last frame to avoid doing damage thousands of times and to conserve time.
+
+                //check to see what objects are destroyed
+                foreach (SolitudeObject o in SolitudeScreen.ship.contents)
+                {
+                    if (o is Enemy)
+                    {
+                        //if the sum of their radii is greater than the distance between them i.e. if the explosion is touching the fixture
+                        if (o.body.FixtureList.Last().Shape.Radius + this.radius >= (o.body.Position - this.body.Position).Length())
+                        {
+                            (o as Enemy).health -= power;
+                        }
+                    }
+                }
+
+                //check to damage player
+                if (this.radius + SolitudeScreen.ship.Player.body.FixtureList.Last().Shape.Radius >= (SolitudeScreen.ship.Player.body.Position - this.body.Position).Length())
+                {
+                    SolitudeScreen.ship.Player.oxygen -= power;
+                }
+
+                //remove the explosion
                 SolitudeScreen.ship.Destroy(this);
                 hasDamagedPlayer = false;
                 SolitudeScreen.ship.Player.hasDiedRecently = false;
             }
-            else
+            else //grow
             {
                 //Console.WriteLine("Max Radius is {0}", maxRadius);
                 //Console.WriteLine("Radius is {0}", radius);

@@ -21,7 +21,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         //health
         public int oxygen, oxygenCap;
-        int fuel, fuelCap;
+        public int fuel, fuelCap;
         int lives;
         int numBombs;
         int numEMP;
@@ -33,6 +33,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public Vector2 enterPosition;
 
         public HealthBar hpBar;
+        public FuelBar fBar;
 
         public bool onWall;
 
@@ -91,6 +92,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             numBombs = 10;
 
             hpBar = new HealthBar(oxygen, oxygenCap);
+            fBar = new FuelBar(fuel, fuelCap);
 
             hasGloves = false;
             hasBoots = false;
@@ -110,10 +112,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
              * 4. is jetpack enabled? yes = calc jetpack force
              * 5. check damage from any effects
              */
+
+            Console.WriteLine(this.oxygen);
             //if(body.Position.X <= 225 && body.Position.Y <= 225)
             //    hpBar.Update(200, 1000);
             //else
-                hpBar.Update(250, 112);
+                hpBar.Update();
+                fBar.Update();
             if (!body.LinearVelocity.Equals(Vector2.Zero))
             {
                 jumpCounter = 0;
@@ -185,6 +190,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 }
             }
 
+            //set a bomb
             if (GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.XButtonFirst))
             {
                 if (Settings.maxBombs > SolitudeScreen.ship.bombCount && !onWall && numBombs > 0)
@@ -248,6 +254,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public override void Draw()
         {
             hpBar.Draw();
+            fBar.Draw();
+
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
                 body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
@@ -258,6 +266,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 1,
                 SpriteEffects.None,
                 .8f);
+
+            //draw the arrow
             if (jumpCounter > 0)
             {
                 arrowColor = new Color(255, 255 - jumpCounter * 2, 0); 

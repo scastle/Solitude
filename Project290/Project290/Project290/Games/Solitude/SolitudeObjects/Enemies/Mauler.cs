@@ -38,7 +38,6 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             base.Update();
             CheckCanSeePlayer();
             Charge();
-
         }
 
         private void Charge()
@@ -58,13 +57,6 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             Vector2 n = new Vector2(targetPoint.X - body.Position.X, targetPoint.Y - body.Position.Y);
             n.Normalize();
             body.ApplyForce( n * Settings.MaulerForce);
-
-           //Vector2 velocity = new Vector2(targetPoint.X - body.Position.X, targetPoint.Y - body.Position.Y);
-           // float magnitude = (float)Math.Sqrt(velocity.X * velocity.X + velocity.Y * velocity.Y);
-           // velocity.X = Settings.FighterSpeed * velocity.X / magnitude;
-           // velocity.Y = Settings.FighterSpeed * velocity.Y / magnitude;
-
-           // body.LinearVelocity = velocity;
         }
 
         public void CheckCanSeePlayer(Vector2 point)
@@ -102,18 +94,6 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 1f,
                 SpriteEffects.None,
                 0.1f);
-        }
-
-        public void Shoot()
-        {
-            Vector2 playerPosition = SolitudeScreen.ship.Player.body.Position;
-            Vector2 velocity = new Vector2(playerPosition.X - body.Position.X, playerPosition.Y - body.Position.Y);
-            float magnitude = (float)Math.Sqrt(velocity.X * velocity.X + velocity.Y * velocity.Y);
-            velocity.X = Settings.BulletSpeed * velocity.X / magnitude;
-            velocity.Y = Settings.BulletSpeed * velocity.Y / magnitude;
-
-            Bullet b = new Bullet(velocity, body.Position, world, Color.Red, fixture);
-            SolitudeScreen.ship.contents.Add(b);
         }
     }
 }

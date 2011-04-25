@@ -361,6 +361,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 contents.Remove(o);
             }
             toKill.Clear();
+
             Player.Update();
             contents.ForEach(i => i.Update());
             
