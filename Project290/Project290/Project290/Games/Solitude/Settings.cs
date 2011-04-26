@@ -38,7 +38,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// the rate at which a mauler charges
         /// </summary>
-        public static int MaulerForce = 100000;
+        public static int MaulerForce = 300000;
 
         /// <summary>
         /// the time (in seconds) for a bomb to explode

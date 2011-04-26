@@ -97,7 +97,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             random = new Random();
             //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
-            Player = new Player(new Vector2(600f, 830f), PhysicalWorld);
+            Player = new Player(new Vector2(900f, 830f), PhysicalWorld);
             Player.onWall = true;
             
             border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
