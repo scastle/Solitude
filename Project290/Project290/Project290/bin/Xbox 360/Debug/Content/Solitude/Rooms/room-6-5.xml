@@ -71,12 +71,12 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Grip</string>
+      <string>Metal</string>
       <string>Down</string>
     </moreInfo>
   </ObjectListItem>
   <ObjectListItem>
-    <type>Door</type>
+    <type>Wall</type>
     <position>
       <X>960</X>
       <Y>140</Y>
@@ -86,8 +86,7 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Metal</string>
-      <string>Up</string>
+      <string>Grip</string>
     </moreInfo>
   </ObjectListItem>
   

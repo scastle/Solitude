@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0"?>
 <ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <!--floor and ceiling-->
+
+  <!-- walls in the middle of the room -->
   <ObjectListItem>
     <type>Wall</type>
     <position>
-      <X>1260</X>
-      <Y>140</Y>
+      <X>560</X>
+      <Y>780</Y>
     </position>
     <dimensions>
-      <X>1700</X>
+      <X>300</X>
       <Y>32</Y>
     </dimensions>
     <moreInfo>
@@ -19,45 +20,18 @@
     <type>Wall</type>
     <position>
       <X>1260</X>
-      <Y>939</Y>
+      <Y>300</Y>
     </position>
     <dimensions>
-      <X>1700</X>
+      <X>300</X>
       <Y>32</Y>
     </dimensions>
     <moreInfo>
       <string>HandHold</string>
     </moreInfo>
   </ObjectListItem>
-  
-  <ObjectListItem>
-    <type>Wall</type>
-    <position>
-      <X>376</X>
-      <Y>540</Y>
-    </position>
-    <dimensions>
-      <X>32</X>
-      <Y>600</Y>
-    </dimensions>
-    <moreInfo>
-      <string>Fire</string>
-    </moreInfo>
-  </ObjectListItem>
-  <ObjectListItem>
-    <type>Wall</type>
-    <position>
-      <X>900</X>
-      <Y>870</Y>
-    </position>
-    <dimensions>
-      <X>256</X>
-      <Y>32</Y>
-    </dimensions>
-    <moreInfo>
-      <string>HandHold</string>
-    </moreInfo>
-  </ObjectListItem>
+
+  <!--the left and right doors-->
   <ObjectListItem>
     <type>Door</type>
     <position>
@@ -86,6 +60,22 @@
     <moreInfo>
       <string>HandHold</string>
       <string>Right</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--bad guys!!!-->
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>1260</X>
+      <Y>840</Y>
+    </position>
+    <dimensions>
+      <X>-270</X>
+      <Y>-270</Y>
+    </dimensions>
+    <moreInfo>
+      <string>4</string>
     </moreInfo>
   </ObjectListItem>
 </ArrayOfObjectListItem>
