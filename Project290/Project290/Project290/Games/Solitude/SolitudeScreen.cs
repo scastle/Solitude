@@ -34,8 +34,8 @@ namespace Project290.Games.Solitude
             :base(scoreBoardIndex)
         {
             //todo: everything
-            ship = new Ship();
-          //  this.Reset();
+            ship = new Ship(this);
+            this.Reset();
         }
 
         public override void Update()
@@ -45,6 +45,7 @@ namespace Project290.Games.Solitude
 
         internal override void Reset()
         {
+            ship.Reset();
             //todo: reset
             base.Reset();
         }

@@ -25,12 +25,14 @@ namespace Project290.Games.Solitude.SolitudeEntities
     public class Ship
     {
 
+        public SolitudeScreen screen;
+
+        static string[] songs = {"eerie1", "heartbeat1"}; 
+
         /// <summary>
         /// a class that contains info about how to construct a room for loading from files.
         /// an instance represents one object in a room
         /// </summary>
-        static string[] songs = {"eerie1", "heartbeat1"}; 
-
         public class ObjectListItem
         {
             /// <summary>
@@ -86,11 +88,11 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public int bombCount;
 
+        
 
-        public Ship()
+        public Ship(SolitudeScreen s)
         {
-
-            bombCount = 0;
+            screen = s;
             toKill = new List<SolitudeObject>();
 
 
@@ -98,8 +100,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             //create the world, player, and boundaries
             PhysicalWorld = new World(Vector2.Zero);
             Player = new Player(new Vector2(900f, 830f), PhysicalWorld);
-            Player.onWall = true;
-            
+      
             border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 64, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(1727, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
@@ -108,16 +109,30 @@ namespace Project290.Games.Solitude.SolitudeEntities
             foreach (Wall j in border){
                 PhysicalWorld.AddBody(j.body);
             }
+            contents = new List<SolitudeObject>();
+        }
 
+        public void Reset()
+        {
+            //get rid of last rooms objects
+            foreach (SolitudeObject o in contents)
+            {
+                PhysicalWorld.RemoveBody(o.body);
+            }
+            PhysicalWorld.RemoveBody(Player.body);
+            PhysicalWorld.Step(.1f);
+            contents.Clear();
+            
+            bombCount = 0;
+            //Player.Reset();
+            Player = new Player(new Vector2(900, 830), PhysicalWorld);
             r = 5; c = 5;
 
             //load the first room
             List<ObjectListItem> read;
             read = Serializer.DeserializeFile<List<ObjectListItem>>(GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-5-5.xml");
-
-            contents = new List<SolitudeObject>();
+            
             CreateObjects(read);
-
         }
 
         /// <summary>

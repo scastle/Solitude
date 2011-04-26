@@ -77,31 +77,39 @@ namespace Project290.Games.Solitude.SolitudeObjects
             PlayerFixture.Restitution = .8f;
             texture = TextureStatic.Get("solitudePlayer");
 
-            hasDiedRecently = false;
+            enterPosition = new Vector2(900, 830);
 
-            standingOn = null;
-            onWall = false;
-            jumpCounter = 0;
-            enterPosition = new Vector2(600, 800);
-
-            oxygen = 1000;
-            oxygenCap = 1000;
-            fuel = 10000;
-            fuelCap = 10000;
-            lives = 3;
-            numBombs = 10;
+            Reset();
 
             hpBar = new HealthBar(oxygen, oxygenCap);
             fBar = new FuelBar(fuel, fuelCap);
 
+        }
+        public void Reset()
+        {
             hasGloves = false;
             hasBoots = false;
             hasENVSuit = false;
             hasSpaceSuit = false;
             hasJetpack = true;
 
-        }
+            enterPosition.X = 900;
+            enterPosition.Y = 830;
 
+            oxygen = 10;
+            oxygenCap = 10;
+            fuel = 10000;
+            fuelCap = 10000;
+            lives = 3;
+            numBombs = 10;
+
+
+            hasDiedRecently = false;
+
+            standingOn = null;
+            onWall = true;
+            jumpCounter = 0;
+        }
 
         public override void Update()
         {
@@ -228,7 +236,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 }
                 else
                 {
-                    
+                    SolitudeScreen.ship.screen.GameOver();
                     //gameover
                 }
             }
