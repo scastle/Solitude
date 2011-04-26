@@ -96,8 +96,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
             enterPosition.X = 900;
             enterPosition.Y = 830;
 
-            oxygen = 10;
-            oxygenCap = 10;
+            oxygen = 1000;
+            oxygenCap = 1000;
             fuel = 10000;
             fuelCap = 10000;
             lives = 3;

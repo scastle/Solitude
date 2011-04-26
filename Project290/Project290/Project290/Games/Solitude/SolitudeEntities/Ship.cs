@@ -59,6 +59,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public World PhysicalWorld;
 
+
+        /// <summary>
+        /// distinguishes between normal rooms, rooms with terminals, unfound terminals, and boss fights, etc.
+        /// </summary>
+        public int[,] roomStatus;
+
         /// <summary>
         /// the row index of the active room
         /// </summary>
@@ -95,6 +101,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             screen = s;
             toKill = new List<SolitudeObject>();
 
+            roomStatus = new int[Settings.maxShipRows, Settings.maxShipColumns];
 
             random = new Random();
             //create the world, player, and boundaries

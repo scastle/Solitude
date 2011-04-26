@@ -25,6 +25,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 SolitudeScreen.ship.contents.Add(new Explosion(body.Position, SolitudeScreen.ship.PhysicalWorld,Settings.robotExpRadius, Settings.robotExpPower));
                 SolitudeScreen.ship.PhysicalWorld.RemoveBody(body);
                 SolitudeScreen.ship.Destroy(this);
+                SolitudeScreen.ship.screen.Score += 1000;
             }
         }
 
