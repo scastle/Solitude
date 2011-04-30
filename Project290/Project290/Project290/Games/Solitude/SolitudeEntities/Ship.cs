@@ -27,7 +27,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public SolitudeScreen screen;
 
-        static string[] songs = {"eerie1", "heartbeat1"}; 
+        static string[] songs = {"eerie1", "heartbeat1", "bad"}; 
 
         /// <summary>
         /// a class that contains info about how to construct a room for loading from files.
@@ -390,7 +390,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             if (!GameWorld.audio.IsSongActive)
             {
                 //Random Song Number
-                int randomNumber = random.Next(0, 2);
+                int randomNumber = random.Next(0, 3);
                 GameWorld.audio.SongPlay(songs[randomNumber], false);
             }
 
