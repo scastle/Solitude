@@ -93,6 +93,7 @@ namespace Project290.GameElements
             GameWorld.audio.LoadSong("eerie1", @"Solitude\Music\Eerie1");
             GameWorld.audio.LoadSong("heartbeat1", @"Solitude\Music\heartbeat1");
             GameWorld.audio.LoadSong("bad", @"Solitude\Music\Bad");
+            GameWorld.audio.LoadSong("breakbeat", @"Solitude\Music\breakbeat");
 
             // TODO: load all Fonts, and anything else.
         }

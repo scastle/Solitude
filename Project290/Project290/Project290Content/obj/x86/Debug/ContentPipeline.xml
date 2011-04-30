@@ -427,6 +427,16 @@
       <Extra>C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.wma</Extra>
       <Time>2011-04-30T15:39:51.9228515-04:00</Time>
     </Item>
+    <Item>
+      <Source>Solitude\Music\breakbeat.mp3</Source>
+      <Name>Solitude\Music\breakbeat</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
+      <Extra>C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
+      <Time>2011-04-30T16:16:55.5185546-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

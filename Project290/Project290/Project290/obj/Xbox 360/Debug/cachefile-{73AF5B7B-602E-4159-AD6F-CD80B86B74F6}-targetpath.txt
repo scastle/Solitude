@@ -48,6 +48,8 @@ Content\Solitude\Music\heartbeat1.xnb
 Content\Solitude\Music\heartbeat1.wma
 Content\Solitude\Music\Bad.xnb
 Content\Solitude\Music\Bad.wma
+Content\Solitude\Music\breakbeat.xnb
+Content\Solitude\Music\breakbeat.wma
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Solitude\Art\mauler.png
 Content\Shared\Art\SolitudeInstructions.png
