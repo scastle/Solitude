@@ -233,6 +233,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     body.AngularVelocity = 0f;
                     oxygen = oxygenCap;
                     hasDiedRecently = true;
+                    SolitudeScreen.ship.ResetRoom();
                 }
                 else
                 {

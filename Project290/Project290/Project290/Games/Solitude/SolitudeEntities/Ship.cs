@@ -250,6 +250,24 @@ namespace Project290.Games.Solitude.SolitudeEntities
         }
 
         /// <summary>
+        /// reloads the current room when the player dies.
+        /// </summary>
+        public void ResetRoom()
+        {
+            foreach(SolitudeObject o in contents)
+                toKill.Add(o);
+
+            //read the next room's file
+            string s = GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-";
+            s += r + "-" + c + ".xml";
+            List<ObjectListItem> read;
+            read = Serializer.DeserializeFile<List<ObjectListItem>>(s);
+
+            //create the objects
+            CreateObjects(read);
+        }
+
+        /// <summary>
         /// take the list of objects in the room and actually create them
         /// </summary>
         /// <param name="items"></param>
