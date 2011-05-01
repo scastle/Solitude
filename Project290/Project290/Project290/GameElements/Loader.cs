@@ -90,6 +90,7 @@ namespace Project290.GameElements
             //load the player
             TextureStatic.Load("solitudePlayer", @"Solitude\Art\player");
             TextureStatic.Load("playerLives", @"Solitude\Art\player-lives");
+            TextureStatic.Load("jetpackFlame", @"Solitude\Art\jetpack-flame");
             // TODO: load all Textures.
 
             // TODO: load all Audio.

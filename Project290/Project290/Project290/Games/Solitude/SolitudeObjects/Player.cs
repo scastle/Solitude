@@ -34,7 +34,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public HealthBar hpBar;
         public FuelBar fBar;
         //public LivesCount lCnt;
-        
+
+        public bool hasUsedJetPack;
+        private int JetPackState;
+
         public bool onWall;
 
         public bool hasDiedRecently;
@@ -93,6 +96,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
             hasENVSuit = false;
             hasSpaceSuit = false;
             hasJetpack = true;
+            hasUsedJetPack = false;
+
+            JetPackState = 1;
 
             enterPosition.X = 900;
             enterPosition.Y = 830;
@@ -192,6 +198,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     vector.Normalize();
                     fuel--;
                     body.ApplyForce(vector * Settings.jetPackForceMult);
+                    hasUsedJetPack = true;
+                    if (JetPackState < 100)
+                        JetPackState++;
                 }
             }
 
@@ -271,6 +280,22 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 1,
                 SpriteEffects.None,
                 .8f);
+            if (hasUsedJetPack)
+            {
+                hasUsedJetPack = false;
+                for (int x = 0; x < 2; x++)
+                    Drawer.Draw(
+                        TextureStatic.Get("jetpackFlame"),
+                        new Vector2(body.Position.X + TextureStatic.Get("solitudePlayer").Width / 4 + (x * 2) * TextureStatic.Get("solitudePlayer").Width / 4 - 3,
+                            body.Position.Y + 3 * TextureStatic.Get("solitudePlayer").Height / 4),
+                        new Rectangle(0, 0, TextureStatic.Get("jetpackFlame").Width, TextureStatic.Get("jetpackFlame").Height),
+                        Color.White,
+                        0f,
+                        drawOrigin,
+                        1f,
+                        SpriteEffects.None,
+                        .79f);
+            }
             for (int x = 0; x < lives; x++)
             {
                 Drawer.Draw(

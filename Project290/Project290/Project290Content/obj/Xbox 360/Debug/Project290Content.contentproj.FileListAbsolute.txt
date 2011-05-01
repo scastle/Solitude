@@ -1,1 +1,2 @@
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290Content\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290Content\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
