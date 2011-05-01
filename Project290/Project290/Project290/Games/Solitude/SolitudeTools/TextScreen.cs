@@ -16,7 +16,7 @@ using Project290.Screens;
 
 namespace Project290.Games.Solitude.SolitudeTools
 {
-    public class TextScreen: PauseScreen
+    public class TextScreen:Screen //PauseScreen
     {
 
         /// <summary>

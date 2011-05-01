@@ -207,7 +207,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     if (!vector.Equals(Vector2.Zero))
                     {
                         vector.Normalize();
-                        numBombs--;
+                        //numBombs--;
                         body.ApplyForce(vector * Settings.bombForce);
 
                         //calculate the bomb's speed
