@@ -409,9 +409,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             bombCount = 0;
         }
 
-
-
-
         public void Update()
         {
 

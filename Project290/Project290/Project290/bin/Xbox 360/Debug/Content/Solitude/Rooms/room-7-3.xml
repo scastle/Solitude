@@ -113,6 +113,18 @@
       <string>Fire</string>
     </moreInfo>
   </ObjectListItem>
+  
+  <!--terminal-->
+  <ObjectListItem>
+    <type>Terminal</type>
+    <position>
+      <X>960</X>
+      <Y>720</Y>
+    </position>
+    <moreInfo>
+      <string>string</string>
+    </moreInfo>
+  </ObjectListItem>
 
   <!--bad guys!!!-->
   <ObjectListItem>

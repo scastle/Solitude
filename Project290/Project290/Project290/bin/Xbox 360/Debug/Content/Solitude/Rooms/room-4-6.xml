@@ -1,23 +1,35 @@
 ﻿<?xml version="1.0"?>
 <ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <!--ceiling-->
+  <!--the walls on top and bottom, split into the left and right sections, with doors between-->
   <ObjectListItem>
     <type>Wall</type>
     <position>
-      <X>960</X>
+      <X>420</X>
       <Y>140</Y>
     </position>
     <dimensions>
-      <X>1900</X>
+      <X>560</X>
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Fire</string>
+      <string>HandHold</string>
     </moreInfo>
   </ObjectListItem>
-
-  <!--the walls on bottom, split into the left and right sections, with doors between-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>1500</X>
+      <Y>140</Y>
+    </position>
+    <dimensions>
+      <X>560</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+    </moreInfo>
+  </ObjectListItem>
   <ObjectListItem>
     <type>Wall</type>
     <position>
@@ -29,7 +41,7 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Fire</string>
+      <string>HandHold</string>
     </moreInfo>
   </ObjectListItem>
   <ObjectListItem>
@@ -43,13 +55,13 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Fire</string>
+      <string>HandHold</string>
     </moreInfo>
   </ObjectListItem>
 
-  <!--the middle doors-->
+  <!--fire in the middle-->
   <ObjectListItem>
-    <type>Door</type>
+    <type>Wall</type>
     <position>
       <X>960</X>
       <Y>939</Y>
@@ -59,12 +71,25 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>HandHold</string>
-      <string>Down</string>
+      <string>Fire</string>
     </moreInfo>
   </ObjectListItem>
-
-  <!--left door-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>140</Y>
+    </position>
+    <dimensions>
+      <X>360</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+  
+  <!--the left and right doors-->
   <ObjectListItem>
     <type>Door</type>
     <position>
@@ -76,29 +101,33 @@
       <Y>200</Y>
     </dimensions>
     <moreInfo>
-      <string>Grip</string>
+      <string>HandHold</string>
       <string>Left</string>
     </moreInfo>
   </ObjectListItem>
-
-  <!--terminal-->
   <ObjectListItem>
-    <type>Terminal</type>
+    <type>Door</type>
     <position>
-      <X>960</X>
-      <Y>240</Y>
+      <X>1695</X>
+      <Y>540</Y>
     </position>
+    <dimensions>
+      <X>32</X>
+      <Y>200</Y>
+    </dimensions>
     <moreInfo>
       <string>Grip</string>
+      <string>Right</string>
     </moreInfo>
   </ObjectListItem>
-  
+
+
   <!--bad guys!!!-->
   <ObjectListItem>
-    <type>Mauler</type>
+    <type>Ty</type>
     <position>
-      <X>960</X>
-      <Y>540</Y>
+      <X>800</X>
+      <Y>580</Y>
     </position>
   </ObjectListItem>
 </ArrayOfObjectListItem>
