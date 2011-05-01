@@ -72,7 +72,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         }
 
-        public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
+        new public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
         {
             
             // Check if f2 is player
@@ -107,6 +107,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         case WallType.Cold:
                             break;
                         case WallType.Hot:
+                            SolitudeScreen.ship.Player.oxygen -= 100;
                             break;
                         case WallType.Spike:
                             break;

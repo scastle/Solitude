@@ -41,6 +41,11 @@ namespace Project290.Games.Solitude
         public static int MaulerForce = 300000;
 
         /// <summary>
+        /// amount of damage dealt when player touches mauler
+        /// </summary>
+        public static int maulerDamage = 100;
+
+        /// <summary>
         /// the time (in seconds) for a bomb to explode
         /// </summary>
         public static int BombTimer = 2;

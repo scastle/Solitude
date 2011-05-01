@@ -29,6 +29,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             body.Position = position;
             texture = TextureStatic.Get("solitudeMauler");
             fixture = FixtureFactory.CreateCircle(texture.Width/2, 0.25f, body, Vector2.Zero);
+            fixture.OnCollision += new OnCollisionEventHandler(OnCollision);
             world.AddBody(body);
             targetPoint = body.Position;
         }
@@ -80,6 +81,17 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 return 0;
             }
             return 1;
+        }
+
+        new public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
+        {
+            // Check if f2 is player
+            if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
+            {
+                SolitudeScreen.ship.Player.oxygen -= Settings.maulerDamage;
+                Console.WriteLine("hit");
+            }
+            return true;
         }
 
         public override void Draw()

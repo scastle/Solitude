@@ -375,7 +375,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             }
             //step world (actually removes the bodies)
 
-
             PhysicalWorld.Step(0.01f);
             //now it is safe to remove the objects
             foreach (SolitudeObject o in toKill)
@@ -384,9 +383,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
             }
             toKill.Clear();
 
-            Player.Update();
-            contents.ForEach(i => i.Update());
             
+            contents.ForEach(i => i.Update());
+            Player.Update();
+
             if (!GameWorld.audio.IsSongActive)
             {
                 //Random Song Number
