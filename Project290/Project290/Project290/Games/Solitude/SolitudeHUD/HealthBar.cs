@@ -17,15 +17,9 @@ namespace Project290.Games.Solitude.SolitudeHUD
     public class HealthBar
     {
         float healthPercent;
-<<<<<<< HEAD
         Vector2 pointA = new Vector2(300, 120); //start of bar
         Vector2 pointB = new Vector2(300, 120); //end of health
         Vector2 pointC = new Vector2(600, 120); //end of bar
-=======
-        Vector2 pointA = new Vector2(300, 112); //start of bar
-        Vector2 pointB = new Vector2(300, 112); //end of health
-        Vector2 pointC = new Vector2(600, 112); //end of bar
->>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
 
         public HealthBar(int currentHealth, int totalHealth)
         {

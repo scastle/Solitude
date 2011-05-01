@@ -84,7 +84,6 @@ C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\Xbox 
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.exe
 C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.pdb
-<<<<<<< HEAD
 C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Shared\BoxArt\BoxArtGame1.xnb
 C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Shared\BoxArt\BoxArtGame2.xnb
 C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Shared\BoxArt\BoxArtGame3.xnb
@@ -259,5 +258,3 @@ C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\Xb
 C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.exe
 C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.pdb
-=======
->>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
