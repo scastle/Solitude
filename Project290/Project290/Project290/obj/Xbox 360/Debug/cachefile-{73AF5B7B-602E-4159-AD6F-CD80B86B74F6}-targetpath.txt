@@ -88,3 +88,8 @@ Content\Solitude\Rooms\room-3-6.xml
 Content\Solitude\Rooms\room-4-6.xml
 Content\Solitude\Rooms\room-5-6.xml
 Content\Solitude\Rooms\room-6-7.xml
+Content\Solitude\Rooms\room-5-7.xml
+Content\Solitude\Rooms\room-6-4.xml
+Content\Solitude\Rooms\room-8-2.xml
+Content\Solitude\Rooms\room-8-1.xml
+Content\Solitude\Rooms\room-5-3.xml

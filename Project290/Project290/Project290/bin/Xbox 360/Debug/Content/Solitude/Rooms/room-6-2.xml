@@ -93,7 +93,7 @@
 
   <!--left door-->
   <ObjectListItem>
-    <type>Door</type>
+    <type>Wall</type>
     <position>
       <X>224</X>
       <Y>540</Y>
@@ -108,6 +108,18 @@
     </moreInfo>
   </ObjectListItem>
 
+  <!--terminal-->
+  <ObjectListItem>
+    <type>Terminal</type>
+    <position>
+      <X>300</X>
+      <Y>540</Y>
+    </position>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
+  
   <!-- walls in the middle of the room -->
   <ObjectListItem>
     <type>Wall</type>

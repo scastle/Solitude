@@ -94,3 +94,8 @@ C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Debu
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.exe
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.pdb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Rooms\room-5-7.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Rooms\room-6-4.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Rooms\room-8-2.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Rooms\room-8-1.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Rooms\room-5-3.xml

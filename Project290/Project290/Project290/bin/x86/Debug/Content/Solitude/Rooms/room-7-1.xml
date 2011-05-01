@@ -93,6 +93,17 @@
     </moreInfo>
   </ObjectListItem>
 
+  <!--terminal-->
+  <ObjectListItem>
+    <type>Terminal</type>
+    <position>
+      <X>1650</X>
+      <Y>210</Y>
+    </position>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
   <!-- walls in the middle of the room -->
   <ObjectListItem>
     <type>Wall</type>
