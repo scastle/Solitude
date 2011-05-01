@@ -10,6 +10,7 @@ using Project290.Physics.Factories;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Rendering;
+using Project290.Clock;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
@@ -18,14 +19,14 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         Vector2 targetPoint = Vector2.Zero;
         World world;
         public int health;
-        public DateTime lastShot;
+        public long lastShot;
 
         public TyTaylor(World w, Vector2 position) :
             base(position, w, TextureStatic.Get("ty").Width, TextureStatic.Get("ty").Height)
         {
             this.health = Settings.TyHealth;
             world = w;
-            lastShot = DateTime.Now;
+            lastShot = GameClock.Now;
             body.BodyType = BodyType.Dynamic;
             body.Position = position;
             texture = TextureStatic.Get("ty");
@@ -42,9 +43,9 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             float magnitude = (float)Math.Sqrt(velocity.X * velocity.X + velocity.Y * velocity.Y);
             velocity.X = Settings.TySpeed * velocity.X / magnitude;
             velocity.Y = Settings.TySpeed * velocity.Y / magnitude;
-            if (DateTime.Now - lastShot > TimeSpan.FromSeconds(Settings.TyShootRate))
+            if (GameClock.Now - lastShot > 10000000 * (Settings.TyShootRate))
             {
-                lastShot = DateTime.Now;
+                lastShot = GameClock.Now;
                 Shoot();
             }
 

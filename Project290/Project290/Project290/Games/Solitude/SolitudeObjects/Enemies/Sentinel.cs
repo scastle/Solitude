@@ -10,6 +10,7 @@ using Project290.Physics.Factories;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Rendering;
+using Project290.Clock;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
@@ -22,8 +23,8 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
         private World world;
         int patrolRate;
-        private DateTime lastShot;
-        private DateTime lastTurn;
+        private long lastShot;
+        private long lastTurn;
         Vector2 speed;
 
         public Sentinel(Vector2 position, Vector2 velocity, World w, int rate)
@@ -31,7 +32,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         {
             health = Settings.sentinelHealth;
             patrolRate = rate;
-            lastShot = DateTime.Now;
+            lastShot = GameClock.Now;
             lastTurn = lastShot;
             world = w;
             body.BodyType = BodyType.Dynamic;
@@ -46,14 +47,14 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         override public void Update()
         {
             base.Update();
-            if(DateTime.Now  - lastTurn > TimeSpan.FromSeconds(patrolRate)){
-                lastTurn = DateTime.Now;
+            if(GameClock.Now  - lastTurn > patrolRate * 10000000){
+                lastTurn = GameClock.Now;
                 speed *= -1;
                 body.LinearVelocity = speed;
             }
-            if (DateTime.Now - lastShot > TimeSpan.FromSeconds(Settings.SentinelShootRate))
+            if (GameClock.Now - lastShot > 10000000 * (Settings.SentinelShootRate))
             {
-                lastShot = DateTime.Now;
+                lastShot = GameClock.Now;
                 Shoot();
             }
         }

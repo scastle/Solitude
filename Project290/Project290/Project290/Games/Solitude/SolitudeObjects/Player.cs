@@ -24,7 +24,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public int fuel, fuelCap;
         public int lives;
         int numBombs;
-        int numEMP;
 
         /// <summary>
         /// the door used to enter room, so we can reset if the player dies
@@ -89,7 +88,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         }
         public void Reset()
         {
-            hasGloves = false;
+            hasGloves = true;
             hasBoots = false;
             hasENVSuit = false;
             hasSpaceSuit = false;

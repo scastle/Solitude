@@ -348,3 +348,6 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Debug\Project
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\x86\Debug\Project290.pdb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\ty.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\ty.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Rooms\room-6-6.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Rooms\room-7-6.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Rooms\room-7-7.xml
