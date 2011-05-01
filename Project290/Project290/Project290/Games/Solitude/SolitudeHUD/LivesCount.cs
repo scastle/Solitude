@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Physics.Dynamics;
@@ -55,5 +56,12 @@ namespace Project290.Games.Solitude.SolitudeHUD
             //Drawer.DrawString(FontStatic.Get("defaultFont"), toDraw, new Vector2(1000, 120), Color.Black, 1f, new Vector2(1020, 120), 0f, SpriteEffects.None, .9f);
             //Drawer.DrawLine(new Vector2(1000, 120), new Vector2 (1020, 120), 20, .9f, Color.Black);
         }*/
+=======
+
+namespace Project290.Games.Solitude.SolitudeHUD
+{
+    class LivesCount
+    {
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     }
 }

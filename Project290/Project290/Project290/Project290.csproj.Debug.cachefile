@@ -34,7 +34,10 @@ Content\Solitude\Art\explosion.xnb
 Content\Solitude\Art\mauler.xnb
 Content\Solitude\Art\arrow.xnb
 Content\Solitude\Art\arrow-body.xnb
+<<<<<<< HEAD
 Content\Solitude\Art\player-lives.xnb
+=======
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb

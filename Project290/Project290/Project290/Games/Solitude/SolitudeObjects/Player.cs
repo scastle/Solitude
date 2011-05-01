@@ -22,7 +22,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
         //health
         public int oxygen, oxygenCap;
         public int fuel, fuelCap;
+<<<<<<< HEAD
         public int lives;
+=======
+        int lives;
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
         int numBombs;
         int numEMP;
 
@@ -34,8 +38,12 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         public HealthBar hpBar;
         public FuelBar fBar;
+<<<<<<< HEAD
         //public LivesCount lCnt;
         
+=======
+
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
         public bool onWall;
 
         public bool hasDiedRecently;
@@ -84,7 +92,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             hpBar = new HealthBar(oxygen, oxygenCap);
             fBar = new FuelBar(fuel, fuelCap);
+<<<<<<< HEAD
             //lCnt = new LivesCount();
+=======
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
 
         }
         public void Reset()
@@ -118,7 +129,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
             //update health and fuel bars
             hpBar.Update();
             fBar.Update();
+<<<<<<< HEAD
             //lCnt.Update();
+=======
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
 
             //if moving, make sure not on wall
             if (!body.LinearVelocity.Equals(Vector2.Zero))
@@ -262,7 +276,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
             hpBar.Draw();
             fBar.Draw();
+<<<<<<< HEAD
             //lCnt.Draw();
+=======
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
 
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),
@@ -274,6 +291,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 1,
                 SpriteEffects.None,
                 .8f);
+<<<<<<< HEAD
             for (int x = 0; x < lives; x++)
             {
                 Drawer.Draw(
@@ -287,6 +305,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     SpriteEffects.None,
                     .9f);
             }
+=======
+
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
             //draw the arrow
             if (jumpCounter > 0)
             {

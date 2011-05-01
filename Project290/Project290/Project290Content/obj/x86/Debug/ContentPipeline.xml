@@ -7,8 +7,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
       <Time>2011-04-30T21:04:04.1204843-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
+      <Time>2011-04-30T17:18:15.5981817-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame2.jpg</Source>
@@ -16,8 +21,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
       <Time>2011-04-30T21:04:04.1214843-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
+      <Time>2011-04-30T17:18:15.6011819-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame3.jpg</Source>
@@ -25,8 +35,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
       <Time>2011-04-30T21:04:04.1234844-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
+      <Time>2011-04-30T17:18:15.604182-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame4.jpg</Source>
@@ -34,8 +49,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
       <Time>2011-04-30T21:04:04.1244845-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
+      <Time>2011-04-30T17:18:15.6371839-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtGame5.jpg</Source>
@@ -43,8 +63,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
       <Time>2011-04-30T21:04:04.1254845-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
+      <Time>2011-04-30T17:18:15.6401841-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\Blank.png</Source>
@@ -52,8 +77,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\Blank.xnb</Output>
       <Time>2011-04-30T21:04:04.0954828-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\Blank.xnb</Output>
+      <Time>2011-04-30T17:18:15.4531734-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\tileSafeCheck.png</Source>
@@ -61,8 +91,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\tileSafeCheck.xnb</Output>
       <Time>2011-04-30T21:04:04.1184841-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\tileSafeCheck.xnb</Output>
+      <Time>2011-04-30T17:18:15.5931814-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Fonts\controllerFont.tga</Source>
@@ -70,8 +105,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\controllerFont.xnb</Output>
       <Time>2011-04-30T21:04:04.1374852-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\controllerFont.xnb</Output>
+      <Time>2011-04-30T17:18:15.6571851-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>DefaultBackground\particle1.png</Source>
@@ -79,8 +119,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\particle1.xnb</Output>
       <Time>2011-04-30T21:04:04.0934827-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\particle1.xnb</Output>
+      <Time>2011-04-30T17:18:15.3171656-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>DefaultBackground\checkers.png</Source>
@@ -88,8 +133,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\checkers.xnb</Output>
       <Time>2011-04-30T21:04:04.0894825-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\checkers.xnb</Output>
+      <Time>2011-04-30T17:18:15.2261604-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>DefaultBackground\colorSwirl.png</Source>
@@ -97,8 +147,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\colorSwirl.xnb</Output>
       <Time>2011-04-30T21:04:04.0924827-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\colorSwirl.xnb</Output>
+      <Time>2011-04-30T17:18:15.2311607-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtHolder.png</Source>
@@ -106,8 +161,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
       <Time>2011-04-30T21:04:04.1264846-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
+      <Time>2011-04-30T17:18:15.6421842-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\titleNameBorder.png</Source>
@@ -115,8 +175,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\titleNameBorder.xnb</Output>
       <Time>2011-04-30T21:04:04.1184841-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\titleNameBorder.xnb</Output>
+      <Time>2011-04-30T17:18:15.5951815-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\instructionBorder.png</Source>
@@ -124,8 +189,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\instructionBorder.xnb</Output>
       <Time>2011-04-30T21:04:04.0964829-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\instructionBorder.xnb</Output>
+      <Time>2011-04-30T17:18:15.5701801-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\sampleInstructions.png</Source>
@@ -133,8 +203,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\sampleInstructions.xnb</Output>
       <Time>2011-04-30T21:04:04.116484-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\sampleInstructions.xnb</Output>
+      <Time>2011-04-30T17:18:15.5901812-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\gradient.png</Source>
@@ -142,8 +217,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\gradient.xnb</Output>
       <Time>2011-04-30T21:04:04.0964829-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\gradient.xnb</Output>
+      <Time>2011-04-30T17:18:15.4571736-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\BoxArt\BoxArtSolitude.jpg</Source>
@@ -151,8 +231,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
       <Time>2011-04-30T21:04:04.1304848-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
+      <Time>2011-04-30T17:18:15.6481846-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Art\SolitudeInstructions.png</Source>
@@ -160,8 +245,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\SolitudeInstructions.xnb</Output>
       <Time>2011-04-30T21:04:04.0954828-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\SolitudeInstructions.xnb</Output>
+      <Time>2011-04-30T17:18:15.4551735-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-cold.png</Source>
@@ -169,8 +259,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-cold.xnb</Output>
       <Time>2011-04-30T21:04:04.1494859-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-cold.xnb</Output>
+      <Time>2011-04-30T17:18:15.8431957-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-door.png</Source>
@@ -178,8 +273,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-door.xnb</Output>
       <Time>2011-04-30T21:04:04.150486-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-door.xnb</Output>
+      <Time>2011-04-30T17:18:15.8441958-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-grip.png</Source>
@@ -187,8 +287,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-grip.xnb</Output>
       <Time>2011-04-30T21:04:04.150486-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-grip.xnb</Output>
+      <Time>2011-04-30T17:18:15.8461959-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-handhold.png</Source>
@@ -196,8 +301,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-handhold.xnb</Output>
       <Time>2011-04-30T21:04:04.150486-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-handhold.xnb</Output>
+      <Time>2011-04-30T17:18:15.8471959-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-hot.png</Source>
@@ -205,8 +315,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-hot.xnb</Output>
       <Time>2011-04-30T21:04:04.151486-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-hot.xnb</Output>
+      <Time>2011-04-30T17:18:15.8491961-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-metal.png</Source>
@@ -214,8 +329,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-metal.xnb</Output>
       <Time>2011-04-30T21:04:04.151486-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-metal.xnb</Output>
+      <Time>2011-04-30T17:18:15.8501961-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-smooth.png</Source>
@@ -223,8 +343,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-smooth.xnb</Output>
       <Time>2011-04-30T21:04:04.151486-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-smooth.xnb</Output>
+      <Time>2011-04-30T17:18:15.8521962-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\wall-spike.png</Source>
@@ -232,8 +357,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-spike.xnb</Output>
       <Time>2011-04-30T21:04:04.1524861-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-spike.xnb</Output>
+      <Time>2011-04-30T17:18:15.8531963-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\player.png</Source>
@@ -241,8 +371,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player.xnb</Output>
       <Time>2011-04-30T22:35:32.3463928-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player.xnb</Output>
+      <Time>2011-04-30T17:18:15.8381954-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\bullet.png</Source>
@@ -250,8 +385,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bullet.xnb</Output>
       <Time>2011-04-30T21:04:04.1464857-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bullet.xnb</Output>
+      <Time>2011-04-30T17:18:15.8291949-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\sentinel.png</Source>
@@ -259,8 +399,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\sentinel.xnb</Output>
       <Time>2011-04-30T21:04:04.1494859-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\sentinel.xnb</Output>
+      <Time>2011-04-30T17:18:15.8391955-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\fighter.png</Source>
@@ -268,8 +413,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\fighter.xnb</Output>
       <Time>2011-04-30T21:04:04.1474858-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\fighter.xnb</Output>
+      <Time>2011-04-30T17:18:15.8331951-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\bomb.png</Source>
@@ -277,8 +427,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bomb.xnb</Output>
       <Time>2011-04-30T21:04:04.1464857-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bomb.xnb</Output>
+      <Time>2011-04-30T17:18:15.7401898-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\terminal.png</Source>
@@ -286,8 +441,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\terminal.xnb</Output>
       <Time>2011-04-30T21:04:04.1494859-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\terminal.xnb</Output>
+      <Time>2011-04-30T17:18:15.8411956-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\explosion.png</Source>
@@ -295,8 +455,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\explosion.xnb</Output>
       <Time>2011-04-30T21:04:04.1474858-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\explosion.xnb</Output>
+      <Time>2011-04-30T17:18:15.831195-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\mauler.png</Source>
@@ -304,8 +469,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\mauler.xnb</Output>
       <Time>2011-04-30T21:04:04.1484859-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\mauler.xnb</Output>
+      <Time>2011-04-30T17:18:15.8361953-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\arrow.png</Source>
@@ -313,8 +483,13 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb</Output>
       <Time>2011-04-30T21:04:04.1454857-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb</Output>
+      <Time>2011-04-30T17:18:15.7371897-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Art\arrow-body.png</Source>
@@ -322,6 +497,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb</Output>
       <Time>2011-04-30T21:04:04.1444856-04:00</Time>
     </Item>
@@ -333,6 +509,10 @@
       <Options>None</Options>
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player-lives.xnb</Output>
       <Time>2011-04-30T22:47:37.4588669-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb</Output>
+      <Time>2011-04-30T17:18:15.7351895-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
@@ -340,8 +520,13 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\defaultFont.xnb</Output>
       <Time>2011-04-30T21:04:04.1384853-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\defaultFont.xnb</Output>
+      <Time>2011-04-30T17:18:15.6591852-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\boxArtScroll.wav</Source>
@@ -349,8 +534,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\boxArtScroll.xnb</Output>
       <Time>2011-04-30T21:04:04.1394853-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\boxArtScroll.xnb</Output>
+      <Time>2011-04-30T17:18:15.6611853-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\menuClick.wav</Source>
@@ -358,8 +548,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuClick.xnb</Output>
       <Time>2011-04-30T21:04:04.1404854-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuClick.xnb</Output>
+      <Time>2011-04-30T17:18:15.6631854-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\menuGoBack.wav</Source>
@@ -367,8 +562,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuGoBack.xnb</Output>
       <Time>2011-04-30T21:04:04.1414855-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuGoBack.xnb</Output>
+      <Time>2011-04-30T17:18:15.6661856-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\menuScrollDown.wav</Source>
@@ -376,8 +576,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollDown.xnb</Output>
       <Time>2011-04-30T21:04:04.1424855-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollDown.xnb</Output>
+      <Time>2011-04-30T17:18:15.7271891-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\menuScrollUp.wav</Source>
@@ -385,8 +590,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollUp.xnb</Output>
       <Time>2011-04-30T21:04:04.1424855-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollUp.xnb</Output>
+      <Time>2011-04-30T17:18:15.7291892-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\volumeControlDown.wav</Source>
@@ -394,8 +604,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlDown.xnb</Output>
       <Time>2011-04-30T21:04:04.1434856-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlDown.xnb</Output>
+      <Time>2011-04-30T17:18:15.7311893-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Shared\Sounds\volumeControlUp.wav</Source>
@@ -403,8 +618,13 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlUp.xnb</Output>
       <Time>2011-04-30T21:04:04.1434856-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlUp.xnb</Output>
+      <Time>2011-04-30T17:18:15.7331894-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Music\Eerie1.mp3</Source>
@@ -412,9 +632,15 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.xnb</Output>
       <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.wma</Extra>
       <Time>2011-04-30T21:04:04.1974887-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.wma</Extra>
+      <Time>2011-04-30T17:18:15.901199-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Music\heartbeat1.mp3</Source>
@@ -422,9 +648,15 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
       <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
       <Time>2011-04-30T21:04:04.2224901-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
+      <Time>2011-04-30T17:18:15.9312008-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Music\Bad.mp3</Source>
@@ -432,9 +664,15 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.xnb</Output>
       <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.wma</Extra>
       <Time>2011-04-30T21:04:04.1814878-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.wma</Extra>
+      <Time>2011-04-30T17:18:15.8841981-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <Item>
       <Source>Solitude\Music\breakbeat.mp3</Source>
@@ -442,9 +680,15 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
+<<<<<<< HEAD
       <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
       <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
       <Time>2011-04-30T21:04:04.2094894-04:00</Time>
+=======
+      <Output>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
+      <Time>2011-04-30T20:19:56.3388513-04:00</Time>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -452,14 +696,22 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
+<<<<<<< HEAD
       <RootDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290Content\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\</LoggerRootDirectory>
       <IntermediateDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290Content\obj\x86\Debug\</IntermediateDirectory>
       <OutputDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\</OutputDirectory>
+=======
+      <RootDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\x86\Debug\Content\</OutputDirectory>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+<<<<<<< HEAD
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
@@ -485,6 +737,33 @@
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
         <Value>2011-02-08T13:26:08.6762452-05:00</Value>
+=======
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-04-10T11:02:54.1294772-04:00</Value>
+>>>>>>> b2b00a22c5d51daefddfb213ac37b0ba2768ec0b
       </Assembly>
     </Assemblies>
   </Asset>
