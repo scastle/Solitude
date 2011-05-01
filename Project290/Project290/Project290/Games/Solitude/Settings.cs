@@ -38,7 +38,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// the rate at which a mauler charges
         /// </summary>
-        public static int MaulerForce = 300000;
+        public static int MaulerForce = 200000;
 
         /// <summary>
         /// amount of damage dealt when player touches mauler
@@ -109,5 +109,14 @@ namespace Project290.Games.Solitude
         /// health of a fighter
         /// </summary>
         public static int fighterHealth = 500;
+
+        /// <summary>
+        /// Speed Ty Taylor moves
+        /// </summary>
+        public static int TySpeed = 600;
+
+        public static int TyHealth = 1000;
+
+        public static int TyShootRate = 1;
     }
 }

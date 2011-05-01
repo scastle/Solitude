@@ -157,5 +157,22 @@
       <string>5</string>
     </moreInfo>
   </ObjectListItem>
+<<<<<<< HEAD
   
+=======
+  <ObjectListItem>
+    <type>TyTaylor</type>
+    <position>
+      <X>300</X>
+      <Y>300</Y>
+    </position>
+    <dimensions>
+      <X>0</X>
+      <Y>100</Y>
+    </dimensions>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
+>>>>>>> fa3cb5387a48c1ab6576d6069ad1cf958c850a51
 </ArrayOfObjectListItem>

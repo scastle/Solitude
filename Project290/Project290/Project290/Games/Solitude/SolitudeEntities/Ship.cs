@@ -24,6 +24,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
     /// </summary>
     public class Ship
     {
+        /// <summary>
+        /// time of last enemy's death to boost score multiplier.
+        /// </summary>
+        public DateTime lastEnemyDied;
 
         public SolitudeScreen screen;
 
@@ -221,6 +225,11 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         }
             Door door = new Door(o.position, PhysicalWorld, o.dimensions.X, o.dimensions.Y, 1, t, d);
             contents.Add(door);
+        }
+        private void ItemIsTy(ObjectListItem o)
+        {
+            SolitudeObjects.Enemies.TyTaylor t = new SolitudeObjects.Enemies.TyTaylor(PhysicalWorld, o.position);
+            contents.Add(t);
         }
         private void ItemIsSentinel(ObjectListItem o)
         {

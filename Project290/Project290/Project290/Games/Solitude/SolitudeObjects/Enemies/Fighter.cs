@@ -10,13 +10,14 @@ using Project290.Physics.Factories;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Rendering;
+using Project290.Clock;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
     class Fighter : Enemy
     {
         World world;
-        DateTime lastShot;
+        long lastShot;
         bool CanSeePlayer = false;
         Vector2 targetPoint;
         Fixture fixtureInTheWay;
@@ -26,7 +27,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         {
             this.health = Settings.fighterHealth;
             world = w;
-            lastShot = DateTime.Now;
+            lastShot = GameClock.Now;
             world = w;
             body.BodyType = BodyType.Dynamic;
             body.Position = position;
@@ -40,9 +41,9 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         {
             base.Update();
             CheckCanSeePlayer();
-            if (DateTime.Now - lastShot > TimeSpan.FromSeconds(Settings.SentinelShootRate) && CanSeePlayer)
+            if (GameClock.Now - lastShot > 10000000 * (Settings.SentinelShootRate) && CanSeePlayer)
             {
-                lastShot = DateTime.Now;
+                lastShot = GameClock.Now;
                 Shoot();
             }
             SetVelocity();

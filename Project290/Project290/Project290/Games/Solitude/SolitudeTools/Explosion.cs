@@ -10,25 +10,21 @@ using Project290.Rendering;
 using Project290.Games.Solitude.SolitudeObjects;
 using Project290.Games.Solitude.SolitudeObjects.Enemies;
 using Project290.Games.Solitude;
+using Project290.Clock;
 
 namespace Project290.Games.Solitude.SolitudeTools
 {
     public class Explosion : SolitudeObject
-    {
-        private DateTime start;
+    { 
         private float radius;
         private float maxRadius;
         private int power;
-        private Fixture fixture;
-        private bool hasDamagedPlayer;
 
         public Explosion(Vector2 position, World world, float radius, int power)
             :base(position, world, TextureStatic.Get("solitudeExplosion").Width, TextureStatic.Get("solitudeExplosion").Height)
         {
-            hasDamagedPlayer = false;
             body.BodyType = BodyType.Kinematic;
             body.Position = position;
-            start = DateTime.Now;
             this.radius = 1f;
             maxRadius = radius;
             this.power = power;
@@ -67,7 +63,6 @@ namespace Project290.Games.Solitude.SolitudeTools
 
                 //remove the explosion
                 SolitudeScreen.ship.Destroy(this);
-                hasDamagedPlayer = false;
                 SolitudeScreen.ship.Player.hasDiedRecently = false;
             }
             else //grow
