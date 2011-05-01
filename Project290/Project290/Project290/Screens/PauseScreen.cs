@@ -130,6 +130,7 @@ namespace Project290.Screens
                 GameClock.Unpause();
                 this.Disposed = true;
             }
+
             this.background.Set(this.position.X.Value, this.position.Y.Value);
             this.background.Update();
         }
