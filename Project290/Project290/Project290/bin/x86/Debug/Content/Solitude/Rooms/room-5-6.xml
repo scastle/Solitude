@@ -47,20 +47,20 @@
     </moreInfo>
   </ObjectListItem>
 
-  <!--the up doors-->
+  <!--the right doors-->
   <ObjectListItem>
     <type>Door</type>
     <position>
-      <X>960</X>
-      <Y>140</Y>
+      <X>1695</X>
+      <Y>540</Y>
     </position>
     <dimensions>
-      <X>360</X>
-      <Y>32</Y>
+      <X>32</X>
+      <Y>200</Y>
     </dimensions>
     <moreInfo>
       <string>Grip</string>
-      <string>Up</string>
+      <string>Right</string>
     </moreInfo>
   </ObjectListItem>
 
