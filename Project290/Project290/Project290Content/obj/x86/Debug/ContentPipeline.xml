@@ -335,6 +335,15 @@
       <Time>2011-04-30T23:37:40.8263794-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\ty.png</Source>
+      <Name>Solitude\Art\ty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\ty.xnb</Output>
+      <Time>2011-05-01T09:41:53.2776359-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
