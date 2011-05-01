@@ -296,3 +296,7 @@ C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\obj\Xbox 360\
 C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\obj\Xbox 360\Debug\Project290.pdb
 C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.xnb
 C:\Users\Paul An\Desktop\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.wma
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\Bad.xnb
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.xnb
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\Bad.wma
+C:\Users\Michael\Desktop\git projects\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.wma
