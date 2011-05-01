@@ -106,6 +106,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
             if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
             {
                 IsColliding = true;
+                SolitudeScreen.ship.Player.onWall = true;
             }
             return true;
         }
@@ -114,22 +115,14 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
         {
             if (IsColliding && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButton))
             {
-                Console.WriteLine("B  button pressed");
                 if (DateTime.Now - lastHeldDown > TimeSpan.FromMilliseconds(500))
                 {
-                    Console.WriteLine("B  button held");
+                    IsShowing = !IsShowing;
                     if (IsShowing)
                     {
-                        Console.WriteLine("TextScreen Showing");
                         GameWorld.screens.Play(new TextScreen(text));
-                        //terminalText.Update();
-                        //terminalText.Draw();
                     }
-                    //else
-                    //{
-                        
-                    //}
-                    IsShowing = !IsShowing;
+                    
                 }
                 lastHeldDown = DateTime.Now;
             }
