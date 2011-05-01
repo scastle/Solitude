@@ -80,6 +80,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<SolitudeObject> contents;
 
+
+        public Terminal term;
+
         public Random random;
 
         /// <summary>
@@ -112,11 +115,14 @@ namespace Project290.Games.Solitude.SolitudeEntities
             border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 64, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(1727, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
             border.Add(new Wall(new Vector2(960, 971), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
+            //term = new Terminal(new Vector2(500, 500), PhysicalWorld, "Derp Derp Derp Derp Derp Dfffffffferp Desdfrp Derp Derp Dffffferp Derp Derp Deffffffffffrp Derp Derp Deffrp Derp Derp Derp Derp");
+            
 
             foreach (Wall j in border){
                 PhysicalWorld.AddBody(j.body);
             }
             contents = new List<SolitudeObject>();
+
         }
 
         public void Reset()
@@ -248,6 +254,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
             SolitudeObjects.Enemies.Mauler m = new SolitudeObjects.Enemies.Mauler(o.position, PhysicalWorld);
             contents.Add(m);
         }
+        private void ItemIsTerminal(ObjectListItem o)
+        {
+            string[] s = o.moreInfo.ToArray();
+            Terminal t = new Terminal(o.position, PhysicalWorld, s[0]);
+            contents.Add(t);
+        }
 
         /// <summary>
         /// reloads the current room when the player dies.
@@ -291,6 +303,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         break;
                     case "Mauler":
                         ItemIsMauler(o);
+                        break;
+                    case "Terminal":
+                        ItemIsTerminal(o);
                         break;
                 }
             }

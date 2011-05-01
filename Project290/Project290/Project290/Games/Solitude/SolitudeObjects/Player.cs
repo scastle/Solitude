@@ -62,7 +62,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
         /// <summary>
         /// a reference to the wall/door the player is on.
         /// </summary>
-        public Wall standingOn;
+        public SolitudeObject standingOn;
 
         public static int width = 33, height = 56;
 
@@ -118,7 +118,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
             //update health and fuel bars
             hpBar.Update();
             fBar.Update();
-            //lCnt.Update();
 
             //if moving, make sure not on wall
             if (!body.LinearVelocity.Equals(Vector2.Zero))
@@ -262,7 +261,6 @@ namespace Project290.Games.Solitude.SolitudeObjects
         {
             hpBar.Draw();
             fBar.Draw();
-            //lCnt.Draw();
 
             Drawer.Draw(
                 TextureStatic.Get("solitudePlayer"),

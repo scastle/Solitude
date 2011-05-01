@@ -7,9 +7,11 @@ using Project290.Screens;
 using Project290.Games.Solitude;
 using Project290.Physics.Collision.Shapes;
 using Project290.Physics.Factories;
+using Project290.Games.Solitude.SolitudeTools;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Rendering;
+using Project290.GameElements;
 
 
 namespace Project290.Games.Solitude.SolitudeObjects.Items
@@ -26,7 +28,7 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
     /// Massless Items include all objects that do not COLLIDE with other objects
     /// Types include powerups, ammo, and upgrades, as well as fire and poison gas
     /// </summary>
-    abstract class MasslessItem : SolitudeObject
+    public abstract class MasslessItem : SolitudeObject
     {
         public Vector2 position;
 
@@ -80,18 +82,21 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
         }
     }   
 
-    class Terminal : MasslessItem
+    public class Terminal : MasslessItem
     {
         //Shape s = 
         public bool IsShowing = false;
         bool IsColliding = false;
         DateTime lastHeldDown;
+        public string text;
 
-        public Terminal(Vector2 position, World w)
+        public Terminal(Vector2 position, World w, string t)
             : base(TextureStatic.Get("terminal"), PhysicsShape.Rectangle, position, w)
         {
             fixture.OnCollision += new OnCollisionEventHandler(OnCollision);
             fixture.OnSeparation += new OnSeparationEventHandler(OnSeparation);
+            text = t;
+            
         }
 
         public override bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
@@ -109,16 +114,21 @@ namespace Project290.Games.Solitude.SolitudeObjects.Items
         {
             if (IsColliding && GameElements.GameWorld.controller.ContainsBool(Inputs.ActionType.BButton))
             {
+                Console.WriteLine("B  button pressed");
                 if (DateTime.Now - lastHeldDown > TimeSpan.FromMilliseconds(500))
                 {
+                    Console.WriteLine("B  button held");
                     if (IsShowing)
                     {
-                        //ShowTerminal();
+                        Console.WriteLine("TextScreen Showing");
+                        GameWorld.screens.Play(new TextScreen(text));
+                        //terminalText.Update();
+                        //terminalText.Draw();
                     }
-                    else
-                    {
-                        //HideTerminal();
-                    }
+                    //else
+                    //{
+                        
+                    //}
                     IsShowing = !IsShowing;
                 }
                 lastHeldDown = DateTime.Now;

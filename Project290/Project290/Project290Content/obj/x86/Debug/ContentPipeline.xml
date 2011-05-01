@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame1.xnb</Output>
       <Time>2011-04-30T21:04:04.1204843-04:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame2.xnb</Output>
       <Time>2011-04-30T21:04:04.1214843-04:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame3.xnb</Output>
       <Time>2011-04-30T21:04:04.1234844-04:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame4.xnb</Output>
       <Time>2011-04-30T21:04:04.1244845-04:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtGame5.xnb</Output>
       <Time>2011-04-30T21:04:04.1254845-04:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\Blank.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\Blank.xnb</Output>
       <Time>2011-04-30T21:04:04.0954828-04:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\tileSafeCheck.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\tileSafeCheck.xnb</Output>
       <Time>2011-04-30T21:04:04.1184841-04:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\controllerFont.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\controllerFont.xnb</Output>
       <Time>2011-04-30T21:04:04.1374852-04:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\particle1.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\particle1.xnb</Output>
       <Time>2011-04-30T21:04:04.0934827-04:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\checkers.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\checkers.xnb</Output>
       <Time>2011-04-30T21:04:04.0894825-04:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\colorSwirl.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\DefaultBackground\colorSwirl.xnb</Output>
       <Time>2011-04-30T21:04:04.0924827-04:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtHolder.xnb</Output>
       <Time>2011-04-30T21:04:04.1264846-04:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\titleNameBorder.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\titleNameBorder.xnb</Output>
       <Time>2011-04-30T21:04:04.1184841-04:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\instructionBorder.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\instructionBorder.xnb</Output>
       <Time>2011-04-30T21:04:04.0964829-04:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\sampleInstructions.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\sampleInstructions.xnb</Output>
       <Time>2011-04-30T21:04:04.116484-04:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\gradient.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\gradient.xnb</Output>
       <Time>2011-04-30T21:04:04.0964829-04:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\BoxArt\BoxArtSolitude.xnb</Output>
       <Time>2011-04-30T21:04:04.1304848-04:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\SolitudeInstructions.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\SolitudeInstructions.xnb</Output>
       <Time>2011-04-30T21:04:04.0954828-04:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-cold.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-cold.xnb</Output>
       <Time>2011-04-30T21:04:04.1494859-04:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-door.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-door.xnb</Output>
       <Time>2011-04-30T21:04:04.150486-04:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-grip.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-grip.xnb</Output>
       <Time>2011-04-30T21:04:04.150486-04:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-handhold.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-handhold.xnb</Output>
       <Time>2011-04-30T21:04:04.150486-04:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-hot.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-hot.xnb</Output>
       <Time>2011-04-30T21:04:04.151486-04:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-metal.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-metal.xnb</Output>
       <Time>2011-04-30T21:04:04.151486-04:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-smooth.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-smooth.xnb</Output>
       <Time>2011-04-30T21:04:04.151486-04:00</Time>
     </Item>
     <Item>
@@ -232,7 +232,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-spike.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-spike.xnb</Output>
       <Time>2011-04-30T21:04:04.1524861-04:00</Time>
     </Item>
     <Item>
@@ -241,7 +241,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player.xnb</Output>
       <Time>2011-04-30T22:35:32.3463928-04:00</Time>
     </Item>
     <Item>
@@ -250,7 +250,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bullet.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bullet.xnb</Output>
       <Time>2011-04-30T21:04:04.1464857-04:00</Time>
     </Item>
     <Item>
@@ -259,7 +259,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\sentinel.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\sentinel.xnb</Output>
       <Time>2011-04-30T21:04:04.1494859-04:00</Time>
     </Item>
     <Item>
@@ -268,7 +268,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\fighter.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\fighter.xnb</Output>
       <Time>2011-04-30T21:04:04.1474858-04:00</Time>
     </Item>
     <Item>
@@ -277,7 +277,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bomb.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\bomb.xnb</Output>
       <Time>2011-04-30T21:04:04.1464857-04:00</Time>
     </Item>
     <Item>
@@ -286,7 +286,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\terminal.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\terminal.xnb</Output>
       <Time>2011-04-30T21:04:04.1494859-04:00</Time>
     </Item>
     <Item>
@@ -295,7 +295,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\explosion.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\explosion.xnb</Output>
       <Time>2011-04-30T21:04:04.1474858-04:00</Time>
     </Item>
     <Item>
@@ -304,7 +304,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\mauler.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\mauler.xnb</Output>
       <Time>2011-04-30T21:04:04.1484859-04:00</Time>
     </Item>
     <Item>
@@ -313,7 +313,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow.xnb</Output>
       <Time>2011-04-30T21:04:04.1454857-04:00</Time>
     </Item>
     <Item>
@@ -322,7 +322,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb</Output>
       <Time>2011-04-30T21:04:04.1444856-04:00</Time>
     </Item>
     <Item>
@@ -331,7 +331,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player-lives.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player-lives.xnb</Output>
       <Time>2011-04-30T22:47:37.4588669-04:00</Time>
     </Item>
     <Item>
@@ -340,7 +340,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\defaultFont.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\defaultFont.xnb</Output>
       <Time>2011-04-30T21:04:04.1384853-04:00</Time>
     </Item>
     <Item>
@@ -349,7 +349,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\boxArtScroll.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\boxArtScroll.xnb</Output>
       <Time>2011-04-30T21:04:04.1394853-04:00</Time>
     </Item>
     <Item>
@@ -358,7 +358,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuClick.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuClick.xnb</Output>
       <Time>2011-04-30T21:04:04.1404854-04:00</Time>
     </Item>
     <Item>
@@ -367,7 +367,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuGoBack.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuGoBack.xnb</Output>
       <Time>2011-04-30T21:04:04.1414855-04:00</Time>
     </Item>
     <Item>
@@ -376,7 +376,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollDown.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollDown.xnb</Output>
       <Time>2011-04-30T21:04:04.1424855-04:00</Time>
     </Item>
     <Item>
@@ -385,7 +385,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollUp.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\menuScrollUp.xnb</Output>
       <Time>2011-04-30T21:04:04.1424855-04:00</Time>
     </Item>
     <Item>
@@ -394,7 +394,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlDown.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlDown.xnb</Output>
       <Time>2011-04-30T21:04:04.1434856-04:00</Time>
     </Item>
     <Item>
@@ -403,7 +403,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlUp.xnb</Output>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Sounds\volumeControlUp.xnb</Output>
       <Time>2011-04-30T21:04:04.1434856-04:00</Time>
     </Item>
     <Item>
@@ -412,8 +412,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.xnb</Output>
-      <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.wma</Extra>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.xnb</Output>
+      <Extra>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Eerie1.wma</Extra>
       <Time>2011-04-30T21:04:04.1974887-04:00</Time>
     </Item>
     <Item>
@@ -422,8 +422,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
-      <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.xnb</Output>
+      <Extra>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\heartbeat1.wma</Extra>
       <Time>2011-04-30T21:04:04.2224901-04:00</Time>
     </Item>
     <Item>
@@ -432,8 +432,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.xnb</Output>
-      <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.wma</Extra>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.xnb</Output>
+      <Extra>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\Bad.wma</Extra>
       <Time>2011-04-30T21:04:04.1814878-04:00</Time>
     </Item>
     <Item>
@@ -442,8 +442,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
-      <Extra>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
+      <Output>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
+      <Extra>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
       <Time>2011-04-30T21:04:04.2094894-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -452,10 +452,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Mike\Documents\EECS290_Project1\Project290\Project290\Project290\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Mike\Documents\GitRepository\Project290\Project290\Project290\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
