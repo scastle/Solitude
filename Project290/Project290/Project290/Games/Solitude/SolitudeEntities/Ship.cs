@@ -24,6 +24,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
     /// </summary>
     public class Ship
     {
+        /// <summary>
+        /// time of last enemy's death to boost score multiplier.
+        /// </summary>
+        public DateTime lastEnemyDied;
 
         public SolitudeScreen screen;
 

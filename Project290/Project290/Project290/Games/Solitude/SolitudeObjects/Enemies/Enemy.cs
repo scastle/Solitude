@@ -25,7 +25,15 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 SolitudeScreen.ship.contents.Add(new Explosion(body.Position, SolitudeScreen.ship.PhysicalWorld,Settings.robotExpRadius, Settings.robotExpPower));
                 SolitudeScreen.ship.PhysicalWorld.RemoveBody(body);
                 SolitudeScreen.ship.Destroy(this);
-                SolitudeScreen.ship.screen.Score += 1000;
+                
+                double mult = 1500 - (DateTime.Now - SolitudeScreen.ship.lastEnemyDied).TotalMilliseconds;
+                mult = 1f/ (mult/ 500f);
+                if (mult < 0)
+                    mult = 1;
+                else
+                    mult += 1f;
+                SolitudeScreen.ship.screen.Score += (uint)(1000 * mult);
+                SolitudeScreen.ship.lastEnemyDied = DateTime.Now;
             }
         }
 

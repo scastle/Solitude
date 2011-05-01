@@ -38,7 +38,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// the rate at which a mauler charges
         /// </summary>
-        public static int MaulerForce = 300000;
+        public static int MaulerForce = 200000;
 
         /// <summary>
         /// amount of damage dealt when player touches mauler
