@@ -84,6 +84,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// </summary>
         public List<SolitudeObject> contents;
 
+        public bool bossFight;
 
         public Terminal term;
 
@@ -107,7 +108,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
         {
             screen = s;
             toKill = new List<SolitudeObject>();
-
+            
             roomStatus = new int[Settings.maxShipRows, Settings.maxShipColumns];
 
             random = new Random();
@@ -131,6 +132,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Reset()
         {
+            bossFight = false;
             //get rid of last rooms objects
             foreach (SolitudeObject o in contents)
             {
@@ -230,6 +232,11 @@ namespace Project290.Games.Solitude.SolitudeEntities
         {
             SolitudeObjects.Enemies.TyTaylor t = new SolitudeObjects.Enemies.TyTaylor(PhysicalWorld, o.position);
             contents.Add(t);
+            
+            bossFight = true;
+
+            GameWorld.audio.StopSong();
+            GameWorld.audio.SongPlay("breakbeat");
         }
         private void ItemIsSentinel(ObjectListItem o)
         {
@@ -246,15 +253,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
         }
         private void ItemIsFighter(ObjectListItem o)
         {
-            /*
-            string[] s = o.moreInfo.ToArray();
-            int i;
-            switch (s[0])
-            {
-                case "3": i = 3; break;
-                case "4": i = 4; break;
-                default: i = 5; break;
-            }*/
             SolitudeObjects.Enemies.Fighter f = new SolitudeObjects.Enemies.Fighter(o.position, PhysicalWorld);
             contents.Add(f);
         }
@@ -316,6 +314,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                     case "Terminal":
                         ItemIsTerminal(o);
                         break;
+                    case "Ty":
+                        ItemIsTy(o);
+                        break;
                 }
             }
         }
@@ -326,6 +327,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <param name="d"></param>
         public void EnterRoom(Direction d)
         {
+            if (bossFight)
+            {            
+                bossFight = false;
+                GameWorld.audio.StopSong();
+            }
+
             //get rid of last rooms objects
             foreach (SolitudeObject o in contents)
             {
@@ -431,10 +438,18 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             if (!GameWorld.audio.IsSongActive)
             {
-                //Random Song Number
-                int randomNumber = random.Next(0, 3);
-                GameWorld.audio.SongPlay(songs[randomNumber], false);
+                if(bossFight)
+                {
+                    GameWorld.audio.SongPlay("breakbeat");
+                }
+                else
+                {
+                    //Random Song Number
+                    int randomNumber = random.Next(0, 3);
+                    GameWorld.audio.SongPlay(songs[randomNumber], false);
+                }
             }
+
 
         }
         public void Draw()

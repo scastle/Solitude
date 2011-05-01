@@ -11,20 +11,21 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Rendering;
 using Project290.Clock;
+using Project290.Games.Solitude.SolitudeTools;
 
 namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 {
-    class TyTaylor : SolitudeObject
+    class TyTaylor : Enemy
     {
         Vector2 targetPoint = Vector2.Zero;
         World world;
-        public int health;
+        //public int health;
         public long lastShot;
 
         public TyTaylor(World w, Vector2 position) :
             base(position, w, TextureStatic.Get("ty").Width, TextureStatic.Get("ty").Height)
         {
-            this.health = Settings.TyHealth;
+            health = Settings.TyHealth;
             world = w;
             lastShot = GameClock.Now;
             body.BodyType = BodyType.Dynamic;
@@ -37,7 +38,18 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
         public override void Update()
         {
-            base.Update();
+            if (health <= 0)
+            {
+                SolitudeScreen.ship.bossFight = false;
+                GameElements.GameWorld.audio.StopSong();
+                SolitudeScreen.ship.contents.Add(new Explosion(body.Position, SolitudeScreen.ship.PhysicalWorld, Settings.robotExpRadius, Settings.robotExpPower));
+                SolitudeScreen.ship.PhysicalWorld.RemoveBody(body);
+                SolitudeScreen.ship.Destroy(this);
+
+                SolitudeScreen.ship.screen.Score += (uint)(10000);
+                SolitudeScreen.ship.lastEnemyDied = DateTime.Now;
+            }
+            //base.Update();
             targetPoint = SolitudeScreen.ship.Player.body.Position;
             Vector2 velocity = new Vector2(targetPoint.X - body.Position.X, targetPoint.Y - body.Position.Y);
             float magnitude = (float)Math.Sqrt(velocity.X * velocity.X + velocity.Y * velocity.Y);
