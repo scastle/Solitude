@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--ceiling-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>140</Y>
+    </position>
+    <dimensions>
+      <X>1900</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--floor-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>420</X>
+      <Y>939</Y>
+    </position>
+    <dimensions>
+      <X>560</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>1500</X>
+      <Y>939</Y>
+    </position>
+    <dimensions>
+      <X>560</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+
+<!--bottom door-->
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>960</X>
+      <Y>939</Y>
+    </position>
+    <dimensions>
+      <X>360</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Down</string>
+    </moreInfo>
+  </ObjectListItem>
+  <!--right door-->
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>1695</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Right</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--terminal-->
+  <ObjectListItem>
+    <type>Terminal</type>
+    <position>
+      <X>960</X>
+      <Y>540</Y>
+    </position>
+    <moreInfo>
+      <string>Log 1754 
+ I got into another fight with Mary today. I keep telling her that I can fix the ship and she does not need to wake up the Private, but she really wants to. In the end, I gave in. Of course there was a condition. Time to activate the automated defense system.</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--bad guys!!!-->
+  <ObjectListItem>
+    <type>Fighter</type>
+    <position>
+      <X>300</X>
+      <Y>180</Y>
+    </position>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Fighter</type>
+    <position>
+      <X>1620</X>
+      <Y>180</Y>
+    </position>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Fighter</type>
+    <position>
+      <X>300</X>
+      <Y>900</Y>
+    </position>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Fighter</type>
+    <position>
+      <X>1620</X>
+      <Y>900</Y>
+    </position>
+  </ObjectListItem>
+</ArrayOfObjectListItem>
