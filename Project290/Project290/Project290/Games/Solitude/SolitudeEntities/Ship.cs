@@ -387,14 +387,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         {
 
                             case Direction.Down:
-                                x = dr.body.Position.X;
-                                y = dr.body.Position.Y - dr.drawOrigin.Y - Player.drawOrigin.Y; 
-                                Player.body.Position = new Vector2(x,y);
+                                Player.body.Position = new Vector2(960,894);
                                 break;
                             case Direction.Up:
-                                x = dr.body.Position.X;
-                                y = dr.body.Position.Y + dr.drawOrigin.Y + Player.drawOrigin.Y;
-                                Player.body.Position = new Vector2(x, y);
+                                Player.body.Position = new Vector2(960,186);
                                 break;
 
                             case Direction.Left:
