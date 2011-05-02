@@ -22,6 +22,8 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
         //public int health;
         public long lastShot;
 
+        public DateTime lastCollided;
+
         public TyTaylor(World w, Vector2 position) :
             base(position, w, TextureStatic.Get("ty").Width, TextureStatic.Get("ty").Height)
         {
@@ -34,6 +36,8 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             fixture = FixtureFactory.CreateRectangle(texture.Width, texture.Height, 0.25f, Vector2.Zero, body);
             world.AddBody(body);
             targetPoint = body.Position;
+
+            fixture.OnCollision += new OnCollisionEventHandler(this.OnCollision);
         }
 
         public override void Update()
@@ -55,6 +59,8 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             float magnitude = (float)Math.Sqrt(velocity.X * velocity.X + velocity.Y * velocity.Y);
             velocity.X = Settings.TySpeed * velocity.X / magnitude;
             velocity.Y = Settings.TySpeed * velocity.Y / magnitude;
+
+            body.LinearVelocity = velocity;
             if (GameClock.Now - lastShot > 10000000 * (Settings.TyShootRate))
             {
                 lastShot = GameClock.Now;
@@ -63,13 +69,26 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
         }
 
+        public bool OnCollision(Fixture f1, Fixture f2, Physics.Dynamics.Contacts.Contact c)
+        {
+            if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
+            {
+                if (DateTime.Now - lastCollided >= TimeSpan.FromSeconds(1))
+                {
+                    lastCollided = DateTime.Now;
+                    SolitudeScreen.ship.Player.oxygen -= 50;
+                }
+            }
+            return true;
+        }
+
         public void Shoot()
         {
             Vector2 playerPosition = SolitudeScreen.ship.Player.body.Position;
             Vector2 velocity = new Vector2(playerPosition.X - body.Position.X, playerPosition.Y - body.Position.Y);
             float magnitude = (float)Math.Sqrt(velocity.X * velocity.X + velocity.Y * velocity.Y);
-            velocity.X = Settings.BulletSpeed * velocity.X / magnitude;
-            velocity.Y = Settings.BulletSpeed * velocity.Y / magnitude;
+            velocity.X = (Settings.BulletSpeed + 200) * velocity.X / magnitude;
+            velocity.Y = (Settings.BulletSpeed + 200) * velocity.Y / magnitude;
 
             Bullet b = new Bullet(velocity, body.Position, world, Color.Orange, fixture);
             SolitudeScreen.ship.contents.Add(b);

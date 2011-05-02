@@ -21,14 +21,28 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
         string textureString;
 
+        float rotation;
+
         WallType type;
 
         public Door(Vector2 position, World world, float width, float height, float density, WallType type, Direction d)
-            : base(position, world, width, height, density, type)
+            : base(position, world, width, height, density, type, d)
         {
             this.type = type;
             textureString = "solitudeWallDoor";
+            if (type == WallType.Grip)
+            {
+                textureString = "solitudeGripDoor";
+            }
             direction = d;
+            switch (d)
+            {
+                case Direction.Up: body.Rotation = (float)(3 * Math.PI / 2); break;
+                case Direction.Down: body.Rotation = (float)(Math.PI / 2); break;
+                case Direction.Left: body.Rotation = (float)Math.PI; break;
+                case Direction.Right: body.Rotation = 0; break;
+            }
+            //body.Rotation = (float)((int)d * (Math.PI / 2));
 
         }
         public void Enter()

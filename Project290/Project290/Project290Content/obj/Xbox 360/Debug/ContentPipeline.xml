@@ -344,6 +344,15 @@
       <Time>2011-05-01T09:41:53.2776359-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\door-metal.png</Source>
+      <Name>Solitude\Art\door-metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\door-metal.xnb</Output>
+      <Time>2011-05-01T23:12:01.915409-04:00</Time>
+    </Item>
+    <Item>
       <Source>Solitude\Art\jetpack-flame.png</Source>
       <Name>Solitude\Art\jetpack-flame</Name>
       <Importer>TextureImporter</Importer>

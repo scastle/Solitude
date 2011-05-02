@@ -36,6 +36,7 @@ C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Con
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\arrow-body.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player-lives.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\ty.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\door-metal.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\jetpack-flame.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player-jetpack.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Fonts\defaultFont.xnb

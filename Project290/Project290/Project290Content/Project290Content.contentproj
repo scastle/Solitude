@@ -600,6 +600,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solitude\Art\door-metal.png">
+      <Name>door-metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
     <None Include="Solitude\Rooms\room-5-7.xml">
       <Name>room-5-7</Name>
       <Importer>XmlImporter</Importer>

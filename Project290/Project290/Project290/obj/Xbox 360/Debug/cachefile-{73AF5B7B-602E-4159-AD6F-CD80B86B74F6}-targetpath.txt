@@ -36,6 +36,7 @@ Content\Solitude\Art\arrow.xnb
 Content\Solitude\Art\arrow-body.xnb
 Content\Solitude\Art\player-lives.xnb
 Content\Solitude\Art\ty.xnb
+Content\Solitude\Art\door-metal.xnb
 Content\Solitude\Art\jetpack-flame.xnb
 Content\Solitude\Art\player-jetpack.xnb
 Content\Shared\Fonts\defaultFont.xnb
