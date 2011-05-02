@@ -113,10 +113,16 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// Speed Ty Taylor moves
         /// </summary>
-        public static int TySpeed = 600;
+        public static int TySpeed = 400;
 
+        /// <summary>
+        /// Ty's health
+        /// </summary>
         public static int TyHealth = 1000;
 
+        /// <summary>
+        /// Ty's shoot rate
+        /// </summary>
         public static int TyShootRate = 1;
     }
 }

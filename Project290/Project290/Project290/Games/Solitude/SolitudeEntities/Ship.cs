@@ -116,10 +116,10 @@ namespace Project290.Games.Solitude.SolitudeEntities
             PhysicalWorld = new World(Vector2.Zero);
             Player = new Player(new Vector2(900f, 830f), PhysicalWorld);
       
-            border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
-            border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 64, 1f, WallType.Smooth));
-            border.Add(new Wall(new Vector2(1727, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth));
-            border.Add(new Wall(new Vector2(960, 971), PhysicalWorld, 1920, 32, 1f, WallType.Smooth));
+            border.Add(new Wall(new Vector2(192, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth, Direction.Left));
+            border.Add(new Wall(new Vector2(960, 108), PhysicalWorld, 1920, 64, 1f, WallType.Smooth, Direction.Left));
+            border.Add(new Wall(new Vector2(1727, 540), PhysicalWorld, 32, 1080, 1f, WallType.Smooth, Direction.Left));
+            border.Add(new Wall(new Vector2(960, 971), PhysicalWorld, 1920, 32, 1f, WallType.Smooth, Direction.Left));
             //term = new Terminal(new Vector2(500, 500), PhysicalWorld, "Derp Derp Derp Derp Derp Dfffffffferp Desdfrp Derp Derp Dffffferp Derp Derp Deffffffffffrp Derp Derp Deffrp Derp Derp Derp Derp");
             
 
@@ -171,6 +171,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
         {
             
                         WallType t;
+                        Direction d = Direction.Left;
+                        if (o.dimensions.X != 32) // Up or down
+                        {
+                            o.dimensions = new Vector2(o.dimensions.Y, o.dimensions.X);
+                            d = Direction.Up;
+                        }
                         string[] s = o.moreInfo.ToArray();
                         switch(s[0]){
                             case "HandHold":
@@ -189,7 +195,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                                 t = WallType.Spike; break;
                             default:    t = WallType.Smooth; break;
                         }
-                        Wall w = new Wall(o.position, PhysicalWorld, o.dimensions.X, o.dimensions.Y, 1, t);
+                        Wall w = new Wall(o.position, PhysicalWorld, o.dimensions.X, o.dimensions.Y, 1, t, d);
                         contents.Add(w);
         }
         private void ItemIsDoor(ObjectListItem o)
@@ -225,6 +231,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                             default:
                                 d = Direction.Right; break;
                         }
+                        o.dimensions = new Vector2(32, 200);
             Door door = new Door(o.position, PhysicalWorld, o.dimensions.X, o.dimensions.Y, 1, t, d);
             contents.Add(door);
         }

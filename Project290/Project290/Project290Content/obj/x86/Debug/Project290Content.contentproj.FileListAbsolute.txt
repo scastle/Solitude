@@ -1,1 +1,2 @@
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Steffen\Solitude\Project290\Project290\Project290Content\obj\x86\Debug\ResolveAssemblyReference.cache

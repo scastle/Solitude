@@ -36,9 +36,16 @@ namespace Project290.Games.Solitude.SolitudeObjects
         Fixture fixture;
         float width, height;
 
-        public Wall(Vector2 position, World world, float width, float height, float density, WallType t)
+        public Wall(Vector2 position, World world, float width, float height, float density, WallType t, Direction d)
             :base(position, world, width, height)
         {
+            body.Rotation = 0;
+
+            if (d == Direction.Up || d == Direction.Down) // Up or down
+            {
+                body.Rotation = (float)Math.PI / 2;
+            }
+
             body.BodyType = BodyType.Static;
             //world.AddBody(body);
             fixture = FixtureFactory.CreateRectangle(width, height, density, Vector2.Zero, body, null);
@@ -47,7 +54,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             this.width = width;
             this.height = height;
 
-            
+
             drawRectangle = new Rectangle(0, 0, (int)width, (int)height);
             switch (type){
                 case WallType.Smooth:
