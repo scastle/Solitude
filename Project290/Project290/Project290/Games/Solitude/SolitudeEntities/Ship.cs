@@ -439,6 +439,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
             if (!GameWorld.audio.IsSongActive)
             {
+                Console.WriteLine("test");
                 if(bossFight)
                 {
                     GameWorld.audio.SongPlay("breakbeat");

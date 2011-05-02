@@ -89,7 +89,6 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
             if (f2 == SolitudeScreen.ship.Player.PlayerFixture)
             {
                 SolitudeScreen.ship.Player.oxygen -= Settings.maulerDamage;
-                Console.WriteLine("hit");
             }
             return true;
         }

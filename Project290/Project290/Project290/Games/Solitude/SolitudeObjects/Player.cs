@@ -25,6 +25,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public int lives;
         int numBombs;
 
+        Vector2 placeholderVector = Vector2.Zero;
+        Rectangle placeholderRectangle = new Rectangle();
+
         /// <summary>
         /// the door used to enter room, so we can reset if the player dies
         /// </summary>
@@ -49,10 +52,13 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public bool hasSpaceSuit;
         public bool hasJetpack;
 
+        DateTime jetpackZero;
+
         float rotation;
 
         Vector2 arrowbodyPosition;
         Vector2 arrowheadPosition;
+        bool refuelling = false;
 
         int jumpCounter;
 
@@ -118,8 +124,23 @@ namespace Project290.Games.Solitude.SolitudeObjects
             jumpCounter = 0;
         }
 
+        int refuel = 0;
+
         public override void Update()
         {
+
+            if (fuel <= 0 && jetpackZero + TimeSpan.FromSeconds(5) < DateTime.Now)
+            {
+                refuelling = true;
+            }
+            if (refuelling)
+            {
+                if (refuel % 5 == 0)
+                {
+                    fuel++;
+                }
+                refuel++;
+            }
             //update health and fuel bars
             hpBar.Update();
             fBar.Update();
@@ -195,6 +216,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 vector.Y = -1 * GameElements.GameWorld.controller.ContainsFloat(Inputs.ActionType.LookVertical);
                 if (!vector.Equals(Vector2.Zero))
                 {
+                    jetpackZero = DateTime.Now;
+                    refuelling = false;
+                    refuel = 0;
                     vector.Normalize();
                     fuel--;
                     body.ApplyForce(vector * Settings.jetPackForceMult);
@@ -314,10 +338,12 @@ namespace Project290.Games.Solitude.SolitudeObjects
             }
             for (int x = 0; x < lives; x++)
             {
+                placeholderVector = new Vector2(1700 - x * 30, 137);
+                placeholderRectangle = new Rectangle(0, 0, ((int) width) / 2, ((int) height) / 2);
                 Drawer.Draw(
                     TextureStatic.Get("playerLives"),
-                    new Vector2(1700 - x * 30, 137),//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                    new Rectangle(0, 0, ((int) width) / 2, ((int) height) / 2),
+                    placeholderVector,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                    placeholderRectangle,
                     Color.White,
                     0,
                     drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),

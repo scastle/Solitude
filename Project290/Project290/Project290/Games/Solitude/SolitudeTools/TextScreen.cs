@@ -61,7 +61,6 @@ namespace Project290.Games.Solitude.SolitudeTools
         public TextScreen(string text)
             : base()
         {
-            Console.WriteLine("in Textscreen constructor");
             terminalText = text;
             textLocationHolder = text;
             this.textDrawPosition = new Vector2(0, -225);
@@ -119,7 +118,6 @@ namespace Project290.Games.Solitude.SolitudeTools
         {
             base.Update();
             
-            Console.WriteLine("Updating TextScreen");
             // Only pause the gameclock if the screen is not fading out.
             if (!this.FadingOut)
             {
