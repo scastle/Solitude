@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--floor and ceiling-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>140</Y>
+    </position>
+    <dimensions>
+      <X>1900</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>939</Y>
+    </position>
+    <dimensions>
+      <X>1900</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--left door-->
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>224</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Left</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>1695</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Right</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!-- walls in the middle of the room -->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>500</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--bad guys!!!-->
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>500</X>
+      <Y>180</Y>
+    </position>
+    <dimensions>
+      <X>250</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>1480</X>
+      <Y>900</Y>
+    </position>
+    <dimensions>
+      <X>-250</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
+</ArrayOfObjectListItem>

@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Shared\Art\SolitudeInstructions.xnb</Output>
-      <Time>2011-04-30T23:37:40.4473577-04:00</Time>
+      <Time>2011-05-02T02:52:48.3080593-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-cold.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\wall-hot.xnb</Output>
-      <Time>2011-05-01T22:25:06.0683517-04:00</Time>
+      <Time>2011-05-02T00:08:42.9409365-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-metal.png</Source>
@@ -481,6 +481,15 @@
       <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
       <Extra>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
       <Time>2011-04-30T23:37:40.9543867-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\Outerborder.png</Source>
+      <Name>Solitude\Art\Outerborder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\Outerborder.xnb</Output>
+      <Time>2011-05-02T02:41:44.2920798-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

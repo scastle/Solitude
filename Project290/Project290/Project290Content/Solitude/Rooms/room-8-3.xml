@@ -72,7 +72,11 @@
       <Y>870</Y>
     </position>
     <moreInfo>
-      <string>string</string>
+      <string>Emergency Notice:
+ Engine: OFFLINE 
+ Power: OFFLINE 
+ Emergency Power: ONLINE 
+ Defense System: ONLINE</string>
     </moreInfo>
   </ObjectListItem>
   

@@ -24,14 +24,20 @@ namespace Project290.Games.Solitude.SolitudeEntities
     /// </summary>
     public class Ship
     {
+
+        Vector2 utilVector = new Vector2();
         /// <summary>
         /// time of last enemy's death to boost score multiplier.
         /// </summary>
         public DateTime lastEnemyDied;
 
+        DateTime songTimer;
+
         public SolitudeScreen screen;
 
-        static string[] songs = {"eerie1", "heartbeat1", "bad"}; 
+        static string[] songs = {"eerie1", "heartbeat1", "bad"};
+        static int[] songLengths = { 66, 50, 158 };
+        int songIndex;
 
         /// <summary>
         /// a class that contains info about how to construct a room for loading from files.
@@ -52,6 +58,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
             /// </summary>
             public List<string> moreInfo;
         }
+
+        DateTime playUntil;
 
         /// <summary>
         /// the player object.
@@ -177,7 +185,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
                         Direction d = Direction.Left;
                         if (o.dimensions.X != 32) // Up or down
                         {
-                            o.dimensions = new Vector2(o.dimensions.Y, o.dimensions.X);
+                            utilVector.X = o.dimensions.Y;
+                            utilVector.Y = o.dimensions.X;
+                            o.dimensions = utilVector;
                             d = Direction.Up;
                         }
                         string[] s = o.moreInfo.ToArray();
@@ -246,7 +256,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             bossFight = true;
 
             GameWorld.audio.StopSong();
-            GameWorld.audio.SongPlay("breakbeat");
+            GameWorld.audio.SongPlay("breakbeat", true);
         }
         private void ItemIsSentinel(ObjectListItem o)
         {
@@ -381,27 +391,30 @@ namespace Project290.Games.Solitude.SolitudeEntities
                     Door dr = o as Door;
                     if ((int)dr.direction == -(int)d) //If the door is linking to the room we just left
                     {
-                        float x, y;
                         Player.body.Rotation = 0;
                         switch (dr.direction)
                         {
 
                             case Direction.Down:
-                                Player.body.Position = new Vector2(960,894);
+                                utilVector.X = 960;
+                                utilVector.Y = 894;
+                                Player.body.Position = utilVector;
                                 break;
                             case Direction.Up:
-                                Player.body.Position = new Vector2(960,186);
+                                utilVector.X = 960;
+                                utilVector.Y = 186;
+                                Player.body.Position = utilVector;
                                 break;
 
                             case Direction.Left:
-                                x = dr.body.Position.X + dr.drawOrigin.X + Player.drawOrigin.X;
-                                y = dr.body.Position.Y; 
-                                Player.body.Position = new Vector2(x, y);
+                                utilVector.X = dr.body.Position.X + dr.drawOrigin.X + Player.drawOrigin.X;
+                                utilVector.Y = dr.body.Position.Y; 
+                                Player.body.Position = utilVector;
                                 break;
                             case Direction.Right:
-                                x = dr.body.Position.X - dr.drawOrigin.X - Player.drawOrigin.X;
-                                y = dr.body.Position.Y;
-                                Player.body.Position = new Vector2(x, y);
+                                utilVector.X = dr.body.Position.X - dr.drawOrigin.X - Player.drawOrigin.X;
+                                utilVector.Y = dr.body.Position.Y;
+                                Player.body.Position = utilVector;
                                 break;
                         }
                         Player.onWall = true;
@@ -437,18 +450,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
             contents.ForEach(i => i.Update());
             Player.Update();
 
-            if (!GameWorld.audio.IsSongActive)
+            if (DateTime.Now > playUntil && !bossFight)
             {
-                if(bossFight)
-                {
-                    GameWorld.audio.SongPlay("breakbeat");
-                }
-                else
-                {
                     //Random Song Number
-                    int randomNumber = random.Next(0, 3);
-                    GameWorld.audio.SongPlay(songs[randomNumber], false);
-                }
+                    songIndex = random.Next(0, 3);
+                    playUntil = DateTime.Now + TimeSpan.FromSeconds(songLengths[songIndex]);
+                    GameWorld.audio.SongPlay(songs[songIndex], false);
             }
 
 

@@ -8,6 +8,7 @@ using Project290.Games.Solitude.SolitudeEntities;
 using Project290.Games.Solitude.SolitudeObjects;
 using Project290.GameElements;
 using Microsoft.Xna.Framework;
+using Project290.Rendering;
 
 using Project290.Particles;
 
@@ -27,6 +28,10 @@ namespace Project290.Games.Solitude
     /// </summary>
     public class SolitudeScreen : GameScreen
     {
+
+        static Rectangle borderOrigin = new Rectangle(0, 0, 1920, 1080);
+        static Rectangle borderSource = new Rectangle(0, 0, 1920, 1080);
+
         /// <summary>
         /// ship contains all information about levels of the game
         /// </summary>
@@ -59,6 +64,15 @@ namespace Project290.Games.Solitude
             Rendering.Drawer.DrawRectangle(screenSize, 1920f, 0, Color.LightBlue);
             ship.Draw();
             base.Draw();
+            Drawer.Draw(TextureStatic.Get("solitudeBorder"),
+                borderOrigin,
+                borderSource,
+                Color.White,
+                0f,
+                Vector2.Zero,
+                Microsoft.Xna.Framework.Graphics.SpriteEffects.None,
+                1f);
+
         }
 
         internal override void GameOver()

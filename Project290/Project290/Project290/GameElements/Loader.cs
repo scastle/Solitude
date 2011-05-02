@@ -87,6 +87,7 @@ namespace Project290.GameElements
             TextureStatic.Load("arrow-body", @"Solitude\Art\arrow-body");
 
             TextureStatic.Load("ty", @"Solitude\Art\ty");
+            TextureStatic.Load("solitudeBorder", @"Solitude\Art\Outerborder");
 
             //load the player
             TextureStatic.Load("solitudePlayer", @"Solitude\Art\player");

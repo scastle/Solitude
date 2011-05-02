@@ -10,6 +10,7 @@ using Project290.Physics.Factories;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Project290.Rendering;
+using Project290.GameElements;
 using Project290.Clock;
 using Project290.Games.Solitude.SolitudeTools;
 
@@ -56,10 +57,12 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
                 if (SolitudeEntities.Ship.r == 5 && SolitudeEntities.Ship.c == 1)
                 {
                     SolitudeScreen.ship.Player.hasJetpack = true;
+                    GameWorld.screens.Play(new TextScreen("As you defeated Ty, he dropped his jetpack! You can now use it to help you get around!"));
                 }
                 else if (SolitudeEntities.Ship.r == 4 && SolitudeEntities.Ship.c == 6)
                 {
                     SolitudeScreen.ship.Player.hasGloves = true;
+                    GameWorld.screens.Play(new TextScreen("As you defeated Ty, he dropped his grip gloves! You can now use it to help you get around!"));
                 }
                 else
                 {
