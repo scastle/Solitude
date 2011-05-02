@@ -135,7 +135,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             }
             if (refuelling)
             {
-                if (refuel % 5 == 0)
+                if (refuel % 2 == 0)
                 {
                     fuel++;
                 }
