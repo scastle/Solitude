@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <!--floor and ceiling-->
+  <!--floor-->
   <ObjectListItem>
     <type>Wall</type>
     <position>
@@ -13,11 +13,11 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Grip</string>
+      <string>Fire</string>
     </moreInfo>
   </ObjectListItem>
-
-  <!--the walls on top and bottom, split into the left and right sections, with doors between-->
+  
+  <!--ceiling-->
   <ObjectListItem>
     <type>Wall</type>
     <position>
@@ -29,7 +29,7 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>HandHold</string>
+      <string>Fire</string>
     </moreInfo>
   </ObjectListItem>
   <ObjectListItem>
@@ -43,24 +43,24 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>HandHold</string>
+      <string>Fire</string>
     </moreInfo>
   </ObjectListItem>
-
-  <!--the right doors-->
+  
+  <!--the middle doors-->
   <ObjectListItem>
     <type>Door</type>
     <position>
-      <X>1695</X>
-      <Y>540</Y>
+      <X>960</X>
+      <Y>140</Y>
     </position>
     <dimensions>
-      <X>32</X>
-      <Y>200</Y>
+      <X>360</X>
+      <Y>32</Y>
     </dimensions>
     <moreInfo>
-      <string>Grip</string>
-      <string>Right</string>
+      <string>HandHold</string>
+      <string>Up</string>
     </moreInfo>
   </ObjectListItem>
 
@@ -76,21 +76,38 @@
       <Y>200</Y>
     </dimensions>
     <moreInfo>
-      <string>Grip</string>
+      <string>HandHold</string>
       <string>Left</string>
     </moreInfo>
   </ObjectListItem>
 
-<!--terminal-->
+  <!--bad guys!!!-->
   <ObjectListItem>
-    <type>Terminal</type>
+    <type>Mauler</type>
     <position>
-      <X>960</X>
-      <Y>540</Y>
+      <X>300</X>
+      <Y>180</Y>
     </position>
-    <moreInfo>
-      <string>HandHold</string>
-    </moreInfo>
   </ObjectListItem>
-
+  <ObjectListItem>
+    <type>Mauler</type>
+    <position>
+      <X>1620</X>
+      <Y>180</Y>
+    </position>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Mauler</type>
+    <position>
+      <X>300</X>
+      <Y>900</Y>
+    </position>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Mauler</type>
+    <position>
+      <X>1620</X>
+      <Y>900</Y>
+    </position>
+  </ObjectListItem>
 </ArrayOfObjectListItem>

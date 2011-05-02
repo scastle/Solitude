@@ -687,6 +687,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+
+    <None Include="Solitude\Rooms\room-8-6.xml">
+      <Name>room-8-6</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solitude\Rooms\room-7-8.xml">
+      <Name>room-7-8</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+
     <Compile Include="Solitude\Art\player-jetpack.png">
       <Name>player-jetpack</Name>
       <Importer>TextureImporter</Importer>

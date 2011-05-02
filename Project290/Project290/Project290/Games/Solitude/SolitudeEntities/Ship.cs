@@ -138,9 +138,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
             {
                 PhysicalWorld.RemoveBody(o.body);
             }
+          
             PhysicalWorld.RemoveBody(Player.body);
             PhysicalWorld.Step(.1f);
             contents.Clear();
+            toKill.Clear();
+
             
             bombCount = 0;
             //Player.Reset();
@@ -411,7 +414,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public void Update()
         {
-
             //remove bodies to be killed from the world
             foreach (SolitudeObject o in toKill)
             {
@@ -420,8 +422,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 PhysicalWorld.RemoveBody(o.body);
             }
             //step world (actually removes the bodies)
-
             PhysicalWorld.Step(0.01f);
+
             //now it is safe to remove the objects
             foreach (SolitudeObject o in toKill)
             {
@@ -429,7 +431,6 @@ namespace Project290.Games.Solitude.SolitudeEntities
             }
             toKill.Clear();
 
-            
             contents.ForEach(i => i.Update());
             Player.Update();
 

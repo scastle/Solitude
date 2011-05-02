@@ -37,6 +37,7 @@ Content\Solitude\Art\arrow-body.xnb
 Content\Solitude\Art\player-lives.xnb
 Content\Solitude\Art\ty.xnb
 Content\Solitude\Art\jetpack-flame.xnb
+Content\Solitude\Art\player-jetpack.xnb
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb
@@ -53,7 +54,6 @@ Content\Solitude\Music\Bad.xnb
 Content\Solitude\Music\Bad.wma
 Content\Solitude\Music\breakbeat.xnb
 Content\Solitude\Music\breakbeat.wma
-Content\Solitude\Art\player-jetpack.xnb
 Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Solitude\Art\mauler.png
 Content\Shared\Art\SolitudeInstructions.png
@@ -98,3 +98,5 @@ Content\Solitude\Rooms\room-5-3.xml
 Content\Solitude\Rooms\room-2-4.xml
 Content\Solitude\Rooms\room-1-4.xml
 Content\Solitude\Rooms\room-0-4.xml
+Content\Solitude\Rooms\room-8-6.xml
+Content\Solitude\Rooms\room-7-8.xml

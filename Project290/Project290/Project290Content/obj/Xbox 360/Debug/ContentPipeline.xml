@@ -353,6 +353,15 @@
       <Time>2011-05-01T21:27:59.4265765-04:00</Time>
     </Item>
     <Item>
+      <Source>Solitude\Art\player-jetpack.png</Source>
+      <Name>Solitude\Art\player-jetpack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mike\Documents\GR\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\player-jetpack.xnb</Output>
+      <Time>2011-05-01T20:44:52.4836119-04:00</Time>
+    </Item>
+    <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
       <Name>Shared\Fonts\defaultFont</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -463,15 +472,6 @@
       <Output>C:\Users\Mike\Documents\GR\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
       <Extra>C:\Users\Mike\Documents\GR\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
       <Time>2011-05-01T20:26:39.643105-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\player-jetpack.png</Source>
-      <Name>Solitude\Art\player-jetpack</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Mike\Documents\GR\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\player-jetpack.xnb</Output>
-      <Time>2011-05-01T20:44:52.4836119-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

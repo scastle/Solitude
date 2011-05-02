@@ -107,7 +107,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             oxygenCap = 1000;
             fuel = 10000;
             fuelCap = 10000;
-            lives = 3;
+            lives = 0;
             numBombs = 10;
 
 
@@ -248,6 +248,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 else
                 {
                     SolitudeScreen.ship.screen.GameOver();
+                    //SolitudeScreen.ship.endGameFlag = true;
                     //gameover
                 }
             }
@@ -284,7 +285,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                         drawOrigin,
                         1f,
                         SpriteEffects.None,
-                        .8f);
+                        .7f);
             }
             else
             {

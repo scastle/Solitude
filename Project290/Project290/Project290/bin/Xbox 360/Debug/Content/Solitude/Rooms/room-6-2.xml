@@ -104,7 +104,6 @@
     </dimensions>
     <moreInfo>
       <string>HandHold</string>
-      <string>Left</string>
     </moreInfo>
   </ObjectListItem>
 
@@ -163,23 +162,6 @@
     </dimensions>
     <moreInfo>
       <string>Smooth</string>
-    </moreInfo>
-  </ObjectListItem>
-
-  <!--the left doors-->
-  <ObjectListItem>
-    <type>Door</type>
-    <position>
-      <X>224</X>
-      <Y>540</Y>
-    </position>
-    <dimensions>
-      <X>32</X>
-      <Y>200</Y>
-    </dimensions>
-    <moreInfo>
-      <string>HandHold</string>
-      <string>Left</string>
     </moreInfo>
   </ObjectListItem>
 
