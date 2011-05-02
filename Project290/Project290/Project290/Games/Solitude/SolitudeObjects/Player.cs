@@ -111,8 +111,8 @@ namespace Project290.Games.Solitude.SolitudeObjects
 
             oxygen = 1000;
             oxygenCap = 1000;
-            fuel = 10000;
-            fuelCap = 10000;
+            fuel = 500;
+            fuelCap = 500;
             lives = 3;
             numBombs = 10;
 
@@ -129,11 +129,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public override void Update()
         {
 
-            if (fuel <= 0 && jetpackZero + TimeSpan.FromSeconds(5) < DateTime.Now)
+            if (jetpackZero + TimeSpan.FromSeconds(3) < DateTime.Now)
             {
                 refuelling = true;
             }
-            if (refuelling)
+            if (refuelling && fuel < fuelCap)
             {
                 if (refuel % 2 == 0)
                 {

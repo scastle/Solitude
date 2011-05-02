@@ -161,7 +161,11 @@ namespace Project290.GameElements
             GameInfoCollection.GameInfos.Add(new GameInfo(
                 "Solitude",
                 "BoxArtSolitude",
-                "The best game ever made.",
+                "You awaken on a vessel without a crew.\n" +
+                "Find the answers to save yourself or end up\n" +
+                "in the unknown regions of the universe,\n" +
+                "forever drifting, gazing out into the blackness,\n" +
+                "and seeing only madness staring back.",                 
                 "By Michael Oswalt, Michael Robertson, Steffen Castle, and Paul An",
                 "SolitudeInstructions1",
                 scoreBoardIndex,
