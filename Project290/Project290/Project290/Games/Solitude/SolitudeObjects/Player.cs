@@ -91,11 +91,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
         }
         public void Reset()
         {
-            hasGloves = false;
+            hasGloves = true;
             hasBoots = false;
             hasENVSuit = false;
             hasSpaceSuit = false;
-            hasJetpack = false;
+            hasJetpack = true;
             hasUsedJetPack = false;
 
             JetPackState = 1;
