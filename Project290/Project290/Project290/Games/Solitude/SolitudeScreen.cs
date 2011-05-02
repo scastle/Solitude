@@ -19,6 +19,8 @@ namespace Project290.Games.Solitude
         Up=-1, Down=1, Left=-2, Right=2
     }
 
+
+
     /// <summary>
     /// Object of the whole game.
     /// contains the ship, player, and objects, and governs interactions

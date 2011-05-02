@@ -107,7 +107,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             oxygenCap = 1000;
             fuel = 10000;
             fuelCap = 10000;
-            lives = 3;
+            lives = 0;
             numBombs = 10;
 
 
@@ -248,6 +248,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 else
                 {
                     SolitudeScreen.ship.screen.GameOver();
+                    //SolitudeScreen.ship.endGameFlag = true;
                     //gameover
                 }
             }
@@ -290,11 +291,11 @@ namespace Project290.Games.Solitude.SolitudeObjects
                             body.Position.Y + 3 * TextureStatic.Get("solitudePlayer").Height / 4),
                         new Rectangle(0, 0, TextureStatic.Get("jetpackFlame").Width, TextureStatic.Get("jetpackFlame").Height),
                         Color.White,
-                        0f,
+                        body.Rotation,
                         drawOrigin,
                         1f,
                         SpriteEffects.None,
-                        .79f);
+                        .7f);
             }
             for (int x = 0; x < lives; x++)
             {
