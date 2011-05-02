@@ -270,31 +270,46 @@ namespace Project290.Games.Solitude.SolitudeObjects
             hpBar.Draw();
             fBar.Draw();
 
-            Drawer.Draw(
-                TextureStatic.Get("solitudePlayer"),
-                body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                drawRectangle,
-                Color.White,
-                body.Rotation,
-                drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
-                1,
-                SpriteEffects.None,
-                .8f);
+
             if (hasUsedJetPack)
             {
                 hasUsedJetPack = false;
                 for (int x = 0; x < 2; x++)
                     Drawer.Draw(
                         TextureStatic.Get("jetpackFlame"),
-                        new Vector2(body.Position.X + TextureStatic.Get("solitudePlayer").Width / 4 + (x * 2) * TextureStatic.Get("solitudePlayer").Width / 4 - 3,
-                            body.Position.Y + 3 * TextureStatic.Get("solitudePlayer").Height / 4),
-                        new Rectangle(0, 0, TextureStatic.Get("jetpackFlame").Width, TextureStatic.Get("jetpackFlame").Height),
+                        body.Position,
+                        drawRectangle,
                         Color.White,
-                        0f,
+                        body.Rotation,
                         drawOrigin,
                         1f,
                         SpriteEffects.None,
-                        .79f);
+                        .8f);
+            }
+            else
+            {
+                if(!hasJetpack)
+                Drawer.Draw(
+                    TextureStatic.Get("solitudePlayer"),
+                    body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                    drawRectangle,
+                    Color.White,
+                    body.Rotation,
+                    drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
+                    1,
+                    SpriteEffects.None,
+                    .8f);
+                else
+                    Drawer.Draw(
+                    TextureStatic.Get("solitudePlayerJetpack"),
+                    body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                    drawRectangle,
+                    Color.White,
+                    body.Rotation,
+                    drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
+                    1,
+                    SpriteEffects.None,
+                    .8f);
             }
             for (int x = 0; x < lives; x++)
             {
