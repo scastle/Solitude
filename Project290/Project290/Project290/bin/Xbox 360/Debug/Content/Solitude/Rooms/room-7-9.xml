@@ -38,11 +38,25 @@
     <type>Wall</type>
     <position>
       <X>960</X>
-      <Y>540</Y>
+      <Y>290</Y>
     </position>
     <dimensions>
-      <X>32</X>
-      <Y>360</Y>
+      <X>360</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>790</Y>
+    </position>
+    <dimensions>
+      <X>360</X>
+      <Y>32</Y>
     </dimensions>
     <moreInfo>
       <string>HandHold</string>

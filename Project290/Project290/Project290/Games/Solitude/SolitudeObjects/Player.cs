@@ -107,7 +107,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             oxygenCap = 1000;
             fuel = 10000;
             fuelCap = 10000;
-            lives = 0;
+            lives = 3;
             numBombs = 10;
 
 

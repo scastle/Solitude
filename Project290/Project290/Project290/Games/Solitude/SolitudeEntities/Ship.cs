@@ -72,12 +72,12 @@ namespace Project290.Games.Solitude.SolitudeEntities
         /// <summary>
         /// the row index of the active room
         /// </summary>
-        static int r;
+        public static int r;
 
         /// <summary>
         /// the column index of the active room
         /// </summary>
-        static int c;
+        public static int c;
 
         /// <summary>
         /// A list of objects in the room

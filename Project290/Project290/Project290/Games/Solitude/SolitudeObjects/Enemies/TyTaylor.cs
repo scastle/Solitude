@@ -52,6 +52,24 @@ namespace Project290.Games.Solitude.SolitudeObjects.Enemies
 
                 SolitudeScreen.ship.screen.Score += (uint)(10000);
                 SolitudeScreen.ship.lastEnemyDied = DateTime.Now;
+
+                if (SolitudeEntities.Ship.r == 5 && SolitudeEntities.Ship.c == 1)
+                {
+                    SolitudeScreen.ship.Player.hasJetpack = true;
+                }
+                else if (SolitudeEntities.Ship.r == 4 && SolitudeEntities.Ship.c == 6)
+                {
+                    SolitudeScreen.ship.Player.hasGloves = true;
+                }
+                else
+                {
+                    long x = 1 / GameClock.Now * 10000000 * 2000;
+                    if (x < 1)
+                        x = 1;
+                    SolitudeScreen.ship.screen.Score += (uint)(20000 * x);
+                    SolitudeScreen.ship.screen.GameOver();
+                }
+
             }
             //base.Update();
             targetPoint = SolitudeScreen.ship.Player.body.Position;
