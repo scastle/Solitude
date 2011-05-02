@@ -39,6 +39,7 @@ Content\Solitude\Art\ty.xnb
 Content\Solitude\Art\door-metal.xnb
 Content\Solitude\Art\jetpack-flame.xnb
 Content\Solitude\Art\player-jetpack.xnb
+Content\Solitude\Art\Outerborder.xnb
 Content\Shared\Fonts\defaultFont.xnb
 Content\Shared\Sounds\boxArtScroll.xnb
 Content\Shared\Sounds\menuClick.xnb

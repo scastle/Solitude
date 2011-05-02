@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Shared\Art\SolitudeInstructions.xnb</Output>
-      <Time>2011-04-10T17:38:11.3590949-04:00</Time>
+      <Time>2011-05-02T04:32:54.0662553-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-cold.png</Source>
@@ -369,6 +369,15 @@
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\player-jetpack.xnb</Output>
       <Time>2011-05-01T22:27:18.2816002-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\Outerborder.png</Source>
+      <Name>Solitude\Art\Outerborder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\x86\Release\Content\Solitude\Art\Outerborder.xnb</Output>
+      <Time>2011-05-02T04:32:54.0682555-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>

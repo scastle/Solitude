@@ -1,3 +1,5 @@
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\ResolveAssemblyReference.cache
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame1.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame2.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtGame3.xnb
@@ -39,6 +41,7 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\door-metal.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\jetpack-flame.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\player-jetpack.xnb
+C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\Outerborder.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Fonts\defaultFont.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\boxArtScroll.xnb
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Sounds\menuClick.xnb
@@ -104,7 +107,5 @@ C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-7-9.xml
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Project290.exe
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Release\Project290.pdb
-C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\ResolveAssemblyReference.cache
-C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Project290.exe
 C:\Users\Steffen\Solitude\Project290\Project290\Project290\obj\Xbox 360\Release\Project290.pdb

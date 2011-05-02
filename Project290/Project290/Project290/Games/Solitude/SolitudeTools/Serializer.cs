@@ -12,7 +12,6 @@ namespace Project290.Games.Solitude.SolitudeTools
 {
     [System.Xml.Serialization.XmlInclude(typeof(SolitudeObject))]
     [System.Xml.Serialization.XmlInclude(typeof(Wall))]
-    [System.Xml.Serialization.XmlInclude(typeof(Room))]
 
     
 

@@ -18,6 +18,9 @@ namespace Project290.Games.Solitude.SolitudeTools
 {
     public class TextScreen:Screen //PauseScreen
     {
+        Vector2 backgroundLength = new Vector2();
+        Vector2 backgroundStart = new Vector2();
+
 
         /// <summary>
         /// This is the menu used for the pause screen.
@@ -68,11 +71,11 @@ namespace Project290.Games.Solitude.SolitudeTools
             this.position = new tVector2(1920f / 2f - 2000f, 1080f / 2f);
             this.position.GoTo(1920f / 2f, 1080f / 2f, 0.3f, true);
             this.drawLagTime = DateTime.Now.Ticks + 1000000;
-            this.background = new HypercubeDisplay(
-                new Rectangle((int)(this.position.Value.X - 584f / 2f) - 3, (int)(this.position.Value.Y - 700f / 2f) - 3, 584 + 6, 700 + 6),
-                3,
-                this.random,
-                0.2f);
+            //this.background = new HypercubeDisplay(
+            //    new Rectangle((int)(this.position.Value.X - 584f / 2f) - 3, (int)(this.position.Value.Y - 700f / 2f) - 3, 584 + 6, 700 + 6),
+            //    3,
+            //    this.random,
+            //    0.2f);
             if (terminalText.Length > 23)
             {
                 string[] temp = terminalText.Split(' ');
@@ -92,7 +95,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                     }
                 }
                 this.textDrawOrigin = FontStatic.Get("defaultFont").MeasureString(terminalText) / 2f;
-                this.textDrawOrigin.Y -= count * 17;
+                this.textDrawOrigin.Y -= count * 60;
             }
             
         }
@@ -117,7 +120,6 @@ namespace Project290.Games.Solitude.SolitudeTools
         public override void Update()
         {
             base.Update();
-            
             // Only pause the gameclock if the screen is not fading out.
             if (!this.FadingOut)
             {
@@ -168,8 +170,10 @@ namespace Project290.Games.Solitude.SolitudeTools
                 1f,
                 SpriteEffects.None,
                 0.9f);
-            Vector2 backgroundLength = new Vector2(this.position.Value.X + TextureStatic.Get("BoxArtHolder").Width / 2, this.position.Value.Y);
-            Vector2 backgroundStart = new Vector2(this.position.Value.X - TextureStatic.Get("BoxArtHolder").Width / 2, this.position.Value.Y);
+            backgroundLength.X = this.position.Value.X + TextureStatic.Get("BoxArtHolder").Width / 2;
+            backgroundLength.Y = this.position.Value.Y;
+            backgroundStart.X = this.position.Value.X - TextureStatic.Get("BoxArtHolder").Width / 2;
+            backgroundStart.Y = this.position.Value.Y;
             Drawer.DrawLine(
                 backgroundStart,
                 backgroundLength,
@@ -177,7 +181,7 @@ namespace Project290.Games.Solitude.SolitudeTools
                 .89f,
                 Color.Black);
             
-            this.background.Draw();
+           // this.background.Draw();
         }
     }
 }
