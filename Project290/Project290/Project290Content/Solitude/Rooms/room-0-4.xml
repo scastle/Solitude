@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--left wall-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>224</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--the right doors-->
+  <ObjectListItem>
+    <type>Door</type>
+    <position>
+      <X>1695</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>200</Y>
+    </dimensions>
+    <moreInfo>
+      <string>HandHold</string>
+      <string>Right</string>
+    </moreInfo>
+  </ObjectListItem>
+  
+  <!--terminal-->
+  <ObjectListItem>
+    <type>Terminal</type>
+    <position>
+      <X>270</X>
+      <Y>540</Y>
+    </position>
+    <moreInfo>
+      <string>Log 1633 
+ We are all doomed. Everyone is dead. That guy named Private Johnson is killing everyone. He is killing everyone. 
+ Sergeant Ty</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--bad guys!!!-->
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>300</X>
+      <Y>180</Y>
+    </position>
+    <dimensions>
+      <X>200</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>300</X>
+      <Y>280</Y>
+    </position>
+    <dimensions>
+      <X>200</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>4</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>300</X>
+      <Y>380</Y>
+    </position>
+    <dimensions>
+      <X>200</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>3</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>300</X>
+      <Y>900</Y>
+    </position>
+    <dimensions>
+      <X>200</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>5</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>300</X>
+      <Y>800</Y>
+    </position>
+    <dimensions>
+      <X>200</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>4</string>
+    </moreInfo>
+  </ObjectListItem>
+  <ObjectListItem>
+    <type>Sentinel</type>
+    <position>
+      <X>300</X>
+      <Y>700</Y>
+    </position>
+    <dimensions>
+      <X>200</X>
+      <Y>0</Y>
+    </dimensions>
+    <moreInfo>
+      <string>3</string>
+    </moreInfo>
+  </ObjectListItem>
+</ArrayOfObjectListItem>
