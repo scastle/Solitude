@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\explosion.xnb</Output>
-      <Time>2011-04-30T23:37:40.8043781-04:00</Time>
+      <Time>2011-05-01T21:37:20.2424359-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\mauler.png</Source>
@@ -350,7 +350,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\jetpack-flame.xnb</Output>
-      <Time>2011-05-01T19:58:03.1367089-04:00</Time>
+      <Time>2011-05-01T21:37:20.2454361-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\player-jetpack.png</Source>
+      <Name>Solitude\Art\player-jetpack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Art\player-jetpack.xnb</Output>
+      <Time>2011-05-01T21:37:20.2804381-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>

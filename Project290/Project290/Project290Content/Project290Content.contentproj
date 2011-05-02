@@ -687,6 +687,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+
     <None Include="Solitude\Rooms\room-8-6.xml">
       <Name>room-8-6</Name>
       <Importer>XmlImporter</Importer>
@@ -701,6 +702,12 @@
       <Processor>PassThroughProcessor</Processor>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+
+    <Compile Include="Solitude\Art\player-jetpack.png">
+      <Name>player-jetpack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
