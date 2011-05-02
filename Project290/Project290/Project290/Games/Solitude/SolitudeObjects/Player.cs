@@ -34,7 +34,10 @@ namespace Project290.Games.Solitude.SolitudeObjects
         public HealthBar hpBar;
         public FuelBar fBar;
         //public LivesCount lCnt;
-        
+
+        public bool hasUsedJetPack;
+        private int JetPackState;
+
         public bool onWall;
 
         public bool hasDiedRecently;
@@ -93,6 +96,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
             hasENVSuit = false;
             hasSpaceSuit = false;
             hasJetpack = true;
+            hasUsedJetPack = false;
+
+            JetPackState = 1;
 
             enterPosition.X = 900;
             enterPosition.Y = 830;
@@ -101,7 +107,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
             oxygenCap = 1000;
             fuel = 10000;
             fuelCap = 10000;
-            lives = 3;
+            lives = 0;
             numBombs = 10;
 
 
@@ -192,6 +198,9 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     vector.Normalize();
                     fuel--;
                     body.ApplyForce(vector * Settings.jetPackForceMult);
+                    hasUsedJetPack = true;
+                    if (JetPackState < 100)
+                        JetPackState++;
                 }
             }
 
@@ -207,7 +216,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                     if (!vector.Equals(Vector2.Zero))
                     {
                         vector.Normalize();
-                        numBombs--;
+                        //numBombs--;
                         body.ApplyForce(vector * Settings.bombForce);
 
                         //calculate the bomb's speed
@@ -239,6 +248,7 @@ namespace Project290.Games.Solitude.SolitudeObjects
                 else
                 {
                     SolitudeScreen.ship.screen.GameOver();
+                    //SolitudeScreen.ship.endGameFlag = true;
                     //gameover
                 }
             }
@@ -261,16 +271,47 @@ namespace Project290.Games.Solitude.SolitudeObjects
             hpBar.Draw();
             fBar.Draw();
 
-            Drawer.Draw(
-                TextureStatic.Get("solitudePlayer"),
-                body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
-                drawRectangle,
-                Color.White,
-                body.Rotation,
-                drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
-                1,
-                SpriteEffects.None,
-                .8f);
+
+            if (hasUsedJetPack)
+            {
+                hasUsedJetPack = false;
+                for (int x = 0; x < 2; x++)
+                    Drawer.Draw(
+                        TextureStatic.Get("jetpackFlame"),
+                        body.Position,
+                        drawRectangle,
+                        Color.White,
+                        body.Rotation,
+                        drawOrigin,
+                        1f,
+                        SpriteEffects.None,
+                        .7f);
+            }
+            else
+            {
+                if(!hasJetpack)
+                Drawer.Draw(
+                    TextureStatic.Get("solitudePlayer"),
+                    body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                    drawRectangle,
+                    Color.White,
+                    body.Rotation,
+                    drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
+                    1,
+                    SpriteEffects.None,
+                    .8f);
+                else
+                    Drawer.Draw(
+                    TextureStatic.Get("solitudePlayerJetpack"),
+                    body.Position,//new Vector2(body.Position.X - width / 2, body.Position.Y - height / 2),
+                    drawRectangle,
+                    Color.White,
+                    body.Rotation,
+                    drawOrigin,//TextureStatic.GetOrigin("solitudePlayer"),
+                    1,
+                    SpriteEffects.None,
+                    .8f);
+            }
             for (int x = 0; x < lives; x++)
             {
                 Drawer.Draw(

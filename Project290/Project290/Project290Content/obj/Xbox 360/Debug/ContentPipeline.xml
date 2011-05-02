@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\wall-hot.xnb</Output>
-      <Time>2011-04-12T21:25:06.9989977-04:00</Time>
+      <Time>2011-05-01T22:27:18.2826003-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\wall-metal.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\explosion.xnb</Output>
-      <Time>2011-04-19T01:21:01.4501247-04:00</Time>
+      <Time>2011-05-01T22:27:18.2405979-04:00</Time>
     </Item>
     <Item>
       <Source>Solitude\Art\mauler.png</Source>
@@ -342,6 +342,33 @@
       <Options>None</Options>
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\ty.xnb</Output>
       <Time>2011-05-01T01:21:24.0645025-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\door-metal.png</Source>
+      <Name>Solitude\Art\door-metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\door-metal.xnb</Output>
+      <Time>2011-05-01T21:14:47.3867433-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\jetpack-flame.png</Source>
+      <Name>Solitude\Art\jetpack-flame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\jetpack-flame.xnb</Output>
+      <Time>2011-05-01T22:27:18.2796001-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Art\player-jetpack.png</Source>
+      <Name>Solitude\Art\player-jetpack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\player-jetpack.xnb</Output>
+      <Time>2011-05-01T22:27:18.2816002-04:00</Time>
     </Item>
     <Item>
       <Source>Shared\Fonts\defaultFont.spritefont</Source>
@@ -454,15 +481,6 @@
       <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.xnb</Output>
       <Extra>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Music\breakbeat.wma</Extra>
       <Time>2011-05-01T00:53:25.4747695-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Solitude\Art\door-metal.png</Source>
-      <Name>Solitude\Art\door-metal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Steffen\Solitude\Project290\Project290\Project290\bin\Xbox 360\Debug\Content\Solitude\Art\door-metal.xnb</Output>
-      <Time>2011-05-01T21:14:47.3867433-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
