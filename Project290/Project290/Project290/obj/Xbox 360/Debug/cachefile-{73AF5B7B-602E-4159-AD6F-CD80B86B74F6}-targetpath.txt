@@ -58,8 +58,6 @@ Content\Shared\BoxArt\BoxArtSolitude.jpg
 Content\Solitude\Art\mauler.png
 Content\Shared\Art\SolitudeInstructions.png
 Content\Solitude\Art\explosion.png
-Content\Solitude\Rooms\room0test.xml
-Content\Solitude\Rooms\room1test.xml
 Content\Solitude\Rooms\room-5-5.xml
 Content\Solitude\Rooms\room-6-5.xml
 Content\Solitude\Rooms\room-7-5.xml

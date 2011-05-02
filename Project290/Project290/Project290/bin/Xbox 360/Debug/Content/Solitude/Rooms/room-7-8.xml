@@ -81,6 +81,18 @@
     </moreInfo>
   </ObjectListItem>
 
+  <!--terminal-->
+  <ObjectListItem>
+    <type>Terminal</type>
+    <position>
+      <X>960</X>
+      <Y>540</Y>
+    </position>
+    <moreInfo>
+      <string>Grip</string>
+    </moreInfo>
+  </ObjectListItem>
+
   <!--bad guys!!!-->
   <ObjectListItem>
     <type>Mauler</type>

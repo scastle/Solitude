@@ -266,22 +266,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Solitude\Rooms\room0test.xml">
-      <Name>room0test</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Solitude\Rooms\room1test.xml">
-      <Name>room1test</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Solitude\Rooms\room-5-5.xml">
       <Name>room-5-5</Name>
       <Importer>XmlImporter</Importer>
