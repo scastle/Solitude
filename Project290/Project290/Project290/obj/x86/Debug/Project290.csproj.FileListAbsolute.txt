@@ -106,3 +106,6 @@ C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\x86\Debug\Res
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\x86\Debug\Project290.exe
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\x86\Debug\Project290.pdb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Rooms\room-6-8.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Rooms\room-6-9.xml
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\x86\Debug\Content\Solitude\Rooms\room-7-9.xml

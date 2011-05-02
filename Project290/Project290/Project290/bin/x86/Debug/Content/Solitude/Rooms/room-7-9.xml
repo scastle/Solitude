@@ -1,21 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ArrayOfObjectListItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <!--floor and ceiling-->
-  <ObjectListItem>
-    <type>Wall</type>
-    <position>
-      <X>960</X>
-      <Y>140</Y>
-    </position>
-    <dimensions>
-      <X>1900</X>
-      <Y>32</Y>
-    </dimensions>
-    <moreInfo>
-      <string>Grip</string>
-    </moreInfo>
-  </ObjectListItem>
+  <!--floor-->
   <ObjectListItem>
     <type>Wall</type>
     <position>
@@ -27,6 +13,38 @@
       <Y>32</Y>
     </dimensions>
     <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--ceiling-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>140</Y>
+    </position>
+    <dimensions>
+      <X>1900</X>
+      <Y>32</Y>
+    </dimensions>
+    <moreInfo>
+      <string>Fire</string>
+    </moreInfo>
+  </ObjectListItem>
+
+  <!--middle wall-->
+  <ObjectListItem>
+    <type>Wall</type>
+    <position>
+      <X>960</X>
+      <Y>540</Y>
+    </position>
+    <dimensions>
+      <X>32</X>
+      <Y>360</Y>
+    </dimensions>
+    <moreInfo>
       <string>HandHold</string>
     </moreInfo>
   </ObjectListItem>
@@ -35,7 +53,7 @@
   <ObjectListItem>
     <type>Door</type>
     <position>
-      <X>1695</X>
+      <X>224</X>
       <Y>540</Y>
     </position>
     <dimensions>
@@ -43,36 +61,17 @@
       <Y>200</Y>
     </dimensions>
     <moreInfo>
-      <string>HandHold</string>
-      <string>Right</string>
+      <string>Grip</string>
+      <string>Left</string>
     </moreInfo>
   </ObjectListItem>
-
-  <!--terminal-->
-  <ObjectListItem>
-    <type>Terminal</type>
-    <position>
-      <X>300</X>
-      <Y>780</Y>
-    </position>
-    <moreInfo>
-      <string>4</string>
-    </moreInfo>
-  </ObjectListItem>
-
+  
   <!--bad guys!!!-->
   <ObjectListItem>
-    <type>Sentinel</type>
+    <type>Ty</type>
     <position>
-      <X>300</X>
-      <Y>580</Y>
+      <X>1500</X>
+      <Y>540</Y>
     </position>
-    <dimensions>
-      <X>300</X>
-      <Y>0</Y>
-    </dimensions>
-    <moreInfo>
-      <string>4</string>
-    </moreInfo>
   </ObjectListItem>
 </ArrayOfObjectListItem>
