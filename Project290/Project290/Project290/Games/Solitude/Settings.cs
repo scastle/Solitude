@@ -23,7 +23,7 @@ namespace Project290.Games.Solitude
         /// <summary>
         /// a constant governing jetpack strength.
         /// </summary>
-        public static int jetPackForceMult = 100000;
+        public static int jetPackForceMult = 200000;
 
         /// <summary>
         /// The amount a damage a punch does

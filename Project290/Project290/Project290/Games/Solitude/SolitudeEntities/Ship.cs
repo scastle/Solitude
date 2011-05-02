@@ -35,8 +35,8 @@ namespace Project290.Games.Solitude.SolitudeEntities
 
         public SolitudeScreen screen;
 
-        static string[] songs = {"eerie1", "heartbeat1", "bad"};
-        static int[] songLengths = { 66, 50, 158 };
+        static string[] songs = {"eerie1", "heartbeat1", "bad", "solitudePiano"};
+        static int[] songLengths = { 66, 50, 158, 75 };
         int songIndex;
 
         /// <summary>
@@ -351,6 +351,9 @@ namespace Project290.Games.Solitude.SolitudeEntities
             {            
                 bossFight = false;
                 GameWorld.audio.StopSong();
+                songIndex = random.Next(0, 4);
+                playUntil = DateTime.Now + TimeSpan.FromSeconds(songLengths[songIndex]);
+                GameWorld.audio.SongPlay(songs[songIndex], false);
             }
 
             //get rid of last rooms objects
@@ -373,6 +376,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
                 case Direction.Left:
                     r--; break;
             }
+            bossFight = false;
 
             //read the next room's file
             string s = GameElements.GameWorld.content.RootDirectory + @"/Solitude/Rooms/room-";
@@ -453,7 +457,7 @@ namespace Project290.Games.Solitude.SolitudeEntities
             if (DateTime.Now > playUntil && !bossFight)
             {
                     //Random Song Number
-                    songIndex = random.Next(0, 3);
+                    songIndex = random.Next(0, 4);
                     playUntil = DateTime.Now + TimeSpan.FromSeconds(songLengths[songIndex]);
                     GameWorld.audio.SongPlay(songs[songIndex], false);
             }
