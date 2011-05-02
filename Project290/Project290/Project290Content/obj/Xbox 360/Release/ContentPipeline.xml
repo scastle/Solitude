@@ -155,15 +155,6 @@
       <Time>2011-04-30T23:37:40.557364-04:00</Time>
     </Item>
     <Item>
-      <Source>Shared\Art\SolitudeInstructions.png</Source>
-      <Name>Shared\Art\SolitudeInstructions</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions.xnb</Output>
-      <Time>2011-05-02T02:52:48.3080593-04:00</Time>
-    </Item>
-    <Item>
       <Source>Solitude\Art\wall-cold.png</Source>
       <Name>Solitude\Art\wall-cold</Name>
       <Importer>TextureImporter</Importer>
@@ -490,6 +481,79 @@
       <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Music\breakbeat.xnb</Output>
       <Extra>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Music\breakbeat.wma</Extra>
       <Time>2011-04-30T23:37:40.9543867-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\SolitudeInstructions1.png</Source>
+      <Name>Shared\Art\SolitudeInstructions1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions1.xnb</Output>
+      <Time>2011-05-02T02:52:48.3080593-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\solitudeinstructions2.png</Source>
+      <Name>Shared\Art\solitudeinstructions2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions2.xnb</Output>
+      <Time>2011-05-02T05:14:06.7289972-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\solitudeinstructions3.png</Source>
+      <Name>Shared\Art\solitudeinstructions3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions3.xnb</Output>
+      <Time>2011-05-02T05:14:09.7521702-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\solitudeinstructions4.png</Source>
+      <Name>Shared\Art\solitudeinstructions4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions4.xnb</Output>
+      <Time>2011-05-02T05:14:12.4443241-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\solitudeinstructions5.png</Source>
+      <Name>Shared\Art\solitudeinstructions5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions5.xnb</Output>
+      <Time>2011-05-02T05:14:17.2976017-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\solitudeinstructions6.png</Source>
+      <Name>Shared\Art\solitudeinstructions6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions6.xnb</Output>
+      <Time>2011-05-02T05:14:19.802745-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Shared\Art\solitudeinstructions7.png</Source>
+      <Name>Shared\Art\solitudeinstructions7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions7.xnb</Output>
+      <Time>2011-05-02T05:14:22.6269066-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Solitude\Music\piano.mp3</Source>
+      <Name>Solitude\Music\piano</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Music\piano.xnb</Output>
+      <Extra>C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Music\piano.wma</Extra>
+      <Time>2011-05-02T05:21:36.2807101-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

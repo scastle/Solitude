@@ -38,7 +38,7 @@ namespace Project290.GameElements
             TextureStatic.Load("colorSwirl", @"DefaultBackground\colorSwirl");
             TextureStatic.Load("sampleInstructions", @"Shared\Art\sampleInstructions");
             /////////////////////////////////////////////////////
-            TextureStatic.Load("SolitudeInstructions", @"Shared\Art\SolitudeInstructions");
+            TextureStatic.Load("SolitudeInstructions1", @"Shared\Art\SolitudeInstructions1");
             /////////////////////////////////////////////////////
             TextureStatic.Load("instructionBorder", @"Shared\Art\instructionBorder");
             TextureStatic.Load("gradient", @"Shared\Art\Gradient");
@@ -101,6 +101,7 @@ namespace Project290.GameElements
             GameWorld.audio.LoadSong("heartbeat1", @"Solitude\Music\heartbeat1");
             GameWorld.audio.LoadSong("bad", @"Solitude\Music\Bad");
             GameWorld.audio.LoadSong("breakbeat", @"Solitude\Music\breakbeat");
+            GameWorld.audio.LoadSong("solitudePiano", @"Solitude\Music\piano");
 
             // TODO: load all Fonts, and anything else.
         }
@@ -162,7 +163,7 @@ namespace Project290.GameElements
                 "BoxArtSolitude",
                 "The best game ever made.",
                 "By Michael Oswalt, Michael Robertson, Steffen Castle, and Paul An",
-                "SolitudeInstructions",
+                "SolitudeInstructions1",
                 scoreBoardIndex,
                 new LaunchSolitudeDelegate(scoreBoardIndex++)));
 

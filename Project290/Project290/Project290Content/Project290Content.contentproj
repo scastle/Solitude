@@ -195,14 +195,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Shared\Art\SolitudeInstructions.png">
-      <Name>SolitudeInstructions</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Solitude\Art\wall-cold.png">
       <Name>wall-cold</Name>
       <Importer>TextureImporter</Importer>
@@ -725,6 +717,50 @@
       <Name>Outerborder</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Shared\Art\SolitudeInstructions1.png">
+      <Name>SolitudeInstructions1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Shared\Art\solitudeinstructions2.png">
+      <Name>solitudeinstructions2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Shared\Art\solitudeinstructions3.png">
+      <Name>solitudeinstructions3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Shared\Art\solitudeinstructions4.png">
+      <Name>solitudeinstructions4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Shared\Art\solitudeinstructions5.png">
+      <Name>solitudeinstructions5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Shared\Art\solitudeinstructions6.png">
+      <Name>solitudeinstructions6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Shared\Art\solitudeinstructions7.png">
+      <Name>solitudeinstructions7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solitude\Music\piano.mp3">
+      <Name>piano</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

@@ -126,7 +126,6 @@ C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Rele
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\sampleInstructions.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\gradient.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\BoxArt\BoxArtSolitude.xnb
-C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-cold.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-door.xnb
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\wall-grip.xnb
@@ -173,7 +172,6 @@ C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Rele
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-6-5.xml
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-7-5.xml
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-7-4.xml
-C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions.png
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Art\explosion.png
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-8-5.xml
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Rooms\room-8-4.xml
@@ -220,3 +218,12 @@ C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Rele
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Release\Project290.exe
 C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\obj\Xbox 360\Release\Project290.pdb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\SolitudeInstructions1.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions2.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions3.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions4.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions5.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions6.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Shared\Art\solitudeinstructions7.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Music\piano.xnb
+C:\Users\Michael\Desktop\asdf\Project290\Project290\Project290\bin\Xbox 360\Release\Content\Solitude\Music\piano.wma
